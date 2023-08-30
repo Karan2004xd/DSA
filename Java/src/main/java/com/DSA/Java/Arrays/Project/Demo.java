@@ -5,7 +5,9 @@ import java.util.Scanner;
 
 public class Demo {
     public static void main(String[] args) {
-        int[] arr = new int[]{1,2,3,4,5,6}; 
+        int[] arr = new int[]{1,2,3,4,5}; 
+        int[] arr2 = new int[]{5,1,2,3,4};
+
         // int daysAboveAvg = 0, sum = 0;
 
         // Scanner scanner = new Scanner(System.in);
@@ -31,17 +33,20 @@ public class Demo {
         // System.out.println(daysAboveAvg + " days above average temperature");
         // scanner.close();
         
-        System.out.println(isUnique(arr));
+        System.out.println(permutation(arr, arr2));
     }
     
-    static boolean isUnique(int[] intArray) {
-        for (int i = 0; i < intArray.length - 1; i++) {
-            for (int j = i + 1; j < intArray.length; j++) {
-                if (intArray[i] == intArray[j]) {
-                    return false;
+    static boolean permutation(int[] array, int[] array2) {
+        boolean result = false;
+        for (int arr : array) {
+            result = false;
+            for (int arr2 : array2) {
+                if (arr == arr2) {
+                    result = true;
+                    break;
                 }
             }
         }
-        return true;
+        return result;
     }
 }
