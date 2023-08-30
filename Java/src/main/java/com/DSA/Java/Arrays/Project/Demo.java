@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Demo {
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 1, 1, 2}; 
+        int[] arr = new int[]{1,2,3,4,5,6}; 
         // int daysAboveAvg = 0, sum = 0;
 
         // Scanner scanner = new Scanner(System.in);
@@ -31,24 +31,17 @@ public class Demo {
         // System.out.println(daysAboveAvg + " days above average temperature");
         // scanner.close();
         
-        // System.out.println(test(arr));
-        System.out.println(removeDuplicates(arr));
-        System.out.println(removeDuplicates(arr));
+        System.out.println(isUnique(arr));
     }
-   
-    static int removeDuplicates(int[] nums) {
-        if (nums.length == 0) {
-            return 0;
-        }
- 
-        int i = 0;
- 
-        for (int j = 1; j < nums.length; j++) {
-            if (nums[j] != nums[i]) {
-                i++;
-                nums[i] = nums[j];
+    
+    static boolean isUnique(int[] intArray) {
+        for (int i = 0; i < intArray.length - 1; i++) {
+            for (int j = i + 1; j < intArray.length; j++) {
+                if (intArray[i] == intArray[j]) {
+                    return false;
+                }
             }
         }
-        return i + 1;
+        return true;
     }
 }
