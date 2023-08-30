@@ -5,9 +5,7 @@ import java.util.Scanner;
 
 public class Demo {
     public static void main(String[] args) {
-        int[] arr = new int[]{1,2,3,4,5}; 
-        int[] arr2 = new int[]{5,1,2,3,4};
-
+        int[][] matrix = {{1,2,3}, {4,5,6}, {7,8,9}};
         // int daysAboveAvg = 0, sum = 0;
 
         // Scanner scanner = new Scanner(System.in);
@@ -33,20 +31,10 @@ public class Demo {
         // System.out.println(daysAboveAvg + " days above average temperature");
         // scanner.close();
         
-        System.out.println(permutation(arr, arr2));
+        System.out.println(rotateMatrix(matrix).length / 2);
     }
     
-    static boolean permutation(int[] array, int[] array2) {
-        boolean result = false;
-        for (int arr : array) {
-            result = false;
-            for (int arr2 : array2) {
-                if (arr == arr2) {
-                    result = true;
-                    break;
-                }
-            }
-        }
-        return result;
+    static int[][] rotateMatrix(int[][] arr) {
+        return arr;
     }
 }
