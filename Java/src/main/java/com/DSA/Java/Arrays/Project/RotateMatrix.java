@@ -24,11 +24,6 @@ public class RotateMatrix {
 
 
       for (int i = 0; i < n; i++) {
-         // if (n % 2 != 0) {
-         //    last = n / 2 + 1;
-         // } else {
-         //    last = n / 2;
-         // }
          last = (n % 2 != 0) ? n / 2 + 1 : n / 2;
          int temp;
          for (int j = 0; j < n; j++) {
