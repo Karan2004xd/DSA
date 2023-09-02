@@ -31,16 +31,46 @@ public class Demo {
       // System.out.println(daysAboveAvg + " days above average temperature");
       // scanner.close();
 
-      // System.out.println(rotateMatrix(matrix).length / 2);
+      rotateMatrix(matrix);
    }
 
    static boolean rotateMatrix(int[][] arr) {
-      if (arr.length == 0 || arr.length != arr[0].length){
-         return false;
+      if (arr.length == 0 || arr[0].length != arr.length) return false;
+      int n = arr.length;
+      int last;
+
+      if (n % 2 != 0) {
+         last = n / 2 + 1;
+      } else {
+         last = n / 2;
       }
-      for (int i = 0; i <= arr.length / 2; i++) {
-          
+
+      for (int i = 0; i < n; i++) {
+         int temp;
+         for (int j = 0; j < n; j++) {
+            if (i != j && j > i) {
+               temp = arr[i][j];
+               arr[i][j] = arr[j][i];
+               arr[j][i] = temp;
+            }
+
+            if (j >= last) {
+               int first = n - j - 1;
+               temp = arr[i][first];
+               arr[i][first] = arr[i][last];
+               arr[i][last] = temp;
+               last++;
+            }
+         }
+         printMatrix(arr);
+         System.out.println();
       }
       return true;
+   }
+
+   static void printMatrix(int[][] arr) {
+      for (int i = 0; i < arr.length; i++) {
+         System.out.println(Arrays.toString(arr[i]));
+      }
    }
 }
