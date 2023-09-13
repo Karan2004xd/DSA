@@ -8,7 +8,12 @@ public class Runner {
       sLList.insertValue(15, 2);
       sLList.insertValue(20, 3);
       sLList.insertValue(25, 4);
-
+      
       sLList.traverseList();
+
+      System.out.println(sLList.searchElement(4));
+      System.out.println(sLList.searchElement(5));
+      System.out.println(sLList.searchElement(0));
+
    }
 }

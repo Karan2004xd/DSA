@@ -47,14 +47,29 @@ public class SinglyLinkedList {
    }
 
    public void traverseList() {
+      if (head == null) {
+         System.out.println("The LinkedList does not exist");
+      } else {
+         Node tempNode = head;
+         for (int i = 0; i < size; i++) {
+            System.out.print(tempNode.value);
+            if (i <= size - 2) {
+               System.out.print(" -> ");
+            }
+            tempNode = tempNode.next;
+         }
+         System.out.println();
+      }
+   }
+
+   public boolean searchElement(int value) {
       Node tempNode = head;
       for (int i = 0; i < size; i++) {
-         System.out.print(tempNode.value);
-         if (i <= size - 2) {
-            System.out.print(" -> ");
+         if (tempNode.value == value) {
+            return true;
          }
          tempNode = tempNode.next;
       }
-      System.out.println();
+      return false;
    }
 }
