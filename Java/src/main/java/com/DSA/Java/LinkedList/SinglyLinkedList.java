@@ -72,4 +72,35 @@ public class SinglyLinkedList {
       }
       return false;
    }
+
+   public void deleteElement(int index) {
+      Node tempNode = head;
+      if (head == null) {
+         System.out.println("The linked list doesn't exist");
+      } else {
+         if (index == 0) {
+            head = head.next;
+         } else if (index >= size - 1) {
+            for (int i = 0; i < size - 1; i++) {
+               tempNode = tempNode.next;
+               if (i == index - 1) {
+                  tempNode.next = null;
+                  tail = tempNode;
+                  break;
+               }
+            }
+         } else {
+            for (int i = 0; i < index - 1; i++) {
+               tempNode = tempNode.next;
+            }
+            tempNode.next = tempNode.next.next;
+         }
+         size--;
+      }
+   }
+
+   public void deleteEntireList() {
+      head = tail = null;
+      System.out.println("Linked list deleted successfully!");
+   }
 }

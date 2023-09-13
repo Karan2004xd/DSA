@@ -11,9 +11,7 @@ public class Runner {
       
       sLList.traverseList();
 
-      System.out.println(sLList.searchElement(4));
-      System.out.println(sLList.searchElement(5));
-      System.out.println(sLList.searchElement(0));
-
+      sLList.deleteEntireList();
+      sLList.traverseList();
    }
 }
