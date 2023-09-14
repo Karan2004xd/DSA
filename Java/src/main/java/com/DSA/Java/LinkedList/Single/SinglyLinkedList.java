@@ -1,4 +1,4 @@
-package com.DSA.Java.LinkedList;
+package com.DSA.Java.LinkedList.Single;
 
 public class SinglyLinkedList {
    public Node head;

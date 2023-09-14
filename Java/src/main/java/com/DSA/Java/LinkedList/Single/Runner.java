@@ -1,4 +1,4 @@
-package com.DSA.Java.LinkedList;
+package com.DSA.Java.LinkedList.Single;
 
 public class Runner {
    public static void main(String[] args) {

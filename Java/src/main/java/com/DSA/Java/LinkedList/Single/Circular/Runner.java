@@ -1,4 +1,4 @@
-package com.DSA.Java.LinkedList.CircularLinkedList;
+package com.DSA.Java.LinkedList.Single.Circular;
 
 public class Runner {
    public static void main(String[] args) {
