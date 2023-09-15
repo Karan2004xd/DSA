@@ -110,6 +110,44 @@ public class CircularDoublyLinkedList {
    }
 
    public void deleteElement(int index) {
-      
+      if (head == null) {
+         System.out.println("The Linked list does not exist");
+      } else {
+         if (size == 1) {
+            head.next = null;
+            head.prev = null;
+            head = tail = null;
+
+         } else if (index == 0) {
+            head = head.next;
+            head.prev = tail;
+            tail.next = head;
+         } else if (index >= size - 1) {
+            tail = tail.prev;
+            tail.next = head;
+            head.prev = tail;
+         } else {
+            Node prevNode = head;
+            for (int i = 0; i < index - 1; i++) {
+               prevNode = prevNode.next;
+            }
+            prevNode.next = prevNode.next.next;
+            prevNode.next.prev = prevNode;
+         }
+         size--;
+      }
+   }
+
+   public void deleteList() {
+      if (head == null) {
+         System.out.println("The Linked list does not exist");
+      } else {
+         Node tempNode = head;
+         for (int i = 0; i < size; i++) {
+            tempNode.prev = null;
+            tempNode = tempNode.next;
+         }
+         head = tail = null;
+      }
    }
 }

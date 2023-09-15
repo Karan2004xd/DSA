@@ -10,8 +10,13 @@ public class Runner {
       cDL.insertElement(25, 4);
       
       cDL.traverse();
+      // cDL.deleteList();
+      // cDL.traverse();
 
-      cDL.searchElement(20);
-      cDL.searchElement(21);
+      // cDL.deleteElement(1);
+      // cDL.deleteElement(1);
+      // cDL.traverse();
+      // cDL.searchElement(20);
+      // cDL.searchElement(21);
    }
 }
