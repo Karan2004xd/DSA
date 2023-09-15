@@ -34,4 +34,20 @@ public class SinglyList {
       }
       System.out.println();
    }
+
+   public void deleteNode() {
+
+      size--;
+   }
+
+   public int searchNode(int value) {
+      Node tempNode = head;
+      for (int i = 0; i < size; i++) {
+         if (tempNode.value == value) {
+            return i;
+         }
+         tempNode = tempNode.next;
+      }
+      return -1;
+   }
 }
