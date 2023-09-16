@@ -15,12 +15,16 @@ public class SinglyList {
    }
 
    public void insertNode(int value) {
-      Node newNode = new Node();
-      newNode.value = value;
-      newNode.next = null;
-      tail.next = newNode;
-      tail = newNode;
-      size++;
+      if (head == null) {
+         createList(value);
+      } else {
+         Node newNode = new Node();
+         newNode.value = value;
+         newNode.next = null;
+         tail.next = newNode;
+         tail = newNode;
+         size++;
+      }
    }
 
    public void traverse() {
@@ -35,8 +39,23 @@ public class SinglyList {
       System.out.println();
    }
 
-   public void deleteNode() {
-
+   public void deleteNode(int index) {
+      if (index == 0) {
+         head = head.next;
+      } else if (index >= size - 1) {
+         Node tempNode = head;
+         for (int i = 0; i < size - 1; i++) {
+            tempNode = tempNode.next;
+         }
+         tempNode.next = null;
+         tail = tempNode;
+      } else {
+         Node tempNode = head;
+         for (int i = 0; i < index - 1; i++) {
+            tempNode = tempNode.next;
+         }
+         tempNode.next = tempNode.next.next;
+      }
       size--;
    }
 
