@@ -81,32 +81,59 @@ public class Questions {
       }
       return resultList;
    }
-   
-   public void addSameNode(SinglyList llA, SinglyList llB, int value) {
+   public void addSameNode(SinglyList sll1, SinglyList sll2, int value) {
       Node newNode = new Node();
       newNode.value = value;
-      llA.tail.next = newNode;
-      llA.tail = newNode;
-      llA.size++;
-
-      llB.tail.next = newNode;
-      llB.tail = newNode;
-      llB.size++;
+      sll1.tail.next = newNode;
+      sll1.tail = newNode;
+      sll2.tail.next = newNode;
+      sll2.tail = newNode;
    }
 
-   public Node findIntersection(SinglyList llA, SinglyList llB) {
-      Node tempNodeOne = llA.head;
-      Node tempNodeTwo = llB.head;
-      Node result = new Node();
-      for (int a = 0; (a < llA.size || a < llB.size); a++) {
-         if (tempNodeOne == tempNodeTwo) {
-            result = tempNodeOne;
+   public Node findIntersection(SinglyList sll1, SinglyList sll2) {
+      int smallerSize = sll1.size > sll2.size ? sll2.size : sll1.size;   
+      int biggerSize;
+
+      Node smallerNode = new Node();
+      Node biggerNode = new Node();
+      Node resultNode = new Node();
+
+      if (smallerSize == sll1.size) {
+         smallerNode = sll1.head;
+         biggerNode = sll2.head;
+         biggerSize = sll2.size;
+      } else {
+         smallerNode = sll2.head; 
+         biggerNode = sll1.head;
+         biggerSize = sll1.size;
+      }
+      
+      int i = 0;
+      while (smallerNode != null || biggerNode != null) {
+         if (smallerNode == biggerNode) {
+            resultNode = smallerNode;
             break;
          }
-         tempNodeOne = tempNodeOne.next;
-         tempNodeTwo = tempNodeTwo.next;
+         if (i >= biggerSize - smallerSize) {
+            smallerNode = smallerNode.next;
+         } 
+         biggerNode = biggerNode.next;
+         i++;
       }
-      return result;
+      return resultNode;
+   }
+   
+   public void rotate(SinglyList sll, int number) {
+      if (number < 0 || number >= sll.size) {
+         return ;
+      }
+
+      for (int i = 0; i < number; i++) {
+         sll.tail.next = sll.head;
+         sll.tail = sll.head;
+
+         sll.head = sll.head.next;
+      }
    }
 }
 

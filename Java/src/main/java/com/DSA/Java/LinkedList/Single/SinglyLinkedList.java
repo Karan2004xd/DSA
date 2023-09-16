@@ -103,4 +103,5 @@ public class SinglyLinkedList {
       head = tail = null;
       System.out.println("Linked list deleted successfully!");
    }
+
 }
