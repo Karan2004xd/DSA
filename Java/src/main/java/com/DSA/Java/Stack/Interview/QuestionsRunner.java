@@ -1,21 +1,19 @@
 package com.DSA.Java.Stack.Interview;
 
+import com.DSA.Java.Stack.Interview.StackMinimum.StackMinimum;
+
 public class QuestionsRunner {
    public static void main(String[] args) {
-      ThreeInOne tInOne = new ThreeInOne(3);
-      tInOne.push(1, 5);
-      tInOne.push(1, 10);
-      tInOne.push(1, 15);
-      // tInOne.push(1, 15);
-      // tInOne.push(3, 15);
-      // tInOne.push(3, 15);
+      StackMinimum stackMinimum = new StackMinimum();
+      stackMinimum.push(10);
+      stackMinimum.push(20);
+      stackMinimum.push(30);
+      stackMinimum.push(5);
+      stackMinimum.push(40);
 
-      traverse(tInOne.arr);
-
-      System.out.println(tInOne.pop(1));
-      System.out.println(tInOne.pop(1));
-      System.out.println(tInOne.peek(1));
-      traverse(tInOne.arr);
+      System.out.println(stackMinimum.pop());
+      
+      System.out.println(stackMinimum.minValue());
    }
    public static void traverse(int arr[]) {
       for (int i : arr) {
