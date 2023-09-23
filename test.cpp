@@ -1,38 +1,42 @@
+#include <cstdlib>
 #include <iostream>
 #include <vector>
- 
-bool check_bits(int decimal_num, int k) {
-   int bits {0};
+#include <climits>
 
-   while (decimal_num > 0) {
-      if (bits >= k){
-         return true;
-      }
-      if (decimal_num % 2 == 1) {
-         bits++;
-      }
-      decimal_num /= 2;
+void print_array(std::vector<int> print_array) {
+   for (int i : print_array) {
+      std::cout << i << " ";
    }
-   return false;
+   std::cout << std::endl;
+
 }
 
-int sum_of_binary_indices(std::vector<int>& nums, int k) {
-   int result {0};
+std::vector<int> create_new_array(std::vector<int>& nums, std::vector<int>& index) {
+   std::vector<int> result_array(index.size(), INT_MIN);
+
    for (int i = 0; i < nums.size(); i++) {
-      if (check_bits(i, k)) {
-         std::cout << i << std::endl;
-         result += nums[i];
+      if (result_array[index[i]] == INT_MIN) {
+         result_array[index[i]] = nums[i];
+      } else {
+         for (int j = index.size() - 2; j > index[i] ; j--) {
+            if (result_array[j] != INT_MIN) {
+               result_array[j + 1] = result_array[j];
+            }
+            print_array(result_array);
+         }
+         result_array[index[i]] = nums[i];
       }
    }
-   return result;
+   return result_array;
 }
 
 int main() {
-   std::vector<int> test_vec {5,10,1,5,2};
-   std::cout << sum_of_binary_indices(test_vec, 1) << std::endl;
-   /* for (int i : find_min_array(test_vec)) { */
-   /*    std::cout << i << " "; */
-   /* } */
-   /* std::cout << std::endl; */
+   std::vector<int> test_vec {0,1,2,3,4};
+   std::vector<int> test_vec_2 {0,1,2,2,1};
+   /* std::cout << sum_of_binary_indices(test_vec, 2) << std::endl; */
+   for (int i : create_new_array(test_vec, test_vec_2)) {
+      std::cout << i << " ";
+   }
+   std::cout << std::endl;
    return 0;
 }
