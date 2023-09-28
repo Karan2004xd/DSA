@@ -3,10 +3,10 @@ package com.DSA.Java.Tree.BinaryTree.LinkedList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class LinkedBinaryTree {
+public class BinaryTree {
    public BinaryNode root;
 
-   public LinkedBinaryTree() {
+   public BinaryTree() {
       this.root = null;
    }
 
@@ -38,6 +38,10 @@ public class LinkedBinaryTree {
    }
 
    public void levelOrderTraversal() {
+      if (root == null) {
+         System.out.println("The Tree is already empty");
+         return;
+      }
       Queue<BinaryNode> queue = new LinkedList<BinaryNode>();
       queue.add(root);
 
@@ -157,5 +161,9 @@ public class LinkedBinaryTree {
             queue.add(node.right);
          }
       }
+   }
+
+   public void deleteTree() {
+      root = null;
    }
 }

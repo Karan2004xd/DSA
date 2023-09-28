@@ -12,7 +12,6 @@ com/DSA/Java/Arrays/Interview/TestClass.class
 com/DSA/Java/LinkedList/Single/SinglyLinkedList.class
 com/DSA/Java/Arrays/Project/RotateMatrix.class
 com/DSA/Java/LinkedList/Double/Runner.class
-com/DSA/Java/Tree/BinaryTree/LinkedList/LinkedBinaryTree.class
 com/DSA/Java/LinkedList/Double/Node.class
 com/DSA/Java/Arrays/Project/Demo.class
 com/DSA/Java/Stack/Interview/ThreeInOne.class
@@ -28,10 +27,12 @@ com/DSA/Java/Queue/LinkedListQueue/SinglyLinkedList.class
 com/DSA/Java/Recursion/OddFunction.class
 com/DSA/Java/Tree/BinaryTree/LinkedList/BinaryNode.class
 com/DSA/Java/Arrays/OneDimensional/SingleDimensionalArrays.class
+com/DSA/Java/Tree/BinaryTree/LinkedList/BinaryTree.class
 com/DSA/Java/Arrays/Interview/Runner.class
 com/DSA/Java/Arrays/TwoDimensional/TwoDimensionalArray.class
 com/DSA/Java/LinkedList/Single/Runner.class
 com/DSA/Java/LinkedList/Single/Circular/Node.class
+com/DSA/Java/Tree/BinaryTree/Array/BinaryTree.class
 com/DSA/Java/Recursion/InterviewQuestions.class
 com/DSA/Java/Tree/BasicTree/TreeNode.class
 com/DSA/Java/Stack/LinkedListStack/SinglyLinkedList.class

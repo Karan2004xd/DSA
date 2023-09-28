@@ -17,6 +17,7 @@
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/Stack/LinkedListStack/LinkedListStack.java
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/LinkedList/Interview/LinkedList/Runner.java
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/LinkedList/Single/Circular/Runner.java
+/home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/Tree/BinaryTree/LinkedList/BinaryTree.java
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/Tree/BinaryTree/LinkedList/BinaryNode.java
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/Queue/CircularArrayQueue.java
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/Recursion/InterviewQuestions.java
@@ -25,7 +26,6 @@
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/Arrays/OneDimensional/SingleDimensionalArrays.java
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/Arrays/Project/Demo.java
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/Recursion/ExerciseQuestions.java
-/home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/Tree/BinaryTree/LinkedList/LinkedBinaryTree.java
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/Arrays/OneDimensional/Runner.java
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/Tree/BasicTree/TreeNode.java
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/LinkedList/Single/Runner.java
@@ -41,6 +41,7 @@
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/LinkedList/Double/DoublyLinkedList.java
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/LinkedList/Double/Circular/Node.java
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/LinkedList/Interview/LinkedList/SinglyList.java
+/home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/Tree/BinaryTree/Array/BinaryTree.java
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/Tree/TreeRunner.java
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/Stack/LinkedListStack/Node.java
 /home/karanp/Documents/Code/DSA/Java/src/main/java/com/DSA/Java/Stack/Interview/ThreeInOne.java
