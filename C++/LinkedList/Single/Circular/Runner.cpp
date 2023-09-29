@@ -1,14 +1,26 @@
 #include <iostream>
-#include "CircularSinglyLL.h"
+#include "SinglyCircularLL.h"
 
 int main() {
-   CircularSinglyLL cll;
-   cll.insert_element(5, 0);
-   cll.insert_element(10, 1);
-   cll.insert_element(15, 2);
-   cll.insert_element(20, 3);
-   
-   cll.traverse();
-   cll.reverse_traverse();
+   SinglyCircularLL sll;
+   sll.insert_element(5, 0);
+   sll.insert_element(15, 1);
+   sll.insert_element(20, 2);
+   sll.insert_element(10, 1);
+   sll.insert_element(25, 5);
+   sll.traverse();
+
+   sll.delete_element(5);
+   sll.traverse();
+
+   sll.delete_element(20);
+   sll.traverse();
+
+   sll.delete_element(35);
+   sll.traverse();
+
+   sll.delete_list();
+   sll.traverse();
+
    return 0;
 }

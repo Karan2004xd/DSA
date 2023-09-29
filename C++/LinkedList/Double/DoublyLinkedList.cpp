@@ -1,58 +1,54 @@
-#include "Node.h" 
-#include "CircularSinglyLL.h"
+#include "DoublyLinkedList.h"
+#include "Node.h"
 #include <iostream>
 
-void CircularSinglyLL::create_list(int value) {
+void DoubleLinkedList::create_List(int value) {
    Node *new_node = new Node();
-
    new_node->value = value;
-   new_node->next = new_node;
-   new_node->prev = new_node;
+   new_node->next = nullptr;
+   new_node->prev = nullptr;
 
    head = new_node;
    tail = new_node;
    size = 1;
 }
 
-void CircularSinglyLL::insert_element(int value, int index) {
+void DoubleLinkedList::insert_element(int value, int index) {
    if (head == nullptr) {
-      create_list(value);
+      create_List(value);
       return;
    }
    Node *new_node = new Node();
    new_node->value = value;
-
    if (index <= 0) {
       new_node->next = head;
-      new_node->prev = tail;
-
-      tail->next = new_node;
       head->prev = new_node;
 
+      new_node->prev = nullptr;
       head = new_node;
    } else if (index >= size - 1) {
+      new_node->next = nullptr;
       new_node->prev = tail;
-      new_node->next = head;
 
       tail->next = new_node;
-      head->prev = new_node;
-
       tail = new_node;
    } else {
       Node *temp_node = head;
       for (int i = 0; i < index - 1; i++) {
          temp_node = temp_node->next;
       }
+      new_node->prev = temp_node;
       new_node->next = temp_node->next;
+
       temp_node->next->prev = new_node;
       temp_node->next = new_node;
    }
    size++;
 }
 
-void CircularSinglyLL::traverse() {
+void DoubleLinkedList::traverse() {
    if (head == nullptr) {
-      std::cout << "The List is already empty" << std::endl;
+      std::cout << "The Linked List does not exist" << std::endl;
       return;
    }
    Node *temp_node = head;
@@ -66,25 +62,10 @@ void CircularSinglyLL::traverse() {
    std::cout << std::endl;
 }
 
-void CircularSinglyLL::reverse_traverse() {
-   if (tail == nullptr) {
-      std::cout << "The List is already empty" << std::endl;
-      return;
-   }
-   Node *temp_node = tail;
-   for (int i = 0; i < size; i++) {
-      std::cout << temp_node->value;
-      if (i < size - 1) {
-         std::cout << " -> ";
-      }
-      temp_node = temp_node->prev;
-   }
-   std::cout << std::endl;
-}
-
-int CircularSinglyLL::search_element(int value) {
+int DoubleLinkedList::search_element(int value) {
    if (head == nullptr) {
-      std::cout << "The List is already empty" << std::endl;
+      std::cout << "The Linked List does not exist" << std::endl;
+      return -1;
    } else {
       Node *temp_node = head;
       for (int i = 0; i < size; i++) {
@@ -93,21 +74,20 @@ int CircularSinglyLL::search_element(int value) {
          }
          temp_node = temp_node->next;
       }
-   }
+   } 
+   std::cout << "The given element was not found in the list" << std::endl;
    return -1;
 }
 
-void CircularSinglyLL::delete_element(int value) {
+void DoubleLinkedList::delete_element(int value) {
    int index = search_element(value);
    if (index != -1) {
       if (index <= 0) {
          head = head->next;
-         head->prev = tail;
-         tail->next = head;
+         head->prev = nullptr;
       } else if (index >= size - 1) {
          tail = tail->prev;
-         tail->next = head;
-         head->prev = tail;
+         tail->next = nullptr;
       } else {
          Node *temp_node = head;
          for (int i = 0; i < index - 1; i++) {
@@ -117,21 +97,14 @@ void CircularSinglyLL::delete_element(int value) {
          temp_node->next->prev = temp_node;
       }
       size--;
-   } else {
-      std::cout << "The List is already empty" << std::endl;
    }
 }
-   
-void CircularSinglyLL::delete_list() {
-   if (head == nullptr) {
-      std::cout << "The List is already empty" << std::endl;
-      return;
-   }
 
+void DoubleLinkedList::delete_list() {
    Node *temp_node = head;
+
    for (int i = 0; i < size; i++) {
       temp_node->prev = nullptr;
-      temp_node = temp_node->next;
    }
    head = tail = nullptr;
 }

@@ -2,8 +2,9 @@
 #define _NODE_H_
 
 class Node {
-   public: 
+   public:
       Node *next;
+      Node *prev;
       int value;
 };
 #endif // _NODE_H_
