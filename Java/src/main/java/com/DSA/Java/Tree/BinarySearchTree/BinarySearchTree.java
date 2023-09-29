@@ -1,5 +1,8 @@
 package com.DSA.Java.Tree.BinarySearchTree;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class BinarySearchTree {
    public BinaryNode root;
 
@@ -12,15 +15,17 @@ public class BinarySearchTree {
          BinaryNode newNode = new BinaryNode();
          newNode.value = value;
          return newNode;
-      } else if (currentValue.value <= value) {
-         return insertElement(currentValue.left, value);
+      } else if (value <= currentValue.value) {
+         currentValue.left = insertElement(currentValue.left, value);
+         return currentValue;
       } else {
-         return insertElement(currentValue.right, value);
+         currentValue.right = insertElement(currentValue.right, value);
+         return currentValue;
       }
    }
 
    public void insertElement(int value) {
-      insertElement(root, value);
+      root = insertElement(root, value);
    }
 
    public void preOrderTraversal(BinaryNode node) {
@@ -30,5 +35,90 @@ public class BinarySearchTree {
       System.out.print(node.value + " ");
       preOrderTraversal(node.left);
       preOrderTraversal(node.right);
+   }
+
+   public void inOrderTraversal(BinaryNode node) {
+      if (node == null) {
+         return;
+      }
+      inOrderTraversal(node.left);
+      System.out.print(node.value + " ");
+      inOrderTraversal(node.right);
+   }
+
+   public void postOrderTraversal(BinaryNode node) {
+      if (node == null) {
+         return ;
+      }
+      postOrderTraversal(node.left);
+      postOrderTraversal(node.right);
+      System.out.print(node.value + " ");
+   }
+
+   public void levelOrderTraversal() {
+      Queue<BinaryNode> queue = new LinkedList<>();
+      queue.add(root);
+      while (!queue.isEmpty()) {
+         BinaryNode tempNode = queue.remove();
+         System.out.print(tempNode.value + " ");
+         if (tempNode.left != null) {
+            queue.add(tempNode.left);
+         }
+         if (tempNode.right != null) {
+            queue.add(tempNode.right);
+         }
+      }
+   }
+
+   public BinaryNode searchElement(BinaryNode node, int value) {
+      if (node == null) {
+         return null;
+      } else if (value == node.value) {
+         return node;
+      } else if (value <= node.value) {
+         return searchElement(node.left, value);
+      } else {
+         return searchElement(node.right, value);
+      }
+   }
+
+   public boolean searchElement(int value) {
+      System.out.println();
+      return searchElement(root, value) != null;
+   }
+
+   public BinaryNode minimumNode(BinaryNode root) {
+      if (root.left == null) {
+         return root;
+      }
+      return minimumNode(root.left);
+   }
+   
+   public BinaryNode deleteElement(BinaryNode node, int value) {
+      if (node == null) {
+         return null;
+      } else if (value < node.value) {
+         node.left = deleteElement(node.left, value);
+      } else if (value > node.value) {
+         node.right = deleteElement(node.right, value);
+      } else {
+         if (node.left != null && node.right != null) {
+            BinaryNode tempNode = node;  
+            BinaryNode minNode = minimumNode(node.right);
+            tempNode.value = minNode.value;
+            node.right = deleteElement(node.right, minNode.value);
+         } else if (node.right != null) {
+            node = node.right;
+         } else if (node.left != null) {
+            node = node.left;
+         } else {
+            node = null;
+         }
+      }
+      return node;
+   }
+
+   public void deleteTree() {
+      root = null;
    }
 }

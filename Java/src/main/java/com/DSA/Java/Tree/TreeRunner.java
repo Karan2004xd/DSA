@@ -15,6 +15,10 @@ public class TreeRunner {
       bst.insertElement(20);
       bst.insertElement(40);
 
-      bst.preOrderTraversal(bst.root);
+      bst.levelOrderTraversal();
+      System.out.println();
+
+      bst.deleteElement(bst.root, 90);
+      bst.levelOrderTraversal();
    }
 } 
