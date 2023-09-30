@@ -1,24 +1,14 @@
 package com.DSA.Java.Tree;
 
-import com.DSA.Java.Tree.BinarySearchTree.BinarySearchTree;
+import com.DSA.Java.Tree.AVLTree.AVLTree;
 
 public class TreeRunner {
    public static void main(String[] args) {
-      BinarySearchTree bst = new BinarySearchTree();
-      bst.insertElement(70);
-      bst.insertElement(50);
-      bst.insertElement(90);
-      bst.insertElement(30);
-      bst.insertElement(60);
-      bst.insertElement(80);
-      bst.insertElement(100);
-      bst.insertElement(20);
-      bst.insertElement(40);
-
-      bst.levelOrderTraversal();
-      System.out.println();
-
-      bst.deleteElement(bst.root, 90);
-      bst.levelOrderTraversal();
+      AVLTree aTree = new AVLTree();
+      aTree.insertELement(5);
+      aTree.insertELement(10);
+      aTree.insertELement(15);
+      aTree.insertELement(20);
+      aTree.levelOrderTraversal();
    }
 } 
