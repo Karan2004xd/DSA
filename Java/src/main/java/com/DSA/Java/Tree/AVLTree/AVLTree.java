@@ -143,4 +143,11 @@ public class AVLTree {
    public void insertELement(int value) {
       root = insertElement(root, value);
    }
+
+   private AVLNode minimumNode(AVLNode node) {
+      if (node.left == null) {
+         return node;
+      }
+      return minimumNode(node.left);
+   }
 }
