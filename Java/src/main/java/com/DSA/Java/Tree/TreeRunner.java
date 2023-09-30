@@ -10,5 +10,7 @@ public class TreeRunner {
       aTree.insertELement(15);
       aTree.insertELement(20);
       aTree.levelOrderTraversal();
+      aTree.deleteElement(5);
+      aTree.levelOrderTraversal();
    }
 } 

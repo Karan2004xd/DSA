@@ -150,4 +150,54 @@ public class AVLTree {
       }
       return minimumNode(node.left);
    }
+   
+   private AVLNode deleteElement(AVLNode node, int value) {
+      if (node == null) {
+         System.out.println("The value provided was not found in the tree");
+         return null;
+      }
+      if (value < node.value) {
+         node.left = deleteElement(node.left, value);
+      } else if (value > node.value) {
+         node.right = deleteElement(node.right, value);
+      } else {
+         if (node.left != null && node.right != null) {
+            AVLNode tempNode = node;
+            AVLNode minNode = minimumNode(tempNode.right);
+            node.value = minNode.value;
+            node.right = deleteElement(node.right, minNode.value);
+         } else if (node.left != null) {
+            node = node.left;
+         } else if (node.right != null) {
+            node = node.right;
+         } else {
+            node = null;
+         }
+      }
+
+      int balance = getBalance(node);
+      if (balance > 1 && getBalance(node.left) >= 0) {
+         return rotateRight(node);
+      }
+      if (balance > 1 && getBalance(node.left) < 0) {
+         node.left = rotateLeft(node.left);
+         return rotateRight(node);
+      }
+      if (balance < -1 && getBalance(node.right) <= 0) {
+         return rotateLeft(node);
+      }
+      if (balance < -1 && getBalance(node.right) > 0) {
+         node.right = rotateRight(node.right);
+         return rotateLeft(node);
+      }
+      return node;
+   }
+
+   public void deleteElement(int value) {
+      root = deleteElement(root, value);
+   }
+
+   public void deleteTree() {
+      root = null;
+   }
 }
