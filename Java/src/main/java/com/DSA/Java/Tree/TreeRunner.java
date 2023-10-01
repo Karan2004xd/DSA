@@ -7,6 +7,8 @@ public class TreeRunner {
       Trie trie = new Trie();
       trie.insertElement("API");
       trie.insertElement("APIS");
-      System.out.println(trie.searchElement("APISI"));
+      System.out.println(trie.searchElement("API"));
+      trie.deleteElement("API");
+      System.out.println(trie.searchElement("API"));
    }
 } 

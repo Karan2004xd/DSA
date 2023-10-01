@@ -46,7 +46,7 @@ public class Trie {
       boolean delete;
 
       if (childNode.children.size() > 1) {
-         deleteElement(parentNode, word, index + 1);
+         deleteElement(childNode, word, index + 1);
          return false;
       }
 
@@ -58,6 +58,25 @@ public class Trie {
             childNode.children.remove(ch);
             return true;
          }
+      }
+
+      if (childNode.endOfString) {
+         deleteElement(childNode, word, index + 1);
+         return false;
+      }
+      
+      delete = deleteElement(childNode, word, index + 1);
+      if (delete) {
+         parentNode.children.remove(ch);
+         return true;
+      } else {
+         return false;
+      }
+   }
+
+   public void deleteElement(String word) {
+      if (searchElement(word)) {
+         deleteElement(root, word, 0);
       }
    }
 }
