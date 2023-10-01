@@ -40,11 +40,13 @@ com/DSA/Java/LinkedList/Single/SinglyLinkedList.class
 com/DSA/Java/Arrays/Project/RotateMatrix.class
 com/DSA/Java/Tree/BinarySearchTree/BinarySearchTree.class
 com/DSA/Java/LinkedList/Interview/LinkedList/SinglyList.class
+com/DSA/Java/Tree/Trie/Trie.class
 com/DSA/Java/LinkedList/Double/Circular/CircularDoublyLinkedList.class
 com/DSA/Java/Queue/LinkedListQueue/LinkedListQueue.class
 com/DSA/Java/Queue/CircularArrayQueue.class
 com/DSA/Java/Stack/LinkedListStack/Node.class
 com/DSA/Java/Queue/LinkedListQueue/SinglyLinkedList.class
+com/DSA/Java/Tree/Trie/TrieNode.class
 com/DSA/Java/Arrays/TwoDimensional/TwoDimensionalArray.class
 com/DSA/Java/LinkedList/Single/Circular/Node.class
 com/DSA/Java/Tree/BinaryTree/Array/BinaryTree.class

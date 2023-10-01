@@ -98,7 +98,7 @@ public class BinaryHeap {
       int right = index * 2 + 1;
       int swapped = 0;
 
-      if (index > sizeOfArray) {
+      if (sizeOfArray < left) {
          return;
       }
       if (heapType == "Min") {
@@ -153,5 +153,9 @@ public class BinaryHeap {
       heapifyTopToBottom(1, heapType);
 
       return extractedValue;
+   }
+
+   public void deleteHeap() {
+      binaryHeapArray = null;
    }
 }
