@@ -7,6 +7,7 @@ com/DSA/Java/Stack/Interview/ThreeInOne.class
 com/DSA/Java/Queue/Runner.class
 com/DSA/Java/LinkedList/Single/Circular/Runner.class
 com/DSA/Java/LinkedList/Interview/LinkedList/Runner.class
+com/DSA/Java/Hashing/DirectChaining.class
 com/DSA/Java/Recursion/OddFunction.class
 com/DSA/Java/Tree/BinaryTree/LinkedList/BinaryNode.class
 com/DSA/Java/Arrays/OneDimensional/SingleDimensionalArrays.class
@@ -26,6 +27,7 @@ com/DSA/Java/Tree/AVLTree/AVLNode.class
 com/DSA/Java/LinkedList/Double/DoublyLinkedList.class
 com/DSA/Java/Arrays/TwoDimensional/Runner.class
 com/DSA/Java/Queue/LinkedListQueue/Node.class
+com/DSA/Java/Hashing/HashRunner.class
 com/DSA/Java/LinkedList/Interview/Questions/Questions.class
 com/DSA/Java/Stack/Interview/QuestionsRunner.class
 com/DSA/Java/LinkedList/Interview/Questions/QuestionsRunner.class
