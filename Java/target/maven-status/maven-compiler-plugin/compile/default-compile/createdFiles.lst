@@ -46,6 +46,7 @@ com/DSA/Java/Tree/Trie/Trie.class
 com/DSA/Java/LinkedList/Double/Circular/CircularDoublyLinkedList.class
 com/DSA/Java/Queue/LinkedListQueue/LinkedListQueue.class
 com/DSA/Java/Queue/CircularArrayQueue.class
+com/DSA/Java/Hashing/LinearProbing.class
 com/DSA/Java/Stack/LinkedListStack/Node.class
 com/DSA/Java/Queue/LinkedListQueue/SinglyLinkedList.class
 com/DSA/Java/Tree/Trie/TrieNode.class

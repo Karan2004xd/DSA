@@ -53,4 +53,5 @@ public class DirectChaining {
       }
       System.out.println("The value was not found in the hash table");
    }
+
 }
