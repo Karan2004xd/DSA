@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AlgorithmRunner",
+            "request": "launch",
+            "mainClass": "com.DSA.Java.Algorithms.AlgorithmRunner",
+            "projectName": "Java"
+        },
+        {
+            "type": "java",
             "name": "HashRunner",
             "request": "launch",
             "mainClass": "com.DSA.Java.Hashing.HashRunner",
