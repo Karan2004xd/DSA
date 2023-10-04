@@ -2,16 +2,17 @@ package com.DSA.Java.Hashing;
 
 public class HashRunner {
    public static void main(String[] args) {
-      LinearProbing linearProbing = new LinearProbing(13);
-      linearProbing.insertValue("The");
-      linearProbing.insertValue("quick");
-      linearProbing.insertValue("brown");
-      linearProbing.insertValue("fox");
-      linearProbing.insertValue("over");
+      DoubleHashing doubleHashing = new DoubleHashing(13);
+      doubleHashing.insertValue("The");
+      doubleHashing.insertValue("quick");
+      doubleHashing.insertValue("brown");
+      doubleHashing.insertValue("lazy");
+      doubleHashing.insertValue("fox");
+      doubleHashing.insertValue("over");
 
-      linearProbing.displayHashTable();
-      linearProbing.deleteValue("The");
-      System.out.println();
-      linearProbing.displayHashTable();
+      doubleHashing.displayHashTable();
+      // doubleHashing.deleteValue("The");
+      // System.out.println();
+      // doubleHashing.displayHashTable();
    }
 }
