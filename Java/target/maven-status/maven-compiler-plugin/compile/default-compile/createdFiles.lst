@@ -12,6 +12,7 @@ com/DSA/Java/Recursion/OddFunction.class
 com/DSA/Java/Tree/BinaryTree/LinkedList/BinaryNode.class
 com/DSA/Java/Arrays/OneDimensional/SingleDimensionalArrays.class
 com/DSA/Java/Tree/BinaryTree/LinkedList/BinaryTree.class
+com/DSA/Java/Algorithms/AlgorithmRunner.class
 com/DSA/Java/Arrays/Interview/Runner.class
 com/DSA/Java/LinkedList/Single/Runner.class
 com/DSA/Java/Tree/BinaryHeap/BinaryHeap.class
@@ -42,6 +43,7 @@ com/DSA/Java/LinkedList/Single/SinglyLinkedList.class
 com/DSA/Java/Arrays/Interview/TestClass.class
 com/DSA/Java/Tree/BinarySearchTree/BinarySearchTree.class
 com/DSA/Java/Arrays/Project/RotateMatrix.class
+com/DSA/Java/Algorithms/Sorting/BubbleSort.class
 com/DSA/Java/LinkedList/Interview/LinkedList/SinglyList.class
 com/DSA/Java/Tree/Trie/Trie.class
 com/DSA/Java/LinkedList/Double/Circular/CircularDoublyLinkedList.class

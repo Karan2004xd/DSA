@@ -11,8 +11,8 @@ public class HashRunner {
       doubleHashing.insertValue("over");
 
       doubleHashing.displayHashTable();
-      // doubleHashing.deleteValue("The");
-      // System.out.println();
-      // doubleHashing.displayHashTable();
+      doubleHashing.deleteValue("The");
+      System.out.println();
+      doubleHashing.displayHashTable();
    }
 }
