@@ -5,53 +5,55 @@ struct Node {
    int value;
 };
 
-struct doubly_linked_list {
+struct circular_doubly_ll {
    Node *head {nullptr}, *tail {nullptr};
    int size;
    static constexpr int NOT_FOUND = -1;
-   
-   void create_dll(int value);
+
+   void create_ll(int value);
    void insert_value(int value, int index);
    void traverse();
-   void reverse_traverse();
-   void delete_value(int value);
    int search_value(int value);
-   void delete_dll();
+   void delete_value(int value);
+   void delete_ll();
 };
 
-void doubly_linked_list::create_dll(int value) {
+void circular_doubly_ll::create_ll(int value) {
    Node *new_node = new Node();
    new_node->value = value;
-   new_node->next = nullptr;
-   new_node->prev = nullptr;
-   head = new_node;
+   new_node->next = new_node;
+   new_node->prev = new_node;
    tail = new_node;
+   head = new_node;
    size = 1;
 }
 
-void doubly_linked_list::insert_value(int value, int index) {
+void circular_doubly_ll::insert_value(int value, int index) {
    if (head == nullptr) {
-      create_dll(value);
+      create_ll(value);
    } else {
       Node *new_node = new Node();
       new_node->value = value;
       if (index <= 0) {
-         new_node->prev = nullptr;
          new_node->next = head;
+         new_node->prev = tail;
          head->prev = new_node;
          head = new_node;
+         tail->next = new_node;
       } else if (index >= size - 1) {
-         new_node->next = nullptr;
          new_node->prev = tail;
+         new_node->next = head;
          tail->next = new_node;
          tail = new_node;
+         head->prev = tail;
       } else {
          Node *temp_node = head;
-         for (int i = 0; i < index - 1; i++) {
+         for (int i = 0; i < size; i++) {
             temp_node = temp_node->next;
          }
-         new_node->next = temp_node->next;
          new_node->prev = temp_node;
+         new_node->next = temp_node->next;
+
          temp_node->next->prev = new_node;
          temp_node->next = new_node;
       }
@@ -59,10 +61,8 @@ void doubly_linked_list::insert_value(int value, int index) {
    }
 }
 
-void doubly_linked_list::traverse() {
-   if (head == nullptr) {
-      std::cout << "The List is empty" << std::endl;
-   } else {
+void circular_doubly_ll::traverse() {
+   if (head != nullptr) {
       Node *temp_node = head;
       for (int i = 0; i < size; i++) {
          std::cout << temp_node->value;
@@ -72,26 +72,12 @@ void doubly_linked_list::traverse() {
          temp_node = temp_node->next;
       }
       std::cout << std::endl;
-   }
-}
-
-void doubly_linked_list::reverse_traverse() {
-   if (head == nullptr) {
-      std::cout << "The List is empty" << std::endl;
    } else {
-      Node *temp_node = tail;
-      for (int i = 0; i < size; i++) {
-         std::cout << temp_node->value;
-         if (i < size - 1) {
-            std::cout << " -> ";
-         }
-         temp_node = temp_node->prev;
-      }
-      std::cout << std::endl;
+      std::cout << "The List is empty" << std::endl;
    }
 }
 
-int doubly_linked_list::search_value(int value) {
+int circular_doubly_ll::search_value(int value) {
    if (head != nullptr) {
       Node *temp_node = head;
       for (int i = 0; i < size; i++) {
@@ -103,15 +89,17 @@ int doubly_linked_list::search_value(int value) {
    return NOT_FOUND;
 }
 
-void doubly_linked_list::delete_value(int value) {
+void circular_doubly_ll::delete_value(int value) {
    int index = search_value(value);
    if (index != NOT_FOUND) {
       if (index <= 0) {
          head = head->next;
-         head->prev = nullptr;
+         head->prev = tail;
+         tail->next = head;
       } else if (index >= size - 1) {
          tail = tail->prev;
-         tail->next = nullptr;
+         tail->next = head;
+         head->prev = tail;
       } else {
          Node *temp_node = head;
          for (int i = 0; i < index - 1; i++) {
@@ -124,7 +112,7 @@ void doubly_linked_list::delete_value(int value) {
    }
 }
 
-void doubly_linked_list::delete_dll() {
+void circular_doubly_ll::delete_ll() {
    Node *temp_node = head;
    for (int i = 0; i < size; i++) {
       temp_node->prev = nullptr;
@@ -134,15 +122,16 @@ void doubly_linked_list::delete_dll() {
 }
 
 int main() {
-   doubly_linked_list dll;
-   dll.insert_value(5, 0);
-   dll.insert_value(10, 5);
-   dll.insert_value(15, 1);
-   dll.insert_value(20, 1);
-   dll.insert_value(25, 2);
+   circular_doubly_ll cdll;
+   cdll.insert_value(5, 0);
+   cdll.insert_value(10, 1);
+   cdll.insert_value(15, 2);
+   cdll.insert_value(20, 3);
+   cdll.insert_value(25, 4);
 
-   dll.traverse();
-   dll.reverse_traverse();
-   
+   cdll.traverse();
+
+   cdll.delete_ll();
+   cdll.traverse();
    return 0;
 }
