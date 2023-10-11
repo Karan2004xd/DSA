@@ -2,7 +2,7 @@ package com.DSA.Java.Recursion;
 
 public class InterviewQuestions {
    public static void main(String[] args) {
-      System.out.println(factorial(5));
+      System.out.println(gcd(0, 18));
    }
    
    // Factorial
