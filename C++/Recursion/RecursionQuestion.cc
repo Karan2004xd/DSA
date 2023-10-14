@@ -6,6 +6,8 @@ struct RecursionQuestion {
    int fibbonacci(int num);
    int sum_of_digits(int num);
    int powerValue(int base, int power);
+   int gcd(int a, int b);
+   int decimal_to_binary(int num);
 };
 
 int RecursionQuestion::factorial(int num) {
@@ -36,8 +38,22 @@ int RecursionQuestion::powerValue(int base, int power) {
    return base * powerValue(base, --power);
 }
 
+int RecursionQuestion::gcd(int a, int b) {
+   if (b == 0) {
+      return a;
+   }
+   return gcd(b, a % b);
+}
+
+int RecursionQuestion::decimal_to_binary(int num) {
+   if (num == 0) {
+      return num;
+   }
+   return num % 2 + 10 * decimal_to_binary(num / 2);
+}
+
 int main() {
    RecursionQuestion func;
-   std::cout << func.powerValue(2, 3) << std::endl;
+   std::cout << func.decimal_to_binary(8) << std::endl;
    return 0;
 }
