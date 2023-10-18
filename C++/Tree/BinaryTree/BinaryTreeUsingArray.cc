@@ -101,6 +101,6 @@ int main() {
    bt.insert_value("N7");
    bt.insert_value("N8");
    bt.insert_value("N9");
-   bt.level_order_traversal();
+   bt.post_order_traversal(1);
    return 0;
 }
