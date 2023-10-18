@@ -2,12 +2,21 @@
 #include <queue>
 #include <string>
 
+/* Output of future refrence :
+ * Input : N1, N2, N3, N4, N5, N6, N7, N8, N9
+ * Pre-Order Traversal output : N1 N2 N4 N8 N9 N5 N3 N6 N7
+ * In-Order Traversal output: N8 N4 N9 N2 N5 N1 N6 N3 N7 
+ * Post-Order Traversal output: N8 N9 N4 N5 N2 N6 N7 N3 N1
+ * Level-Order Traversal output: N1 N2 N3 N4 N5 N6 N7 N8 N9
+ */
+
 struct BinaryNode {
    BinaryNode *left, *right;
    std::string value;
 };
 
 struct BinaryTreeUsingLL {
+public:
    BinaryNode *root;
 
    BinaryTreeUsingLL() {
@@ -90,6 +99,99 @@ struct BinaryTreeUsingLL {
       }
       std::cout << "\n";
    }
+
+   bool search_node(std::string data) {
+      std::queue<BinaryNode*> queue;
+      if (root != nullptr) {
+         queue.push(root);
+         while (!queue.empty()) {
+            BinaryNode *temp_node = queue.front();
+            queue.pop();
+            if (temp_node->value == data) return true;
+
+            if (temp_node->left != nullptr) {
+               queue.push(temp_node->left);
+            }
+            if (temp_node->right != nullptr) {
+               queue.push(temp_node->right);
+            }
+         }
+      }
+      std::cout << "The provided value was not found in the tree" << std::endl;
+      return false;
+   }
+   
+   BinaryNode *get_deepest_node() {
+      std::queue<BinaryNode*> queue;
+      queue.push(root);
+      BinaryNode *node;
+      while (!queue.empty()) {
+         node = queue.front();
+         queue.pop();
+         if (node->left != nullptr) {
+            queue.push(node->left);
+         }
+         if (node->right != nullptr) {
+            queue.push(node->right);
+         }
+      }
+      return node;
+   }
+
+   void delete_deepest_node() {
+      std::queue<BinaryNode*> queue;
+      queue.push(root);
+      BinaryNode *prev_node, *node {nullptr};
+
+      while (!queue.empty()) {
+         prev_node = node;  
+         node = queue.front();
+         queue.pop();
+
+         if (node->left == nullptr) {
+            prev_node->right = nullptr;
+            return ;
+         } else if (node->right == nullptr) {
+            prev_node->left = nullptr;
+            return;
+         }
+
+         if (node->left != nullptr) {
+            queue.push(node->left);
+         }
+         if (node->right != nullptr) {
+            queue.push(node->right);
+         }
+      }
+   }
+
+   void delete_node(std::string value) {
+      if (search_node(value)) {
+         std::queue<BinaryNode*> queue;
+         queue.push(root);
+         while (!queue.empty()) {
+            BinaryNode *temp_node = queue.front();
+            queue.pop();
+            if (temp_node->value == value) {
+               temp_node->value = get_deepest_node()->value;
+               delete_deepest_node();
+               return;
+            }
+
+            if (temp_node->left != nullptr) {
+               queue.push(temp_node->left);
+            }
+            if (temp_node->right != nullptr) {
+               queue.push(temp_node->right);
+            }
+         }
+      }
+   }
+
+   void delete_tree() {
+      root = nullptr;
+   }
+
 };
 
 int main() {
@@ -144,5 +246,9 @@ int main() {
    bt.insert_node("N8");
    bt.insert_node("N9");
    bt.level_order_traversal();
+
+   /* bt.delete_node("N1"); */
+   /* bt.delete_node("N10"); */
+   /* bt.level_order_traversal(); */
    return 0;
 }

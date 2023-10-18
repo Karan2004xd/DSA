@@ -4,7 +4,14 @@
 /* For the sake of simplicity we start inserting the elements for the index of 1
  * Formula used for accessing the index of the left node = (size of array) * 2
  * Formula used for accessing the index of the right node = (size of array) * 2 + 1
-*/
+ *
+ * Output of future refrence :
+ * Input : N1, N2, N3, N4, N5, N6, N7, N8, N9
+ * Pre-Order Traversal output : N1 N2 N4 N8 N9 N5 N3 N6 N7
+ * In-Order Traversal output: N8 N4 N9 N2 N5 N1 N6 N3 N7 
+ * Post-Order Traversal output: N8 N9 N4 N5 N2 N6 N7 N3 N1
+ * Level-Order Traversal output: N1 N2 N3 N4 N5 N6 N7 N8 N9
+ */
 
 struct BinaryTreeUsingArray {
    std::string *tree {nullptr};
