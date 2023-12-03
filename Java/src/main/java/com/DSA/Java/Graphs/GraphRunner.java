@@ -2,8 +2,7 @@ package com.DSA.Java.Graphs;
 
 import java.util.ArrayList;
 
-import com.DSA.Java.Graphs.BasicImplementation.AdjancencyList.Graph;
-import com.DSA.Java.Graphs.BasicImplementation.AdjancencyList.GraphNode;
+import com.DSA.Java.Graphs.Traversal.BFSAndDFS.AdjacencyList.*;
 
 public class GraphRunner {
   public static void main(String[] args) {
@@ -22,5 +21,7 @@ public class GraphRunner {
     g.undirectedEdge(2, 3);
     g.undirectedEdge(3, 4);
     System.out.println(g.toString());
+
+    g.dfs();
   }
 }
