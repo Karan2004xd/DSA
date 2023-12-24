@@ -1,0 +1,3 @@
+/home/karan/Documents/Code/DSA/C++/build/CMakeFiles/run.dir
+/home/karan/Documents/Code/DSA/C++/build/CMakeFiles/edit_cache.dir
+/home/karan/Documents/Code/DSA/C++/build/CMakeFiles/rebuild_cache.dir
