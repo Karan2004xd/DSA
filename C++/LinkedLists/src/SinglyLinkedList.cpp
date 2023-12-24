@@ -10,6 +10,7 @@ void SinglyLinkedList::traverse() const {
             }
             tempNode = tempNode->next;
         }
+        std::cout << "\n";
     } else {
         std::cout << "The linked List is empty" << std::endl;
     }
@@ -22,6 +23,7 @@ int SinglyLinkedList::search_element(int value) {
         Node *temp_node = head;
         for (int i = 0; i < size; i++) {
             if (temp_node->value == value) return i;
+            temp_node = temp_node->next;
         }
         std::cout << "The element was not found in the linked List" << std::endl;
     }
