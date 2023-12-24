@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles /home/karan/Documents/Code/DSA/C++/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/karan/Documents/Code/DSA/C++/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles /home/karan/Documents/Code/DSA/C++/build/LinkedLists//CMakeFiles/progress.marks
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LinkedLists/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LinkedLists/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,68 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LinkedLists/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LinkedLists/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/karan/Documents/Code/DSA/C++/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named runner
+# Convenience name for target.
+LinkedLists/CMakeFiles/list.dir/rule:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LinkedLists/CMakeFiles/list.dir/rule
+.PHONY : LinkedLists/CMakeFiles/list.dir/rule
 
-# Build rule for target.
-runner: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 runner
-.PHONY : runner
-
-# fast build rule for target.
-runner/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/build
-.PHONY : runner/fast
-
-#=============================================================================
-# Target rules for targets named list
-
-# Build rule for target.
-list: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 list
+# Convenience name for target.
+list: LinkedLists/CMakeFiles/list.dir/rule
 .PHONY : list
 
 # fast build rule for target.
 list/fast:
-	$(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/build
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/build
 .PHONY : list/fast
 
-Demo.o: Demo.cpp.o
-.PHONY : Demo.o
+src/SinglyLinkedList.o: src/SinglyLinkedList.cpp.o
+.PHONY : src/SinglyLinkedList.o
 
 # target to build an object file
-Demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/Demo.cpp.o
-.PHONY : Demo.cpp.o
+src/SinglyLinkedList.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/src/SinglyLinkedList.cpp.o
+.PHONY : src/SinglyLinkedList.cpp.o
 
-Demo.i: Demo.cpp.i
-.PHONY : Demo.i
+src/SinglyLinkedList.i: src/SinglyLinkedList.cpp.i
+.PHONY : src/SinglyLinkedList.i
 
 # target to preprocess a source file
-Demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/Demo.cpp.i
-.PHONY : Demo.cpp.i
+src/SinglyLinkedList.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/src/SinglyLinkedList.cpp.i
+.PHONY : src/SinglyLinkedList.cpp.i
 
-Demo.s: Demo.cpp.s
-.PHONY : Demo.s
+src/SinglyLinkedList.s: src/SinglyLinkedList.cpp.s
+.PHONY : src/SinglyLinkedList.s
 
 # target to generate assembly for a file
-Demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/Demo.cpp.s
-.PHONY : Demo.cpp.s
+src/SinglyLinkedList.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/src/SinglyLinkedList.cpp.s
+.PHONY : src/SinglyLinkedList.cpp.s
 
 # Help Target
 help:
@@ -175,10 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... list"
-	@echo "... runner"
-	@echo "... Demo.o"
-	@echo "... Demo.i"
-	@echo "... Demo.s"
+	@echo "... src/SinglyLinkedList.o"
+	@echo "... src/SinglyLinkedList.i"
+	@echo "... src/SinglyLinkedList.s"
 .PHONY : help
 
 
@@ -190,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/karan/Documents/Code/DSA/C++/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

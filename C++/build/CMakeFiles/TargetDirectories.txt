@@ -1,3 +1,6 @@
-/home/karan/Documents/Code/DSA/C++/build/CMakeFiles/run.dir
+/home/karan/Documents/Code/DSA/C++/build/CMakeFiles/runner.dir
 /home/karan/Documents/Code/DSA/C++/build/CMakeFiles/edit_cache.dir
 /home/karan/Documents/Code/DSA/C++/build/CMakeFiles/rebuild_cache.dir
+/home/karan/Documents/Code/DSA/C++/build/LinkedLists/CMakeFiles/list.dir
+/home/karan/Documents/Code/DSA/C++/build/LinkedLists/CMakeFiles/edit_cache.dir
+/home/karan/Documents/Code/DSA/C++/build/LinkedLists/CMakeFiles/rebuild_cache.dir

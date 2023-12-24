@@ -63,42 +63,85 @@ CMAKE_BINARY_DIR = /home/karan/Documents/Code/DSA/C++/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/run.dir/all
+all: CMakeFiles/runner.dir/all
+all: LinkedLists/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: LinkedLists/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/run.dir/clean
+clean: CMakeFiles/runner.dir/clean
+clean: LinkedLists/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/run.dir
+# Directory level rules for directory LinkedLists
+
+# Recursive "all" directory target.
+LinkedLists/all: LinkedLists/CMakeFiles/list.dir/all
+.PHONY : LinkedLists/all
+
+# Recursive "preinstall" directory target.
+LinkedLists/preinstall:
+.PHONY : LinkedLists/preinstall
+
+# Recursive "clean" directory target.
+LinkedLists/clean: LinkedLists/CMakeFiles/list.dir/clean
+.PHONY : LinkedLists/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/runner.dir
 
 # All Build rule for target.
-CMakeFiles/run.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=1,2,3 "Built target run"
-.PHONY : CMakeFiles/run.dir/all
+CMakeFiles/runner.dir/all: LinkedLists/CMakeFiles/list.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=3,4 "Built target runner"
+.PHONY : CMakeFiles/runner.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run.dir/all
+CMakeFiles/runner.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/runner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 0
-.PHONY : CMakeFiles/run.dir/rule
+.PHONY : CMakeFiles/runner.dir/rule
 
 # Convenience name for target.
-run: CMakeFiles/run.dir/rule
-.PHONY : run
+runner: CMakeFiles/runner.dir/rule
+.PHONY : runner
 
 # clean rule for target.
-CMakeFiles/run.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/clean
-.PHONY : CMakeFiles/run.dir/clean
+CMakeFiles/runner.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/clean
+.PHONY : CMakeFiles/runner.dir/clean
+
+#=============================================================================
+# Target rules for target LinkedLists/CMakeFiles/list.dir
+
+# All Build rule for target.
+LinkedLists/CMakeFiles/list.dir/all:
+	$(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/depend
+	$(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=1,2 "Built target list"
+.PHONY : LinkedLists/CMakeFiles/list.dir/all
+
+# Build rule for subdir invocation for target.
+LinkedLists/CMakeFiles/list.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LinkedLists/CMakeFiles/list.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 0
+.PHONY : LinkedLists/CMakeFiles/list.dir/rule
+
+# Convenience name for target.
+list: LinkedLists/CMakeFiles/list.dir/rule
+.PHONY : list
+
+# clean rule for target.
+LinkedLists/CMakeFiles/list.dir/clean:
+	$(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/clean
+.PHONY : LinkedLists/CMakeFiles/list.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

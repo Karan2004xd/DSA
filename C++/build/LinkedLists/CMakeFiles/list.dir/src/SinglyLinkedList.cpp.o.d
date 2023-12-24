@@ -1,7 +1,8 @@
-CMakeFiles/run.dir/main/src/LinkedLists/SinglyLinkedList.cpp.o: \
- /home/karan/Documents/Code/DSA/C++/main/src/LinkedLists/SinglyLinkedList.cpp \
+LinkedLists/CMakeFiles/list.dir/src/SinglyLinkedList.cpp.o: \
+ /home/karan/Documents/Code/DSA/C++/LinkedLists/src/SinglyLinkedList.cpp \
  /usr/include/stdc-predef.h \
- /home/karan/Documents/Code/DSA/C++/main/src/LinkedLists/../../include/LinkedLists/SinglyLinkedList.h \
+ /home/karan/Documents/Code/DSA/C++/LinkedLists/src/../include/SinglyLinkedList.h \
+ /home/karan/Documents/Code/DSA/C++/LinkedLists/src/../include/Node.h \
  /usr/include/c++/13.2.1/iostream \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -137,6 +138,4 @@ CMakeFiles/run.dir/main/src/LinkedLists/SinglyLinkedList.cpp.o: \
  /usr/include/c++/13.2.1/bits/locale_facets.tcc \
  /usr/include/c++/13.2.1/bits/basic_ios.tcc \
  /usr/include/c++/13.2.1/bits/ostream.tcc /usr/include/c++/13.2.1/istream \
- /usr/include/c++/13.2.1/bits/istream.tcc \
- /home/karan/Documents/Code/DSA/C++/main/src/LinkedLists/../../include/LinkedLists/Node.h \
- /home/karan/Documents/Code/DSA/C++/main/src/LinkedLists/../../include/LinkedLists/Node.h
+ /usr/include/c++/13.2.1/bits/istream.tcc

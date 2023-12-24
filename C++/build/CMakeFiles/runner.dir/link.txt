@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/runner.dir/Demo.cpp.o -o runner  LinkedLists/liblist.a 

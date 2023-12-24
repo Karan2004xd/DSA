@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/run.dir/main/src/Demo.cpp.o CMakeFiles/run.dir/main/src/LinkedLists/SinglyLinkedList.cpp.o -o run   -L/home/karan/Documents/Code/DSA/C++/main/include 
