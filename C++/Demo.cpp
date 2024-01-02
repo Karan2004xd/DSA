@@ -1,12 +1,17 @@
-#include "LinkedLists/include/SinglyLinkedList.h"
+#include "LinkedLists/include/DoublyLinkedList.h"
 
 int main() {
-    SinglyLinkedList ll;
-    ll.add_element(10, 5);
-    ll.add_element(20, 5);
-    ll.add_element(30, 5);
-    ll.add_element(40, 5);
-    ll.add_element(50, 5);
-    ll.traverse();
+    DoublyLinkedList dll;
+    dll.insert_value(10, 5);
+    dll.insert_value(20, 5);
+    dll.insert_value(30, 5);
+    dll.insert_value(40, 1);
+    dll.insert_value(50, 1);
+    dll.traverse_forward();
+    dll.traverse_backward();
+
+    /* dll.delete_value(30); */
+    dll.delete_dll();
+    dll.traverse_forward();
     return 0;
 }

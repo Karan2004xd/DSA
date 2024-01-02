@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/list.dir/src/DoublyLinkedList.cpp.o"
+  "CMakeFiles/list.dir/src/DoublyLinkedList.cpp.o.d"
+  "CMakeFiles/list.dir/src/SinglyCircularLL.cpp.o"
+  "CMakeFiles/list.dir/src/SinglyCircularLL.cpp.o.d"
   "CMakeFiles/list.dir/src/SinglyLinkedList.cpp.o"
   "CMakeFiles/list.dir/src/SinglyLinkedList.cpp.o.d"
   "liblist.a"

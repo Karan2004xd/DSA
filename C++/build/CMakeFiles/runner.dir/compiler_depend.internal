@@ -3,8 +3,8 @@
 
 CMakeFiles/runner.dir/Demo.cpp.o
  /home/karan/Documents/Code/DSA/C++/Demo.cpp
+ /home/karan/Documents/Code/DSA/C++/LinkedLists/include/DoublyLinkedList.h
  /home/karan/Documents/Code/DSA/C++/LinkedLists/include/Node.h
- /home/karan/Documents/Code/DSA/C++/LinkedLists/include/SinglyLinkedList.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

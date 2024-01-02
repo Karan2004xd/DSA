@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/karan/Documents/Code/DSA/C++/LinkedLists/src/DoublyLinkedList.cpp" "LinkedLists/CMakeFiles/list.dir/src/DoublyLinkedList.cpp.o" "gcc" "LinkedLists/CMakeFiles/list.dir/src/DoublyLinkedList.cpp.o.d"
+  "/home/karan/Documents/Code/DSA/C++/LinkedLists/src/SinglyCircularLL.cpp" "LinkedLists/CMakeFiles/list.dir/src/SinglyCircularLL.cpp.o" "gcc" "LinkedLists/CMakeFiles/list.dir/src/SinglyCircularLL.cpp.o.d"
   "/home/karan/Documents/Code/DSA/C++/LinkedLists/src/SinglyLinkedList.cpp" "LinkedLists/CMakeFiles/list.dir/src/SinglyLinkedList.cpp.o" "gcc" "LinkedLists/CMakeFiles/list.dir/src/SinglyLinkedList.cpp.o.d"
   )
 

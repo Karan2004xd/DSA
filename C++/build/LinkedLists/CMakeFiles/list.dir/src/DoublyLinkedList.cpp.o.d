@@ -1,7 +1,8 @@
-CMakeFiles/runner.dir/Demo.cpp.o: \
- /home/karan/Documents/Code/DSA/C++/Demo.cpp /usr/include/stdc-predef.h \
- /home/karan/Documents/Code/DSA/C++/LinkedLists/include/DoublyLinkedList.h \
- /home/karan/Documents/Code/DSA/C++/LinkedLists/include/Node.h \
+LinkedLists/CMakeFiles/list.dir/src/DoublyLinkedList.cpp.o: \
+ /home/karan/Documents/Code/DSA/C++/LinkedLists/src/DoublyLinkedList.cpp \
+ /usr/include/stdc-predef.h \
+ /home/karan/Documents/Code/DSA/C++/LinkedLists/src/../include/DoublyLinkedList.h \
+ /home/karan/Documents/Code/DSA/C++/LinkedLists/src/../include/Node.h \
  /usr/include/c++/13.2.1/iostream \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \

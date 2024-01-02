@@ -83,17 +83,49 @@ LinkedLists/CMakeFiles/list.dir/src/SinglyLinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/list.dir/src/SinglyLinkedList.cpp.s"
 	cd /home/karan/Documents/Code/DSA/C++/build/LinkedLists && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/LinkedLists/src/SinglyLinkedList.cpp -o CMakeFiles/list.dir/src/SinglyLinkedList.cpp.s
 
+LinkedLists/CMakeFiles/list.dir/src/SinglyCircularLL.cpp.o: LinkedLists/CMakeFiles/list.dir/flags.make
+LinkedLists/CMakeFiles/list.dir/src/SinglyCircularLL.cpp.o: /home/karan/Documents/Code/DSA/C++/LinkedLists/src/SinglyCircularLL.cpp
+LinkedLists/CMakeFiles/list.dir/src/SinglyCircularLL.cpp.o: LinkedLists/CMakeFiles/list.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object LinkedLists/CMakeFiles/list.dir/src/SinglyCircularLL.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/LinkedLists && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT LinkedLists/CMakeFiles/list.dir/src/SinglyCircularLL.cpp.o -MF CMakeFiles/list.dir/src/SinglyCircularLL.cpp.o.d -o CMakeFiles/list.dir/src/SinglyCircularLL.cpp.o -c /home/karan/Documents/Code/DSA/C++/LinkedLists/src/SinglyCircularLL.cpp
+
+LinkedLists/CMakeFiles/list.dir/src/SinglyCircularLL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/list.dir/src/SinglyCircularLL.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/LinkedLists && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/LinkedLists/src/SinglyCircularLL.cpp > CMakeFiles/list.dir/src/SinglyCircularLL.cpp.i
+
+LinkedLists/CMakeFiles/list.dir/src/SinglyCircularLL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/list.dir/src/SinglyCircularLL.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/LinkedLists && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/LinkedLists/src/SinglyCircularLL.cpp -o CMakeFiles/list.dir/src/SinglyCircularLL.cpp.s
+
+LinkedLists/CMakeFiles/list.dir/src/DoublyLinkedList.cpp.o: LinkedLists/CMakeFiles/list.dir/flags.make
+LinkedLists/CMakeFiles/list.dir/src/DoublyLinkedList.cpp.o: /home/karan/Documents/Code/DSA/C++/LinkedLists/src/DoublyLinkedList.cpp
+LinkedLists/CMakeFiles/list.dir/src/DoublyLinkedList.cpp.o: LinkedLists/CMakeFiles/list.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object LinkedLists/CMakeFiles/list.dir/src/DoublyLinkedList.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/LinkedLists && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT LinkedLists/CMakeFiles/list.dir/src/DoublyLinkedList.cpp.o -MF CMakeFiles/list.dir/src/DoublyLinkedList.cpp.o.d -o CMakeFiles/list.dir/src/DoublyLinkedList.cpp.o -c /home/karan/Documents/Code/DSA/C++/LinkedLists/src/DoublyLinkedList.cpp
+
+LinkedLists/CMakeFiles/list.dir/src/DoublyLinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/list.dir/src/DoublyLinkedList.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/LinkedLists && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/LinkedLists/src/DoublyLinkedList.cpp > CMakeFiles/list.dir/src/DoublyLinkedList.cpp.i
+
+LinkedLists/CMakeFiles/list.dir/src/DoublyLinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/list.dir/src/DoublyLinkedList.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/LinkedLists && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/LinkedLists/src/DoublyLinkedList.cpp -o CMakeFiles/list.dir/src/DoublyLinkedList.cpp.s
+
 # Object files for target list
 list_OBJECTS = \
-"CMakeFiles/list.dir/src/SinglyLinkedList.cpp.o"
+"CMakeFiles/list.dir/src/SinglyLinkedList.cpp.o" \
+"CMakeFiles/list.dir/src/SinglyCircularLL.cpp.o" \
+"CMakeFiles/list.dir/src/DoublyLinkedList.cpp.o"
 
 # External object files for target list
 list_EXTERNAL_OBJECTS =
 
 LinkedLists/liblist.a: LinkedLists/CMakeFiles/list.dir/src/SinglyLinkedList.cpp.o
+LinkedLists/liblist.a: LinkedLists/CMakeFiles/list.dir/src/SinglyCircularLL.cpp.o
+LinkedLists/liblist.a: LinkedLists/CMakeFiles/list.dir/src/DoublyLinkedList.cpp.o
 LinkedLists/liblist.a: LinkedLists/CMakeFiles/list.dir/build.make
 LinkedLists/liblist.a: LinkedLists/CMakeFiles/list.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblist.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library liblist.a"
 	cd /home/karan/Documents/Code/DSA/C++/build/LinkedLists && $(CMAKE_COMMAND) -P CMakeFiles/list.dir/cmake_clean_target.cmake
 	cd /home/karan/Documents/Code/DSA/C++/build/LinkedLists && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/list.dir/link.txt --verbose=$(VERBOSE)
 
