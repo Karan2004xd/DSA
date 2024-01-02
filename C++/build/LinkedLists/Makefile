@@ -130,6 +130,30 @@ list/fast:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/build
 .PHONY : list/fast
 
+src/DoublyCircularLL.o: src/DoublyCircularLL.cpp.o
+.PHONY : src/DoublyCircularLL.o
+
+# target to build an object file
+src/DoublyCircularLL.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/src/DoublyCircularLL.cpp.o
+.PHONY : src/DoublyCircularLL.cpp.o
+
+src/DoublyCircularLL.i: src/DoublyCircularLL.cpp.i
+.PHONY : src/DoublyCircularLL.i
+
+# target to preprocess a source file
+src/DoublyCircularLL.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/src/DoublyCircularLL.cpp.i
+.PHONY : src/DoublyCircularLL.cpp.i
+
+src/DoublyCircularLL.s: src/DoublyCircularLL.cpp.s
+.PHONY : src/DoublyCircularLL.s
+
+# target to generate assembly for a file
+src/DoublyCircularLL.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/src/DoublyCircularLL.cpp.s
+.PHONY : src/DoublyCircularLL.cpp.s
+
 src/DoublyLinkedList.o: src/DoublyLinkedList.cpp.o
 .PHONY : src/DoublyLinkedList.o
 
@@ -211,6 +235,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... list"
+	@echo "... src/DoublyCircularLL.o"
+	@echo "... src/DoublyCircularLL.i"
+	@echo "... src/DoublyCircularLL.s"
 	@echo "... src/DoublyLinkedList.o"
 	@echo "... src/DoublyLinkedList.i"
 	@echo "... src/DoublyLinkedList.s"

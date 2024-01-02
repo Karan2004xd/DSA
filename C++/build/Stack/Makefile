@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles /home/karan/Documents/Code/DSA/C++/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/karan/Documents/Code/DSA/C++/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles /home/karan/Documents/Code/DSA/C++/build/Stack//CMakeFiles/progress.marks
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Stack/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Stack/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,81 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Stack/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Stack/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/karan/Documents/Code/DSA/C++/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named runner
+# Convenience name for target.
+Stack/CMakeFiles/stack.dir/rule:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Stack/CMakeFiles/stack.dir/rule
+.PHONY : Stack/CMakeFiles/stack.dir/rule
 
-# Build rule for target.
-runner: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 runner
-.PHONY : runner
-
-# fast build rule for target.
-runner/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/build
-.PHONY : runner/fast
-
-#=============================================================================
-# Target rules for targets named list
-
-# Build rule for target.
-list: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 list
-.PHONY : list
-
-# fast build rule for target.
-list/fast:
-	$(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/build
-.PHONY : list/fast
-
-#=============================================================================
-# Target rules for targets named stack
-
-# Build rule for target.
-stack: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stack
+# Convenience name for target.
+stack: Stack/CMakeFiles/stack.dir/rule
 .PHONY : stack
 
 # fast build rule for target.
 stack/fast:
-	$(MAKE) $(MAKESILENT) -f Stack/CMakeFiles/stack.dir/build.make Stack/CMakeFiles/stack.dir/build
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Stack/CMakeFiles/stack.dir/build.make Stack/CMakeFiles/stack.dir/build
 .PHONY : stack/fast
 
-Demo.o: Demo.cpp.o
-.PHONY : Demo.o
+src/StackUsingArray.o: src/StackUsingArray.cpp.o
+.PHONY : src/StackUsingArray.o
 
 # target to build an object file
-Demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/Demo.cpp.o
-.PHONY : Demo.cpp.o
+src/StackUsingArray.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Stack/CMakeFiles/stack.dir/build.make Stack/CMakeFiles/stack.dir/src/StackUsingArray.cpp.o
+.PHONY : src/StackUsingArray.cpp.o
 
-Demo.i: Demo.cpp.i
-.PHONY : Demo.i
+src/StackUsingArray.i: src/StackUsingArray.cpp.i
+.PHONY : src/StackUsingArray.i
 
 # target to preprocess a source file
-Demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/Demo.cpp.i
-.PHONY : Demo.cpp.i
+src/StackUsingArray.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Stack/CMakeFiles/stack.dir/build.make Stack/CMakeFiles/stack.dir/src/StackUsingArray.cpp.i
+.PHONY : src/StackUsingArray.cpp.i
 
-Demo.s: Demo.cpp.s
-.PHONY : Demo.s
+src/StackUsingArray.s: src/StackUsingArray.cpp.s
+.PHONY : src/StackUsingArray.s
 
 # target to generate assembly for a file
-Demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/Demo.cpp.s
-.PHONY : Demo.cpp.s
+src/StackUsingArray.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Stack/CMakeFiles/stack.dir/build.make Stack/CMakeFiles/stack.dir/src/StackUsingArray.cpp.s
+.PHONY : src/StackUsingArray.cpp.s
 
 # Help Target
 help:
@@ -187,12 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... list"
-	@echo "... runner"
 	@echo "... stack"
-	@echo "... Demo.o"
-	@echo "... Demo.i"
-	@echo "... Demo.s"
+	@echo "... src/StackUsingArray.o"
+	@echo "... src/StackUsingArray.i"
+	@echo "... src/StackUsingArray.s"
 .PHONY : help
 
 
@@ -204,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/karan/Documents/Code/DSA/C++/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

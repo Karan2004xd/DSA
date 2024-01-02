@@ -1,17 +1,16 @@
-#include "LinkedLists/include/DoublyLinkedList.h"
+#include "LinkedLists/include/DoublyCircularLL.h"
 
 int main() {
-    DoublyLinkedList dll;
-    dll.insert_value(10, 5);
-    dll.insert_value(20, 5);
-    dll.insert_value(30, 5);
+    DoublyCircularLL dll;
+    dll.insert_value(10, 0);
+    dll.insert_value(20, 0);
+    dll.insert_value(30, 0);
     dll.insert_value(40, 1);
     dll.insert_value(50, 1);
-    dll.traverse_forward();
-    dll.traverse_backward();
+    dll.traverse();
 
     /* dll.delete_value(30); */
-    dll.delete_dll();
-    dll.traverse_forward();
+    /* dll.delete_dll(); */
+    /* dll.traverse(); */
     return 0;
 }

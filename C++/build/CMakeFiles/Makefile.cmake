@@ -9,6 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/home/karan/Documents/Code/DSA/C++/CMakeLists.txt"
   "/home/karan/Documents/Code/DSA/C++/LinkedLists/CMakeLists.txt"
+  "/home/karan/Documents/Code/DSA/C++/Stack/CMakeLists.txt"
   "CMakeFiles/3.28.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeSystem.cmake"
@@ -42,10 +43,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "LinkedLists/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Stack/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/runner.dir/DependInfo.cmake"
   "LinkedLists/CMakeFiles/list.dir/DependInfo.cmake"
+  "Stack/CMakeFiles/stack.dir/DependInfo.cmake"
   )
