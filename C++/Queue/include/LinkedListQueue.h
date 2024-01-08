@@ -1,10 +1,10 @@
-#ifndef CIRCULAR_ARRAY_QUEUE_H_
-#define CIRCULAR_ARRAY_QUEUE_H_
-#include <iostream>
+#ifndef LINKED_LIST_QUEUE_H_
+#define LINKED_LIST_QUEUE_H_
+#include "../../LinkedLists/include/SinglyLinkedList.h"
 
 // Test Cases
 
-    /* CircularArrayQueue queue {5}; */
+    /* LinkedListQueue queue; */
     /* queue.en_queue(5); */
     /* queue.en_queue(10); */
     /* queue.en_queue(15); */
@@ -15,29 +15,18 @@
     /* std::cout << queue.de_queue() << std::endl; */
     /* std::cout << queue.peek() << std::endl; */
 
-    /* queue.en_queue(30); */
-    /* std::cout << queue.peek() << std::endl; */
-
     /* queue.delete_queue(); */
     /* std::cout << queue.peek() << std::endl; */
 
-class CircularArrayQueue {
+class LinkedListQueue {
 public:
-    CircularArrayQueue(int size);
-
+    LinkedListQueue() {}
     bool is_empty() const;
-    bool is_full() const;
-
-    int peek() const;
-    int de_queue();
-
     void en_queue(int value);
+    int de_queue();
+    int peek() const;
     void delete_queue();
-
-    ~CircularArrayQueue();
 private:
-    int size;
-    int *queue {nullptr};
-    int start_of_queue, end_of_queue;
+    SinglyLinkedList sll;
 };
-#endif // CIRCULAR_ARRAY_QUEUE_H_
+#endif // LINKED_LIST_QUEUE_H_

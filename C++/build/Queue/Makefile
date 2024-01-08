@@ -154,6 +154,54 @@ src/ArrayQueue.cpp.s:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Queue/CMakeFiles/queue.dir/build.make Queue/CMakeFiles/queue.dir/src/ArrayQueue.cpp.s
 .PHONY : src/ArrayQueue.cpp.s
 
+src/CircularArrayQueue.o: src/CircularArrayQueue.cpp.o
+.PHONY : src/CircularArrayQueue.o
+
+# target to build an object file
+src/CircularArrayQueue.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Queue/CMakeFiles/queue.dir/build.make Queue/CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.o
+.PHONY : src/CircularArrayQueue.cpp.o
+
+src/CircularArrayQueue.i: src/CircularArrayQueue.cpp.i
+.PHONY : src/CircularArrayQueue.i
+
+# target to preprocess a source file
+src/CircularArrayQueue.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Queue/CMakeFiles/queue.dir/build.make Queue/CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.i
+.PHONY : src/CircularArrayQueue.cpp.i
+
+src/CircularArrayQueue.s: src/CircularArrayQueue.cpp.s
+.PHONY : src/CircularArrayQueue.s
+
+# target to generate assembly for a file
+src/CircularArrayQueue.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Queue/CMakeFiles/queue.dir/build.make Queue/CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.s
+.PHONY : src/CircularArrayQueue.cpp.s
+
+src/LinkedListQueue.o: src/LinkedListQueue.cpp.o
+.PHONY : src/LinkedListQueue.o
+
+# target to build an object file
+src/LinkedListQueue.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Queue/CMakeFiles/queue.dir/build.make Queue/CMakeFiles/queue.dir/src/LinkedListQueue.cpp.o
+.PHONY : src/LinkedListQueue.cpp.o
+
+src/LinkedListQueue.i: src/LinkedListQueue.cpp.i
+.PHONY : src/LinkedListQueue.i
+
+# target to preprocess a source file
+src/LinkedListQueue.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Queue/CMakeFiles/queue.dir/build.make Queue/CMakeFiles/queue.dir/src/LinkedListQueue.cpp.i
+.PHONY : src/LinkedListQueue.cpp.i
+
+src/LinkedListQueue.s: src/LinkedListQueue.cpp.s
+.PHONY : src/LinkedListQueue.s
+
+# target to generate assembly for a file
+src/LinkedListQueue.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Queue/CMakeFiles/queue.dir/build.make Queue/CMakeFiles/queue.dir/src/LinkedListQueue.cpp.s
+.PHONY : src/LinkedListQueue.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,6 +214,12 @@ help:
 	@echo "... src/ArrayQueue.o"
 	@echo "... src/ArrayQueue.i"
 	@echo "... src/ArrayQueue.s"
+	@echo "... src/CircularArrayQueue.o"
+	@echo "... src/CircularArrayQueue.i"
+	@echo "... src/CircularArrayQueue.s"
+	@echo "... src/LinkedListQueue.o"
+	@echo "... src/LinkedListQueue.i"
+	@echo "... src/LinkedListQueue.s"
 .PHONY : help
 
 

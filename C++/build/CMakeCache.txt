@@ -248,6 +248,9 @@ queue_BINARY_DIR:STATIC=/home/karan/Documents/Code/DSA/C++/build/Queue
 //Value Computed by CMake
 queue_IS_TOP_LEVEL:STATIC=OFF
 
+//Dependencies for the target
+queue_LIB_DEPENDS:STATIC=general;list;
+
 //Value Computed by CMake
 queue_SOURCE_DIR:STATIC=/home/karan/Documents/Code/DSA/C++/Queue
 

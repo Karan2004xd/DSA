@@ -83,17 +83,49 @@ Queue/CMakeFiles/queue.dir/src/ArrayQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/queue.dir/src/ArrayQueue.cpp.s"
 	cd /home/karan/Documents/Code/DSA/C++/build/Queue && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Queue/src/ArrayQueue.cpp -o CMakeFiles/queue.dir/src/ArrayQueue.cpp.s
 
+Queue/CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.o: Queue/CMakeFiles/queue.dir/flags.make
+Queue/CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.o: /home/karan/Documents/Code/DSA/C++/Queue/src/CircularArrayQueue.cpp
+Queue/CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.o: Queue/CMakeFiles/queue.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Queue/CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Queue && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Queue/CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.o -MF CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.o.d -o CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.o -c /home/karan/Documents/Code/DSA/C++/Queue/src/CircularArrayQueue.cpp
+
+Queue/CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Queue && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Queue/src/CircularArrayQueue.cpp > CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.i
+
+Queue/CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Queue && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Queue/src/CircularArrayQueue.cpp -o CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.s
+
+Queue/CMakeFiles/queue.dir/src/LinkedListQueue.cpp.o: Queue/CMakeFiles/queue.dir/flags.make
+Queue/CMakeFiles/queue.dir/src/LinkedListQueue.cpp.o: /home/karan/Documents/Code/DSA/C++/Queue/src/LinkedListQueue.cpp
+Queue/CMakeFiles/queue.dir/src/LinkedListQueue.cpp.o: Queue/CMakeFiles/queue.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Queue/CMakeFiles/queue.dir/src/LinkedListQueue.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Queue && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Queue/CMakeFiles/queue.dir/src/LinkedListQueue.cpp.o -MF CMakeFiles/queue.dir/src/LinkedListQueue.cpp.o.d -o CMakeFiles/queue.dir/src/LinkedListQueue.cpp.o -c /home/karan/Documents/Code/DSA/C++/Queue/src/LinkedListQueue.cpp
+
+Queue/CMakeFiles/queue.dir/src/LinkedListQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/queue.dir/src/LinkedListQueue.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Queue && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Queue/src/LinkedListQueue.cpp > CMakeFiles/queue.dir/src/LinkedListQueue.cpp.i
+
+Queue/CMakeFiles/queue.dir/src/LinkedListQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/queue.dir/src/LinkedListQueue.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Queue && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Queue/src/LinkedListQueue.cpp -o CMakeFiles/queue.dir/src/LinkedListQueue.cpp.s
+
 # Object files for target queue
 queue_OBJECTS = \
-"CMakeFiles/queue.dir/src/ArrayQueue.cpp.o"
+"CMakeFiles/queue.dir/src/ArrayQueue.cpp.o" \
+"CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.o" \
+"CMakeFiles/queue.dir/src/LinkedListQueue.cpp.o"
 
 # External object files for target queue
 queue_EXTERNAL_OBJECTS =
 
 Queue/libqueue.a: Queue/CMakeFiles/queue.dir/src/ArrayQueue.cpp.o
+Queue/libqueue.a: Queue/CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.o
+Queue/libqueue.a: Queue/CMakeFiles/queue.dir/src/LinkedListQueue.cpp.o
 Queue/libqueue.a: Queue/CMakeFiles/queue.dir/build.make
 Queue/libqueue.a: Queue/CMakeFiles/queue.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libqueue.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libqueue.a"
 	cd /home/karan/Documents/Code/DSA/C++/build/Queue && $(CMAKE_COMMAND) -P CMakeFiles/queue.dir/cmake_clean_target.cmake
 	cd /home/karan/Documents/Code/DSA/C++/build/Queue && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/queue.dir/link.txt --verbose=$(VERBOSE)
 

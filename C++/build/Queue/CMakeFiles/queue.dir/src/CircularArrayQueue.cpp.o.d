@@ -1,8 +1,7 @@
-CMakeFiles/runner.dir/Demo.cpp.o: \
- /home/karan/Documents/Code/DSA/C++/Demo.cpp /usr/include/stdc-predef.h \
- /home/karan/Documents/Code/DSA/C++/Queue/include/LinkedListQueue.h \
- /home/karan/Documents/Code/DSA/C++/Queue/include/../../LinkedLists/include/SinglyLinkedList.h \
- /home/karan/Documents/Code/DSA/C++/Queue/include/../../LinkedLists/include/Node.h \
+Queue/CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.o: \
+ /home/karan/Documents/Code/DSA/C++/Queue/src/CircularArrayQueue.cpp \
+ /usr/include/stdc-predef.h \
+ /home/karan/Documents/Code/DSA/C++/Queue/src/../include/CircularArrayQueue.h \
  /usr/include/c++/13.2.1/iostream \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
