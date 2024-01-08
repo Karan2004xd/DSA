@@ -66,17 +66,20 @@ CMAKE_BINARY_DIR = /home/karan/Documents/Code/DSA/C++/build
 all: CMakeFiles/runner.dir/all
 all: LinkedLists/all
 all: Stack/all
+all: Queue/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: LinkedLists/preinstall
 preinstall: Stack/preinstall
+preinstall: Queue/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/runner.dir/clean
 clean: LinkedLists/clean
 clean: Stack/clean
+clean: Queue/clean
 .PHONY : clean
 
 #=============================================================================
@@ -93,6 +96,21 @@ LinkedLists/preinstall:
 # Recursive "clean" directory target.
 LinkedLists/clean: LinkedLists/CMakeFiles/list.dir/clean
 .PHONY : LinkedLists/clean
+
+#=============================================================================
+# Directory level rules for directory Queue
+
+# Recursive "all" directory target.
+Queue/all: Queue/CMakeFiles/queue.dir/all
+.PHONY : Queue/all
+
+# Recursive "preinstall" directory target.
+Queue/preinstall:
+.PHONY : Queue/preinstall
+
+# Recursive "clean" directory target.
+Queue/clean: Queue/CMakeFiles/queue.dir/clean
+.PHONY : Queue/clean
 
 #=============================================================================
 # Directory level rules for directory Stack
@@ -113,16 +131,15 @@ Stack/clean: Stack/CMakeFiles/stack.dir/clean
 # Target rules for target CMakeFiles/runner.dir
 
 # All Build rule for target.
-CMakeFiles/runner.dir/all: LinkedLists/CMakeFiles/list.dir/all
-CMakeFiles/runner.dir/all: Stack/CMakeFiles/stack.dir/all
+CMakeFiles/runner.dir/all: Queue/CMakeFiles/queue.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=6,7 "Built target runner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=8,9 "Built target runner"
 .PHONY : CMakeFiles/runner.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/runner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/runner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 0
 .PHONY : CMakeFiles/runner.dir/rule
@@ -166,15 +183,15 @@ LinkedLists/CMakeFiles/list.dir/clean:
 # Target rules for target Stack/CMakeFiles/stack.dir
 
 # All Build rule for target.
-Stack/CMakeFiles/stack.dir/all:
+Stack/CMakeFiles/stack.dir/all: LinkedLists/CMakeFiles/list.dir/all
 	$(MAKE) $(MAKESILENT) -f Stack/CMakeFiles/stack.dir/build.make Stack/CMakeFiles/stack.dir/depend
 	$(MAKE) $(MAKESILENT) -f Stack/CMakeFiles/stack.dir/build.make Stack/CMakeFiles/stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=8,9 "Built target stack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=10,11,12 "Built target stack"
 .PHONY : Stack/CMakeFiles/stack.dir/all
 
 # Build rule for subdir invocation for target.
 Stack/CMakeFiles/stack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Stack/CMakeFiles/stack.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 0
 .PHONY : Stack/CMakeFiles/stack.dir/rule
@@ -187,6 +204,32 @@ stack: Stack/CMakeFiles/stack.dir/rule
 Stack/CMakeFiles/stack.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Stack/CMakeFiles/stack.dir/build.make Stack/CMakeFiles/stack.dir/clean
 .PHONY : Stack/CMakeFiles/stack.dir/clean
+
+#=============================================================================
+# Target rules for target Queue/CMakeFiles/queue.dir
+
+# All Build rule for target.
+Queue/CMakeFiles/queue.dir/all:
+	$(MAKE) $(MAKESILENT) -f Queue/CMakeFiles/queue.dir/build.make Queue/CMakeFiles/queue.dir/depend
+	$(MAKE) $(MAKESILENT) -f Queue/CMakeFiles/queue.dir/build.make Queue/CMakeFiles/queue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=6,7 "Built target queue"
+.PHONY : Queue/CMakeFiles/queue.dir/all
+
+# Build rule for subdir invocation for target.
+Queue/CMakeFiles/queue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Queue/CMakeFiles/queue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 0
+.PHONY : Queue/CMakeFiles/queue.dir/rule
+
+# Convenience name for target.
+queue: Queue/CMakeFiles/queue.dir/rule
+.PHONY : queue
+
+# clean rule for target.
+Queue/CMakeFiles/queue.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Queue/CMakeFiles/queue.dir/build.make Queue/CMakeFiles/queue.dir/clean
+.PHONY : Queue/CMakeFiles/queue.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

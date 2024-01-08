@@ -83,17 +83,33 @@ Stack/CMakeFiles/stack.dir/src/StackUsingArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stack.dir/src/StackUsingArray.cpp.s"
 	cd /home/karan/Documents/Code/DSA/C++/build/Stack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Stack/src/StackUsingArray.cpp -o CMakeFiles/stack.dir/src/StackUsingArray.cpp.s
 
+Stack/CMakeFiles/stack.dir/src/StackUsingLL.cpp.o: Stack/CMakeFiles/stack.dir/flags.make
+Stack/CMakeFiles/stack.dir/src/StackUsingLL.cpp.o: /home/karan/Documents/Code/DSA/C++/Stack/src/StackUsingLL.cpp
+Stack/CMakeFiles/stack.dir/src/StackUsingLL.cpp.o: Stack/CMakeFiles/stack.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Stack/CMakeFiles/stack.dir/src/StackUsingLL.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Stack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Stack/CMakeFiles/stack.dir/src/StackUsingLL.cpp.o -MF CMakeFiles/stack.dir/src/StackUsingLL.cpp.o.d -o CMakeFiles/stack.dir/src/StackUsingLL.cpp.o -c /home/karan/Documents/Code/DSA/C++/Stack/src/StackUsingLL.cpp
+
+Stack/CMakeFiles/stack.dir/src/StackUsingLL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stack.dir/src/StackUsingLL.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Stack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Stack/src/StackUsingLL.cpp > CMakeFiles/stack.dir/src/StackUsingLL.cpp.i
+
+Stack/CMakeFiles/stack.dir/src/StackUsingLL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stack.dir/src/StackUsingLL.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Stack && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Stack/src/StackUsingLL.cpp -o CMakeFiles/stack.dir/src/StackUsingLL.cpp.s
+
 # Object files for target stack
 stack_OBJECTS = \
-"CMakeFiles/stack.dir/src/StackUsingArray.cpp.o"
+"CMakeFiles/stack.dir/src/StackUsingArray.cpp.o" \
+"CMakeFiles/stack.dir/src/StackUsingLL.cpp.o"
 
 # External object files for target stack
 stack_EXTERNAL_OBJECTS =
 
 Stack/libstack.a: Stack/CMakeFiles/stack.dir/src/StackUsingArray.cpp.o
+Stack/libstack.a: Stack/CMakeFiles/stack.dir/src/StackUsingLL.cpp.o
 Stack/libstack.a: Stack/CMakeFiles/stack.dir/build.make
 Stack/libstack.a: Stack/CMakeFiles/stack.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libstack.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libstack.a"
 	cd /home/karan/Documents/Code/DSA/C++/build/Stack && $(CMAKE_COMMAND) -P CMakeFiles/stack.dir/cmake_clean_target.cmake
 	cd /home/karan/Documents/Code/DSA/C++/build/Stack && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stack.dir/link.txt --verbose=$(VERBOSE)
 

@@ -46,6 +46,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/karan/Documents/Code/DSA/C++/build/LinkedLists/cmake_install.cmake")
   include("/home/karan/Documents/Code/DSA/C++/build/Stack/cmake_install.cmake")
+  include("/home/karan/Documents/Code/DSA/C++/build/Queue/cmake_install.cmake")
 
 endif()
 

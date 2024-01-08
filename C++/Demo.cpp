@@ -1,16 +1,18 @@
-#include "LinkedLists/include/DoublyCircularLL.h"
+#include "Queue/include/ArrayQueue.h"
 
 int main() {
-    DoublyCircularLL dll;
-    dll.insert_value(10, 0);
-    dll.insert_value(20, 0);
-    dll.insert_value(30, 0);
-    dll.insert_value(40, 1);
-    dll.insert_value(50, 1);
-    dll.traverse();
+    ArrayQueue queue {5};
+    queue.en_queue(5);
+    queue.en_queue(10);
+    queue.en_queue(15);
+    queue.en_queue(20);
+    queue.en_queue(25);
 
-    /* dll.delete_value(30); */
-    /* dll.delete_dll(); */
-    /* dll.traverse(); */
+    std::cout << queue.peek() << std::endl;
+    std::cout << queue.de_queue() << std::endl;
+    std::cout << queue.peek() << std::endl;
+
+    queue.delete_queue();
+    std::cout << queue.peek() << std::endl;
     return 0;
 }

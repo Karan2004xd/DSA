@@ -155,6 +155,19 @@ stack/fast:
 	$(MAKE) $(MAKESILENT) -f Stack/CMakeFiles/stack.dir/build.make Stack/CMakeFiles/stack.dir/build
 .PHONY : stack/fast
 
+#=============================================================================
+# Target rules for targets named queue
+
+# Build rule for target.
+queue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 queue
+.PHONY : queue
+
+# fast build rule for target.
+queue/fast:
+	$(MAKE) $(MAKESILENT) -f Queue/CMakeFiles/queue.dir/build.make Queue/CMakeFiles/queue.dir/build
+.PHONY : queue/fast
+
 Demo.o: Demo.cpp.o
 .PHONY : Demo.o
 
@@ -188,6 +201,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... list"
+	@echo "... queue"
 	@echo "... runner"
 	@echo "... stack"
 	@echo "... Demo.o"

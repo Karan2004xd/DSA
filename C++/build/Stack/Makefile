@@ -154,6 +154,30 @@ src/StackUsingArray.cpp.s:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Stack/CMakeFiles/stack.dir/build.make Stack/CMakeFiles/stack.dir/src/StackUsingArray.cpp.s
 .PHONY : src/StackUsingArray.cpp.s
 
+src/StackUsingLL.o: src/StackUsingLL.cpp.o
+.PHONY : src/StackUsingLL.o
+
+# target to build an object file
+src/StackUsingLL.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Stack/CMakeFiles/stack.dir/build.make Stack/CMakeFiles/stack.dir/src/StackUsingLL.cpp.o
+.PHONY : src/StackUsingLL.cpp.o
+
+src/StackUsingLL.i: src/StackUsingLL.cpp.i
+.PHONY : src/StackUsingLL.i
+
+# target to preprocess a source file
+src/StackUsingLL.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Stack/CMakeFiles/stack.dir/build.make Stack/CMakeFiles/stack.dir/src/StackUsingLL.cpp.i
+.PHONY : src/StackUsingLL.cpp.i
+
+src/StackUsingLL.s: src/StackUsingLL.cpp.s
+.PHONY : src/StackUsingLL.s
+
+# target to generate assembly for a file
+src/StackUsingLL.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Stack/CMakeFiles/stack.dir/build.make Stack/CMakeFiles/stack.dir/src/StackUsingLL.cpp.s
+.PHONY : src/StackUsingLL.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,6 +190,9 @@ help:
 	@echo "... src/StackUsingArray.o"
 	@echo "... src/StackUsingArray.i"
 	@echo "... src/StackUsingArray.s"
+	@echo "... src/StackUsingLL.o"
+	@echo "... src/StackUsingLL.i"
+	@echo "... src/StackUsingLL.s"
 .PHONY : help
 
 

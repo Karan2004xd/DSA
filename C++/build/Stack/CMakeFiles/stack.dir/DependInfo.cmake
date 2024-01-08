@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/karan/Documents/Code/DSA/C++/Stack/src/StackUsingArray.cpp" "Stack/CMakeFiles/stack.dir/src/StackUsingArray.cpp.o" "gcc" "Stack/CMakeFiles/stack.dir/src/StackUsingArray.cpp.o.d"
+  "/home/karan/Documents/Code/DSA/C++/Stack/src/StackUsingLL.cpp" "Stack/CMakeFiles/stack.dir/src/StackUsingLL.cpp.o" "gcc" "Stack/CMakeFiles/stack.dir/src/StackUsingLL.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

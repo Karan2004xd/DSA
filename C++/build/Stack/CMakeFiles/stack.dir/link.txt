@@ -1,2 +1,2 @@
-/usr/bin/ar qc libstack.a CMakeFiles/stack.dir/src/StackUsingArray.cpp.o
+/usr/bin/ar qc libstack.a CMakeFiles/stack.dir/src/StackUsingArray.cpp.o CMakeFiles/stack.dir/src/StackUsingLL.cpp.o
 /usr/bin/ranlib libstack.a
