@@ -51,7 +51,7 @@ public class CircularArrayQueue {
       }
       int result = arr[startOfQueue];
       startOfQueue++;
-      if (startOfQueue == endOfQueue) {
+      if (startOfQueue > endOfQueue) {
          startOfQueue = endOfQueue = -1;
       } else if (startOfQueue == arr.length - 1) {
          startOfQueue = 0;
