@@ -4,6 +4,7 @@ project("Data Structure and Algorithm in C++")
 add_subdirectory("./LinkedLists")
 add_subdirectory("./Stack")
 add_subdirectory("./Queue")
+add_subdirectory("./Tree")
 
 add_executable(runner "./Demo.cpp")
 
@@ -14,4 +15,7 @@ add_executable(runner "./Demo.cpp")
 # target_link_libraries(runner PRIVATE stack)
 
 # Queue
-target_link_libraries(runner PRIVATE queue)
+# target_link_libraries(runner PRIVATE queue)
+
+# Tree
+target_link_libraries(runner PRIVATE tree)

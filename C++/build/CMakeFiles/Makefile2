@@ -67,12 +67,14 @@ all: CMakeFiles/runner.dir/all
 all: LinkedLists/all
 all: Stack/all
 all: Queue/all
+all: Tree/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: LinkedLists/preinstall
 preinstall: Stack/preinstall
 preinstall: Queue/preinstall
+preinstall: Tree/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -80,6 +82,7 @@ clean: CMakeFiles/runner.dir/clean
 clean: LinkedLists/clean
 clean: Stack/clean
 clean: Queue/clean
+clean: Tree/clean
 .PHONY : clean
 
 #=============================================================================
@@ -128,11 +131,25 @@ Stack/clean: Stack/CMakeFiles/stack.dir/clean
 .PHONY : Stack/clean
 
 #=============================================================================
+# Directory level rules for directory Tree
+
+# Recursive "all" directory target.
+Tree/all: Tree/CMakeFiles/tree.dir/all
+.PHONY : Tree/all
+
+# Recursive "preinstall" directory target.
+Tree/preinstall:
+.PHONY : Tree/preinstall
+
+# Recursive "clean" directory target.
+Tree/clean: Tree/CMakeFiles/tree.dir/clean
+.PHONY : Tree/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/runner.dir
 
 # All Build rule for target.
-CMakeFiles/runner.dir/all: LinkedLists/CMakeFiles/list.dir/all
-CMakeFiles/runner.dir/all: Queue/CMakeFiles/queue.dir/all
+CMakeFiles/runner.dir/all: Tree/CMakeFiles/tree.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=10,11 "Built target runner"
@@ -140,7 +157,7 @@ CMakeFiles/runner.dir/all: Queue/CMakeFiles/queue.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/runner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/runner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 0
 .PHONY : CMakeFiles/runner.dir/rule
@@ -231,6 +248,32 @@ queue: Queue/CMakeFiles/queue.dir/rule
 Queue/CMakeFiles/queue.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Queue/CMakeFiles/queue.dir/build.make Queue/CMakeFiles/queue.dir/clean
 .PHONY : Queue/CMakeFiles/queue.dir/clean
+
+#=============================================================================
+# Target rules for target Tree/CMakeFiles/tree.dir
+
+# All Build rule for target.
+Tree/CMakeFiles/tree.dir/all:
+	$(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/depend
+	$(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=15,16 "Built target tree"
+.PHONY : Tree/CMakeFiles/tree.dir/all
+
+# Build rule for subdir invocation for target.
+Tree/CMakeFiles/tree.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tree/CMakeFiles/tree.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 0
+.PHONY : Tree/CMakeFiles/tree.dir/rule
+
+# Convenience name for target.
+tree: Tree/CMakeFiles/tree.dir/rule
+.PHONY : tree
+
+# clean rule for target.
+Tree/CMakeFiles/tree.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/clean
+.PHONY : Tree/CMakeFiles/tree.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/karan/Documents/Code/DSA/C++/LinkedLists/CMakeLists.txt"
   "/home/karan/Documents/Code/DSA/C++/Queue/CMakeLists.txt"
   "/home/karan/Documents/Code/DSA/C++/Stack/CMakeLists.txt"
+  "/home/karan/Documents/Code/DSA/C++/Tree/CMakeLists.txt"
   "CMakeFiles/3.28.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeSystem.cmake"
@@ -46,6 +47,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "LinkedLists/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Stack/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Queue/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Tree/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -54,4 +56,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "LinkedLists/CMakeFiles/list.dir/DependInfo.cmake"
   "Stack/CMakeFiles/stack.dir/DependInfo.cmake"
   "Queue/CMakeFiles/queue.dir/DependInfo.cmake"
+  "Tree/CMakeFiles/tree.dir/DependInfo.cmake"
   )

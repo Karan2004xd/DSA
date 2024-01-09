@@ -10,3 +10,6 @@
 /home/karan/Documents/Code/DSA/C++/build/Queue/CMakeFiles/queue.dir
 /home/karan/Documents/Code/DSA/C++/build/Queue/CMakeFiles/edit_cache.dir
 /home/karan/Documents/Code/DSA/C++/build/Queue/CMakeFiles/rebuild_cache.dir
+/home/karan/Documents/Code/DSA/C++/build/Tree/CMakeFiles/tree.dir
+/home/karan/Documents/Code/DSA/C++/build/Tree/CMakeFiles/edit_cache.dir
+/home/karan/Documents/Code/DSA/C++/build/Tree/CMakeFiles/rebuild_cache.dir

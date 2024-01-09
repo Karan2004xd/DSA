@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles /home/karan/Documents/Code/DSA/C++/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/karan/Documents/Code/DSA/C++/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles /home/karan/Documents/Code/DSA/C++/build/Tree//CMakeFiles/progress.marks
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tree/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tree/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,107 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tree/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tree/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/karan/Documents/Code/DSA/C++/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named runner
+# Convenience name for target.
+Tree/CMakeFiles/tree.dir/rule:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tree/CMakeFiles/tree.dir/rule
+.PHONY : Tree/CMakeFiles/tree.dir/rule
 
-# Build rule for target.
-runner: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 runner
-.PHONY : runner
-
-# fast build rule for target.
-runner/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/build
-.PHONY : runner/fast
-
-#=============================================================================
-# Target rules for targets named list
-
-# Build rule for target.
-list: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 list
-.PHONY : list
-
-# fast build rule for target.
-list/fast:
-	$(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/build
-.PHONY : list/fast
-
-#=============================================================================
-# Target rules for targets named stack
-
-# Build rule for target.
-stack: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stack
-.PHONY : stack
-
-# fast build rule for target.
-stack/fast:
-	$(MAKE) $(MAKESILENT) -f Stack/CMakeFiles/stack.dir/build.make Stack/CMakeFiles/stack.dir/build
-.PHONY : stack/fast
-
-#=============================================================================
-# Target rules for targets named queue
-
-# Build rule for target.
-queue: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 queue
-.PHONY : queue
-
-# fast build rule for target.
-queue/fast:
-	$(MAKE) $(MAKESILENT) -f Queue/CMakeFiles/queue.dir/build.make Queue/CMakeFiles/queue.dir/build
-.PHONY : queue/fast
-
-#=============================================================================
-# Target rules for targets named tree
-
-# Build rule for target.
-tree: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tree
+# Convenience name for target.
+tree: Tree/CMakeFiles/tree.dir/rule
 .PHONY : tree
 
 # fast build rule for target.
 tree/fast:
-	$(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/build
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/build
 .PHONY : tree/fast
 
-Demo.o: Demo.cpp.o
-.PHONY : Demo.o
+src/BasicTree.o: src/BasicTree.cpp.o
+.PHONY : src/BasicTree.o
 
 # target to build an object file
-Demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/Demo.cpp.o
-.PHONY : Demo.cpp.o
+src/BasicTree.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/src/BasicTree.cpp.o
+.PHONY : src/BasicTree.cpp.o
 
-Demo.i: Demo.cpp.i
-.PHONY : Demo.i
+src/BasicTree.i: src/BasicTree.cpp.i
+.PHONY : src/BasicTree.i
 
 # target to preprocess a source file
-Demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/Demo.cpp.i
-.PHONY : Demo.cpp.i
+src/BasicTree.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/src/BasicTree.cpp.i
+.PHONY : src/BasicTree.cpp.i
 
-Demo.s: Demo.cpp.s
-.PHONY : Demo.s
+src/BasicTree.s: src/BasicTree.cpp.s
+.PHONY : src/BasicTree.s
 
 # target to generate assembly for a file
-Demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/Demo.cpp.s
-.PHONY : Demo.cpp.s
+src/BasicTree.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/src/BasicTree.cpp.s
+.PHONY : src/BasicTree.cpp.s
 
 # Help Target
 help:
@@ -213,14 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... list"
-	@echo "... queue"
-	@echo "... runner"
-	@echo "... stack"
 	@echo "... tree"
-	@echo "... Demo.o"
-	@echo "... Demo.i"
-	@echo "... Demo.s"
+	@echo "... src/BasicTree.o"
+	@echo "... src/BasicTree.i"
+	@echo "... src/BasicTree.s"
 .PHONY : help
 
 
@@ -232,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/karan/Documents/Code/DSA/C++/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
