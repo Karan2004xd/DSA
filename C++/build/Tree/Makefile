@@ -154,6 +154,30 @@ src/BasicTree.cpp.s:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/src/BasicTree.cpp.s
 .PHONY : src/BasicTree.cpp.s
 
+src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.o: src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp.o
+.PHONY : src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.o
+
+# target to build an object file
+src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp.o
+.PHONY : src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp.o
+
+src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.i: src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp.i
+.PHONY : src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.i
+
+# target to preprocess a source file
+src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp.i
+.PHONY : src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp.i
+
+src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.s: src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp.s
+.PHONY : src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.s
+
+# target to generate assembly for a file
+src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp.s
+.PHONY : src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,6 +190,9 @@ help:
 	@echo "... src/BasicTree.o"
 	@echo "... src/BasicTree.i"
 	@echo "... src/BasicTree.s"
+	@echo "... src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.o"
+	@echo "... src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.i"
+	@echo "... src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.s"
 .PHONY : help
 
 
