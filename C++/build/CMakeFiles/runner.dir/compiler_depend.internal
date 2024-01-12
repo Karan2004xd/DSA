@@ -3,8 +3,8 @@
 
 CMakeFiles/runner.dir/Demo.cpp.o
  /home/karan/Documents/Code/DSA/C++/Demo.cpp
- /home/karan/Documents/Code/DSA/C++/Tree/include/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.h
- /home/karan/Documents/Code/DSA/C++/Tree/include/BinaryTree/BinaryTreeUsingLL/BinaryNode.h
+ /home/karan/Documents/Code/DSA/C++/Tree/include/BinarySearchTree/BinaryNode.h
+ /home/karan/Documents/Code/DSA/C++/Tree/include/BinarySearchTree/BinarySearchTree.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

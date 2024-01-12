@@ -154,6 +154,54 @@ src/BasicTree.cpp.s:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/src/BasicTree.cpp.s
 .PHONY : src/BasicTree.cpp.s
 
+src/BinarySearchTree/BinarySearchTree.o: src/BinarySearchTree/BinarySearchTree.cpp.o
+.PHONY : src/BinarySearchTree/BinarySearchTree.o
+
+# target to build an object file
+src/BinarySearchTree/BinarySearchTree.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/src/BinarySearchTree/BinarySearchTree.cpp.o
+.PHONY : src/BinarySearchTree/BinarySearchTree.cpp.o
+
+src/BinarySearchTree/BinarySearchTree.i: src/BinarySearchTree/BinarySearchTree.cpp.i
+.PHONY : src/BinarySearchTree/BinarySearchTree.i
+
+# target to preprocess a source file
+src/BinarySearchTree/BinarySearchTree.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/src/BinarySearchTree/BinarySearchTree.cpp.i
+.PHONY : src/BinarySearchTree/BinarySearchTree.cpp.i
+
+src/BinarySearchTree/BinarySearchTree.s: src/BinarySearchTree/BinarySearchTree.cpp.s
+.PHONY : src/BinarySearchTree/BinarySearchTree.s
+
+# target to generate assembly for a file
+src/BinarySearchTree/BinarySearchTree.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/src/BinarySearchTree/BinarySearchTree.cpp.s
+.PHONY : src/BinarySearchTree/BinarySearchTree.cpp.s
+
+src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.o: src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp.o
+.PHONY : src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.o
+
+# target to build an object file
+src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp.o
+.PHONY : src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp.o
+
+src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.i: src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp.i
+.PHONY : src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.i
+
+# target to preprocess a source file
+src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp.i
+.PHONY : src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp.i
+
+src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.s: src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp.s
+.PHONY : src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.s
+
+# target to generate assembly for a file
+src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp.s
+.PHONY : src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp.s
+
 src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.o: src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp.o
 .PHONY : src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.o
 
@@ -190,6 +238,12 @@ help:
 	@echo "... src/BasicTree.o"
 	@echo "... src/BasicTree.i"
 	@echo "... src/BasicTree.s"
+	@echo "... src/BinarySearchTree/BinarySearchTree.o"
+	@echo "... src/BinarySearchTree/BinarySearchTree.i"
+	@echo "... src/BinarySearchTree/BinarySearchTree.s"
+	@echo "... src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.o"
+	@echo "... src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.i"
+	@echo "... src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.s"
 	@echo "... src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.o"
 	@echo "... src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.i"
 	@echo "... src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.s"
