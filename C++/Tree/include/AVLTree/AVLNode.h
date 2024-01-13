@@ -8,5 +8,7 @@ public:
     AVLNode() {
         this->height = 0;
     }
+
+    int get_height() { return this->height; }
 };
 #endif // AVL_NODE_H_
