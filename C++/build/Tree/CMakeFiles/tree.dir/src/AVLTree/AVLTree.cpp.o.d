@@ -1,7 +1,8 @@
-CMakeFiles/runner.dir/Demo.cpp.o: \
- /home/karan/Documents/Code/DSA/C++/Demo.cpp /usr/include/stdc-predef.h \
- /home/karan/Documents/Code/DSA/C++/Tree/include/AVLTree/AVLTree.h \
- /home/karan/Documents/Code/DSA/C++/Tree/include/AVLTree/AVLNode.h \
+Tree/CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.o: \
+ /home/karan/Documents/Code/DSA/C++/Tree/src/AVLTree/AVLTree.cpp \
+ /usr/include/stdc-predef.h \
+ /home/karan/Documents/Code/DSA/C++/Tree/src/AVLTree/../../include/AVLTree/AVLTree.h \
+ /home/karan/Documents/Code/DSA/C++/Tree/src/AVLTree/../../include/AVLTree/AVLNode.h \
  /usr/include/c++/13.2.1/queue \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \

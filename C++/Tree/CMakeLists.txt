@@ -5,6 +5,7 @@ add_library(tree
     "./src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp"
     "./src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp"
     "./src/BinarySearchTree/BinarySearchTree.cpp"
+    "./src/AVLTree/AVLTree.cpp"
 )
 
 target_include_directories(tree PRIVATE "./include")

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.o"
+  "CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.o.d"
   "CMakeFiles/tree.dir/src/BasicTree.cpp.o"
   "CMakeFiles/tree.dir/src/BasicTree.cpp.o.d"
   "CMakeFiles/tree.dir/src/BinarySearchTree/BinarySearchTree.cpp.o"

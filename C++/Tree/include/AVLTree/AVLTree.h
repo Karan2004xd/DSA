@@ -19,6 +19,8 @@ public:
     void insert_element(int value);
     void delete_element(int value);
     void delete_tree();
+
+    AVLNode *get_root() { return this->root; }
     ~AVLTree();
 private:
     AVLNode *root;

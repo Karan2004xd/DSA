@@ -125,12 +125,27 @@ Tree/CMakeFiles/tree.dir/src/BinarySearchTree/BinarySearchTree.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tree.dir/src/BinarySearchTree/BinarySearchTree.cpp.s"
 	cd /home/karan/Documents/Code/DSA/C++/build/Tree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Tree/src/BinarySearchTree/BinarySearchTree.cpp -o CMakeFiles/tree.dir/src/BinarySearchTree/BinarySearchTree.cpp.s
 
+Tree/CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.o: Tree/CMakeFiles/tree.dir/flags.make
+Tree/CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.o: /home/karan/Documents/Code/DSA/C++/Tree/src/AVLTree/AVLTree.cpp
+Tree/CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.o: Tree/CMakeFiles/tree.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Tree/CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Tree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Tree/CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.o -MF CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.o.d -o CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.o -c /home/karan/Documents/Code/DSA/C++/Tree/src/AVLTree/AVLTree.cpp
+
+Tree/CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Tree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Tree/src/AVLTree/AVLTree.cpp > CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.i
+
+Tree/CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Tree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Tree/src/AVLTree/AVLTree.cpp -o CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.s
+
 # Object files for target tree
 tree_OBJECTS = \
 "CMakeFiles/tree.dir/src/BasicTree.cpp.o" \
 "CMakeFiles/tree.dir/src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp.o" \
 "CMakeFiles/tree.dir/src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp.o" \
-"CMakeFiles/tree.dir/src/BinarySearchTree/BinarySearchTree.cpp.o"
+"CMakeFiles/tree.dir/src/BinarySearchTree/BinarySearchTree.cpp.o" \
+"CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.o"
 
 # External object files for target tree
 tree_EXTERNAL_OBJECTS =
@@ -139,9 +154,10 @@ Tree/libtree.a: Tree/CMakeFiles/tree.dir/src/BasicTree.cpp.o
 Tree/libtree.a: Tree/CMakeFiles/tree.dir/src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp.o
 Tree/libtree.a: Tree/CMakeFiles/tree.dir/src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp.o
 Tree/libtree.a: Tree/CMakeFiles/tree.dir/src/BinarySearchTree/BinarySearchTree.cpp.o
+Tree/libtree.a: Tree/CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.o
 Tree/libtree.a: Tree/CMakeFiles/tree.dir/build.make
 Tree/libtree.a: Tree/CMakeFiles/tree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libtree.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libtree.a"
 	cd /home/karan/Documents/Code/DSA/C++/build/Tree && $(CMAKE_COMMAND) -P CMakeFiles/tree.dir/cmake_clean_target.cmake
 	cd /home/karan/Documents/Code/DSA/C++/build/Tree && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tree.dir/link.txt --verbose=$(VERBOSE)
 

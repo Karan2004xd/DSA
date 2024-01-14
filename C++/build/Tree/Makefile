@@ -130,6 +130,30 @@ tree/fast:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/build
 .PHONY : tree/fast
 
+src/AVLTree/AVLTree.o: src/AVLTree/AVLTree.cpp.o
+.PHONY : src/AVLTree/AVLTree.o
+
+# target to build an object file
+src/AVLTree/AVLTree.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.o
+.PHONY : src/AVLTree/AVLTree.cpp.o
+
+src/AVLTree/AVLTree.i: src/AVLTree/AVLTree.cpp.i
+.PHONY : src/AVLTree/AVLTree.i
+
+# target to preprocess a source file
+src/AVLTree/AVLTree.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.i
+.PHONY : src/AVLTree/AVLTree.cpp.i
+
+src/AVLTree/AVLTree.s: src/AVLTree/AVLTree.cpp.s
+.PHONY : src/AVLTree/AVLTree.s
+
+# target to generate assembly for a file
+src/AVLTree/AVLTree.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.s
+.PHONY : src/AVLTree/AVLTree.cpp.s
+
 src/BasicTree.o: src/BasicTree.cpp.o
 .PHONY : src/BasicTree.o
 
@@ -235,6 +259,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tree"
+	@echo "... src/AVLTree/AVLTree.o"
+	@echo "... src/AVLTree/AVLTree.i"
+	@echo "... src/AVLTree/AVLTree.s"
 	@echo "... src/BasicTree.o"
 	@echo "... src/BasicTree.i"
 	@echo "... src/BasicTree.s"

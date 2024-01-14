@@ -39,7 +39,6 @@ void AVLTree::level_order_traversal() {
         tree_nodes.push(root);
         while (!tree_nodes.empty()) {
             AVLNode *temp_node = tree_nodes.front();
-
             std::cout << temp_node->value << " ";
 
             tree_nodes.pop();
@@ -91,32 +90,51 @@ AVLNode *insert_element_helper(AVLNode *node, int value) {
     } else {
         node->right = insert_element_helper(node->right, value);
     }
+    
+    int node_left_height, node_right_height;
+    int node_left_value, node_right_value;
 
-    node->height = 1 + std::max(node->left->get_height(), node->right->get_height());
-    int balance = get_balance(node);
+    if (node->left == nullptr && node->right == nullptr) {
+        node_left_value = node_right_value = 0;
+        node_left_height = node_right_height = 0;
+    } else if (node->left == nullptr) {
+        node_left_height = node_left_value = 0;
 
-    if (balance > 1 && value <= node->left->value) {
+        node_right_height = node->right->get_height();
+        node_right_value = node->right->value;
+    } else if (node->right == nullptr) {
+        node_right_value = node_right_height = 0;
+
+        node_left_height = node->left->get_height();
+        node_left_value = node->left->value;
+    }
+
+    node->height = 1 + std::max(node_left_height, node_right_height);
+    std::cout << node->value << std::endl;
+    int balance = node_left_height - node_right_height;
+
+    if (balance > 1 && value <= node_left_value) {
         return rotate_left(node);
     }
-    if (balance > 1 && value > node->left->value) {
+    if (balance > 1 && value > node_left_value) {
         node->left = rotate_left(node->left);
         return rotate_right(node);
     }
 
-    if (balance < -1 && value >= node->right->value) {
+    if (balance < -1 && value >= node_right_value) {
+        std::cout << "Reached" << std::endl;
         return rotate_right(node);
     }
-    if (balance < -1 && value < node->right->value) {
+    if (balance < -1 && value < node_right_value) {
         node->right = rotate_right(node->right);
         return rotate_left(node);
     }
+    
     return node;
 }
 
 void AVLTree::insert_element(int value) {
-    if (search_element(value)) {
-        root = insert_element_helper(root, value);
-    } 
+    root = insert_element_helper(root, value);
 }
 
 bool AVLTree::search_element(int value) {
@@ -152,14 +170,43 @@ AVLNode *delete_element_helper(AVLNode *current_node, int value) {
         } else if (value > current_node->value) {
             current_node->right = delete_element_helper(current_node->right, value);
         } else {
-            // start here
-            /* if () { */
+            if (current_node->left != nullptr && current_node->right != nullptr) {
+                AVLNode *min_node = get_minimun_node(current_node);
+                current_node->value = min_node->value;
+                current_node->right = delete_element_helper(current_node->right, min_node->value);
+            } else if (current_node->left != nullptr) {
+                current_node = current_node->left;
+            } else if (current_node->right != nullptr) {
+                current_node = current_node->right;
+            } else {
+                current_node = nullptr;
+            }
+        }
 
-            /* } */
+        int balance = get_balance(current_node);
+        if (balance > 1 && get_balance(current_node->left) >= 0) {
+            return rotate_right(current_node);
+        }
+        if (balance > 1 && get_balance(current_node->left) < 0) {
+            current_node->left = rotate_left(current_node->left);
+            return rotate_right(current_node);
+        }
+
+        if (balance < -1 && get_balance(current_node->right) >= 0) {
+            return rotate_left(current_node);
+        }
+        if (balance < -1 && get_balance(current_node->right) < 0) {
+            current_node->right = rotate_right(current_node->right);
+            return rotate_left(current_node);
         }
     }
+    return current_node;
+}
+
+void AVLTree::delete_tree() {
+    root = nullptr;
 }
 
 AVLTree::~AVLTree() {
-    delete this->root;
+    delete_tree();
 }
