@@ -75,7 +75,7 @@ public class AVLTree {
 
    private AVLNode rotateRight(AVLNode disbalancedNode) {
       AVLNode tempNode = disbalancedNode.left;
-      disbalancedNode.left = disbalancedNode.left.right;
+      disbalancedNode.left = disbalancedNode.right;
       tempNode.right = disbalancedNode;
       disbalancedNode.height = 1 + Math.max(getHeight(disbalancedNode.left), getHeight(disbalancedNode.right));
       tempNode.height = 1 + Math.max(getHeight(tempNode.left), getHeight(tempNode.right));
@@ -84,7 +84,7 @@ public class AVLTree {
 
    private AVLNode rotateLeft(AVLNode disbalancedNode) {
       AVLNode tempNode = disbalancedNode.right;
-      disbalancedNode.right = disbalancedNode.right.left;
+      disbalancedNode.right = disbalancedNode.left;
       tempNode.left = disbalancedNode;
       disbalancedNode.height = 1 + Math.max(getHeight(disbalancedNode.left), getHeight(disbalancedNode.right));
       tempNode.height = 1 + Math.max(getHeight(tempNode.left), getHeight(tempNode.right));
@@ -140,7 +140,7 @@ public class AVLTree {
       return node;
    }
 
-   public void insertELement(int value) {
+   public void insertElement(int value) {
       root = insertElement(root, value);
    }
 

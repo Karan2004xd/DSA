@@ -1,5 +1,6 @@
 #ifndef AVL_NODE_H_
 #define AVL_NODE_H_
+#include <iostream>
 
 class AVLNode {
 public:
@@ -7,8 +8,6 @@ public:
     int value, height;
     AVLNode() {
         this->height = 0;
-        this->left = nullptr;
-        this->right = nullptr;
     }
 
     int get_height() { return this->height; }
