@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/karan/Documents/Code/DSA/C++/LinkedLists/./include
+CXX_INCLUDES = 
 
 CXX_FLAGS = 
 

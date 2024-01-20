@@ -1,9 +1,15 @@
-#include "LinkedLists/include/GenericSinglyLL.h"
+#include "Hashing/include/DirectChaining.h"
 
 int main() {
-    GenericSinglyLL<std::string> ll;
-    ll.add_element("hello", 0);
-    ll.add_element("world", 0);
-    ll.traverse();
+    DirectChaining dc {15};
+    dc.insert_value("The");
+    dc.insert_value("quick");
+    dc.insert_value("brown");
+    dc.insert_value("fox");
+    dc.insert_value("over");
+    dc.display_hash_table();
+
+    dc.delete_value("over");
+    dc.display_hash_table();
     return 0;
 }

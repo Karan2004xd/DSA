@@ -10,7 +10,7 @@ add_subdirectory("./Hashing")
 add_executable(runner "./Demo.cpp")
 
 # Linked Lists
-target_link_libraries(runner PRIVATE list)
+# target_link_libraries(runner PRIVATE list)
 
 # Stack
 # target_link_libraries(runner PRIVATE stack)
@@ -22,4 +22,4 @@ target_link_libraries(runner PRIVATE list)
 # target_link_libraries(runner PRIVATE tree)
 
 # Hashing
-# target_link_libraries(runner PRIVATE hashing)
+target_link_libraries(runner PRIVATE hashing)

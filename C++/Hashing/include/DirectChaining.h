@@ -1,0 +1,26 @@
+#ifndef DIRECT_CHAINING_H_
+#define DIRECT_CHAINING_H_
+#include "../../LinkedLists/src/GenericSinglyLL.cpp"
+#include <string>
+#include <sstream>
+
+typedef GenericSinglyLL<std::string> list;
+
+class DirectChaining {
+public:
+    DirectChaining(int size);
+
+    int get_hash_value(const std::string &value);
+    void insert_value(const std::string &value);
+
+    void delete_value(const std::string &value);
+    bool search_value(const std::string &value);
+
+    void display_hash_table();
+
+    ~DirectChaining();
+private:
+    list *hash_table {nullptr};
+    int size_of_hash_table;
+};
+#endif // DIRECT_CHAINING_H_

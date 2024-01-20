@@ -1,77 +1,34 @@
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode() : val(0), next(nullptr) {}
-    ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
-};
-
 class Solution {
-public:
-    int length(ListNode *head) {
-        int i = 0;
-        while (head != nullptr) {
-            i++;
-            head = head->next;
-        }
-        return i;
-    }
-
-    int search(ListNode *head, int val) {
-        int i = 0;
-        while (head != nullptr) {
-            if (head->val == val) return i;
-            head = head->next;
-            i++;
-        }
-        return -1;
-    }
-
-    ListNode* removeElements(ListNode* head, int val) {
-        if (head != nullptr) {
-            int size = length(head);
-            int index = search(head, val);
-
-            while (index != -1) {
-                if (index <= 0) {
-                    head = head->next;
-                } else if (index >= size - 1) {
-                    ListNode *temp_node = head;
-                    for (int i = 0; i < size - 1; i++) {
-                        temp_node = temp_node->next;
-                    }
-                    temp_node->next = nullptr;
-                } else {
-                    ListNode *temp_node = head;
-                    for (int i = 0; i < index - 1; i++) {
-                        temp_node = temp_node->next;
-                    }
-                    temp_node->next = temp_node->next->next;
-                }
-                size--;
-                index = search(head, val);
+    const int modulo {1000000007};
+    int get_min(int start, int end, vector<int> &arr) {
+        int min_value {40000};
+        for (; start < end; start++) {
+            if (arr[start] < min_value) {
+                min_value = arr[start];
             }
         }
-        return head;
+        return min_value;
+    }
+
+public:
+    int sumSubarrayMins(vector<int>& arr) {
+        int sum {0};
+        for (int i = 1; i <= arr.size(); i++) {
+            for (int j = 0; j < arr.size(); j++) {
+                int min = get_min(j, j + i, arr);
+                sum += min;
+            }
+        }
+        return sum % modulo;
     }
 };
-
 int main() {
     Solution s;
-    ListNode *head = new ListNode(10);
-    head->next = new ListNode(20);
-    head->next->next = new ListNode(20);
-    head->next->next->next = new ListNode(30);
-    
-    head = s.removeElements(head, 20);
-    while (head != nullptr) {
-        std::cout << head->val << std::endl;
-        head = head->next;
-    }
+    vector<int> vec {11,81,94,43,3};
+    cout << s.sumSubarrayMins(vec) << endl;
     return 0;
 }
