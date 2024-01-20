@@ -10,9 +10,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/karan/Documents/Code/DSA/C++/Tree/src/AVLTree/AVLTree.cpp" "Tree/CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.o" "gcc" "Tree/CMakeFiles/tree.dir/src/AVLTree/AVLTree.cpp.o.d"
   "/home/karan/Documents/Code/DSA/C++/Tree/src/BasicTree.cpp" "Tree/CMakeFiles/tree.dir/src/BasicTree.cpp.o" "gcc" "Tree/CMakeFiles/tree.dir/src/BasicTree.cpp.o.d"
+  "/home/karan/Documents/Code/DSA/C++/Tree/src/BinaryHeap/BinaryHeap.cpp" "Tree/CMakeFiles/tree.dir/src/BinaryHeap/BinaryHeap.cpp.o" "gcc" "Tree/CMakeFiles/tree.dir/src/BinaryHeap/BinaryHeap.cpp.o.d"
   "/home/karan/Documents/Code/DSA/C++/Tree/src/BinarySearchTree/BinarySearchTree.cpp" "Tree/CMakeFiles/tree.dir/src/BinarySearchTree/BinarySearchTree.cpp.o" "gcc" "Tree/CMakeFiles/tree.dir/src/BinarySearchTree/BinarySearchTree.cpp.o.d"
   "/home/karan/Documents/Code/DSA/C++/Tree/src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp" "Tree/CMakeFiles/tree.dir/src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp.o" "gcc" "Tree/CMakeFiles/tree.dir/src/BinaryTree/BinaryTreeUsingArray/BTreeUsingArray.cpp.o.d"
   "/home/karan/Documents/Code/DSA/C++/Tree/src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp" "Tree/CMakeFiles/tree.dir/src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp.o" "gcc" "Tree/CMakeFiles/tree.dir/src/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.cpp.o.d"
+  "/home/karan/Documents/Code/DSA/C++/Tree/src/Trie/Trie.cpp" "Tree/CMakeFiles/tree.dir/src/Trie/Trie.cpp.o" "gcc" "Tree/CMakeFiles/tree.dir/src/Trie/Trie.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

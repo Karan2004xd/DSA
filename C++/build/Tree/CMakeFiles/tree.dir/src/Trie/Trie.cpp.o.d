@@ -1,7 +1,8 @@
-CMakeFiles/runner.dir/Demo.cpp.o: \
- /home/karan/Documents/Code/DSA/C++/Demo.cpp /usr/include/stdc-predef.h \
- /home/karan/Documents/Code/DSA/C++/Tree/include/Trie/Trie.h \
- /home/karan/Documents/Code/DSA/C++/Tree/include/Trie/TrieNode.h \
+Tree/CMakeFiles/tree.dir/src/Trie/Trie.cpp.o: \
+ /home/karan/Documents/Code/DSA/C++/Tree/src/Trie/Trie.cpp \
+ /usr/include/stdc-predef.h \
+ /home/karan/Documents/Code/DSA/C++/Tree/src/Trie/../../include/Trie/Trie.h \
+ /home/karan/Documents/Code/DSA/C++/Tree/src/Trie/../../include/Trie/TrieNode.h \
  /usr/include/c++/13.2.1/map \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
