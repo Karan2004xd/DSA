@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/karan/Documents/Code/DSA/C++/LinkedLists/src/DoublyCircularLL.cpp" "LinkedLists/CMakeFiles/list.dir/src/DoublyCircularLL.cpp.o" "gcc" "LinkedLists/CMakeFiles/list.dir/src/DoublyCircularLL.cpp.o.d"
   "/home/karan/Documents/Code/DSA/C++/LinkedLists/src/DoublyLinkedList.cpp" "LinkedLists/CMakeFiles/list.dir/src/DoublyLinkedList.cpp.o" "gcc" "LinkedLists/CMakeFiles/list.dir/src/DoublyLinkedList.cpp.o.d"
+  "/home/karan/Documents/Code/DSA/C++/LinkedLists/src/GenericSinglyLL.cpp" "LinkedLists/CMakeFiles/list.dir/src/GenericSinglyLL.cpp.o" "gcc" "LinkedLists/CMakeFiles/list.dir/src/GenericSinglyLL.cpp.o.d"
   "/home/karan/Documents/Code/DSA/C++/LinkedLists/src/SinglyCircularLL.cpp" "LinkedLists/CMakeFiles/list.dir/src/SinglyCircularLL.cpp.o" "gcc" "LinkedLists/CMakeFiles/list.dir/src/SinglyCircularLL.cpp.o.d"
   "/home/karan/Documents/Code/DSA/C++/LinkedLists/src/SinglyLinkedList.cpp" "LinkedLists/CMakeFiles/list.dir/src/SinglyLinkedList.cpp.o" "gcc" "LinkedLists/CMakeFiles/list.dir/src/SinglyLinkedList.cpp.o.d"
   )

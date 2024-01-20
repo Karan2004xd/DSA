@@ -178,6 +178,30 @@ src/DoublyLinkedList.cpp.s:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/src/DoublyLinkedList.cpp.s
 .PHONY : src/DoublyLinkedList.cpp.s
 
+src/GenericSinglyLL.o: src/GenericSinglyLL.cpp.o
+.PHONY : src/GenericSinglyLL.o
+
+# target to build an object file
+src/GenericSinglyLL.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/src/GenericSinglyLL.cpp.o
+.PHONY : src/GenericSinglyLL.cpp.o
+
+src/GenericSinglyLL.i: src/GenericSinglyLL.cpp.i
+.PHONY : src/GenericSinglyLL.i
+
+# target to preprocess a source file
+src/GenericSinglyLL.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/src/GenericSinglyLL.cpp.i
+.PHONY : src/GenericSinglyLL.cpp.i
+
+src/GenericSinglyLL.s: src/GenericSinglyLL.cpp.s
+.PHONY : src/GenericSinglyLL.s
+
+# target to generate assembly for a file
+src/GenericSinglyLL.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/src/GenericSinglyLL.cpp.s
+.PHONY : src/GenericSinglyLL.cpp.s
+
 src/SinglyCircularLL.o: src/SinglyCircularLL.cpp.o
 .PHONY : src/SinglyCircularLL.o
 
@@ -241,6 +265,9 @@ help:
 	@echo "... src/DoublyLinkedList.o"
 	@echo "... src/DoublyLinkedList.i"
 	@echo "... src/DoublyLinkedList.s"
+	@echo "... src/GenericSinglyLL.o"
+	@echo "... src/GenericSinglyLL.i"
+	@echo "... src/GenericSinglyLL.s"
 	@echo "... src/SinglyCircularLL.o"
 	@echo "... src/SinglyCircularLL.i"
 	@echo "... src/SinglyCircularLL.s"

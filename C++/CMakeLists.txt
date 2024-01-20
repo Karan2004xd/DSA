@@ -5,11 +5,12 @@ add_subdirectory("./LinkedLists")
 add_subdirectory("./Stack")
 add_subdirectory("./Queue")
 add_subdirectory("./Tree")
+add_subdirectory("./Hashing")
 
 add_executable(runner "./Demo.cpp")
 
 # Linked Lists
-# target_link_libraries(runner PRIVATE list)
+target_link_libraries(runner PRIVATE list)
 
 # Stack
 # target_link_libraries(runner PRIVATE stack)
@@ -18,4 +19,7 @@ add_executable(runner "./Demo.cpp")
 # target_link_libraries(runner PRIVATE queue)
 
 # Tree
-target_link_libraries(runner PRIVATE tree)
+# target_link_libraries(runner PRIVATE tree)
+
+# Hashing
+# target_link_libraries(runner PRIVATE hashing)

@@ -243,6 +243,18 @@ Stack_IS_TOP_LEVEL:STATIC=OFF
 Stack_SOURCE_DIR:STATIC=/home/karan/Documents/Code/DSA/C++/Stack
 
 //Value Computed by CMake
+hashing_BINARY_DIR:STATIC=/home/karan/Documents/Code/DSA/C++/build/Hashing
+
+//Value Computed by CMake
+hashing_IS_TOP_LEVEL:STATIC=OFF
+
+//Dependencies for the target
+hashing_LIB_DEPENDS:STATIC=general;list;
+
+//Value Computed by CMake
+hashing_SOURCE_DIR:STATIC=/home/karan/Documents/Code/DSA/C++/Hashing
+
+//Value Computed by CMake
 queue_BINARY_DIR:STATIC=/home/karan/Documents/Code/DSA/C++/build/Queue
 
 //Value Computed by CMake
@@ -373,7 +385,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

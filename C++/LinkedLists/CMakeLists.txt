@@ -5,6 +5,7 @@ add_library(list
     "./src/SinglyCircularLL.cpp"
     "./src/DoublyLinkedList.cpp"
     "./src/DoublyCircularLL.cpp"
+    "./src/GenericSinglyLL.cpp"
 )
 
 target_include_directories(list PUBLIC "./include")

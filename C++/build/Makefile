@@ -181,6 +181,19 @@ tree/fast:
 	$(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/build
 .PHONY : tree/fast
 
+#=============================================================================
+# Target rules for targets named hashing
+
+# Build rule for target.
+hashing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hashing
+.PHONY : hashing
+
+# fast build rule for target.
+hashing/fast:
+	$(MAKE) $(MAKESILENT) -f Hashing/CMakeFiles/hashing.dir/build.make Hashing/CMakeFiles/hashing.dir/build
+.PHONY : hashing/fast
+
 Demo.o: Demo.cpp.o
 .PHONY : Demo.o
 
@@ -213,6 +226,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... hashing"
 	@echo "... list"
 	@echo "... queue"
 	@echo "... runner"

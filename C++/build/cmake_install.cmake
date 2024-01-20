@@ -48,6 +48,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/karan/Documents/Code/DSA/C++/build/Stack/cmake_install.cmake")
   include("/home/karan/Documents/Code/DSA/C++/build/Queue/cmake_install.cmake")
   include("/home/karan/Documents/Code/DSA/C++/build/Tree/cmake_install.cmake")
+  include("/home/karan/Documents/Code/DSA/C++/build/Hashing/cmake_install.cmake")
 
 endif()
 
