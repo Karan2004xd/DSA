@@ -154,6 +154,78 @@ src/DirectChaining.cpp.s:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Hashing/CMakeFiles/hashing.dir/build.make Hashing/CMakeFiles/hashing.dir/src/DirectChaining.cpp.s
 .PHONY : src/DirectChaining.cpp.s
 
+src/DoubleHashing.o: src/DoubleHashing.cpp.o
+.PHONY : src/DoubleHashing.o
+
+# target to build an object file
+src/DoubleHashing.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Hashing/CMakeFiles/hashing.dir/build.make Hashing/CMakeFiles/hashing.dir/src/DoubleHashing.cpp.o
+.PHONY : src/DoubleHashing.cpp.o
+
+src/DoubleHashing.i: src/DoubleHashing.cpp.i
+.PHONY : src/DoubleHashing.i
+
+# target to preprocess a source file
+src/DoubleHashing.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Hashing/CMakeFiles/hashing.dir/build.make Hashing/CMakeFiles/hashing.dir/src/DoubleHashing.cpp.i
+.PHONY : src/DoubleHashing.cpp.i
+
+src/DoubleHashing.s: src/DoubleHashing.cpp.s
+.PHONY : src/DoubleHashing.s
+
+# target to generate assembly for a file
+src/DoubleHashing.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Hashing/CMakeFiles/hashing.dir/build.make Hashing/CMakeFiles/hashing.dir/src/DoubleHashing.cpp.s
+.PHONY : src/DoubleHashing.cpp.s
+
+src/LinearProbing.o: src/LinearProbing.cpp.o
+.PHONY : src/LinearProbing.o
+
+# target to build an object file
+src/LinearProbing.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Hashing/CMakeFiles/hashing.dir/build.make Hashing/CMakeFiles/hashing.dir/src/LinearProbing.cpp.o
+.PHONY : src/LinearProbing.cpp.o
+
+src/LinearProbing.i: src/LinearProbing.cpp.i
+.PHONY : src/LinearProbing.i
+
+# target to preprocess a source file
+src/LinearProbing.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Hashing/CMakeFiles/hashing.dir/build.make Hashing/CMakeFiles/hashing.dir/src/LinearProbing.cpp.i
+.PHONY : src/LinearProbing.cpp.i
+
+src/LinearProbing.s: src/LinearProbing.cpp.s
+.PHONY : src/LinearProbing.s
+
+# target to generate assembly for a file
+src/LinearProbing.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Hashing/CMakeFiles/hashing.dir/build.make Hashing/CMakeFiles/hashing.dir/src/LinearProbing.cpp.s
+.PHONY : src/LinearProbing.cpp.s
+
+src/QuadraticProbing.o: src/QuadraticProbing.cpp.o
+.PHONY : src/QuadraticProbing.o
+
+# target to build an object file
+src/QuadraticProbing.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Hashing/CMakeFiles/hashing.dir/build.make Hashing/CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.o
+.PHONY : src/QuadraticProbing.cpp.o
+
+src/QuadraticProbing.i: src/QuadraticProbing.cpp.i
+.PHONY : src/QuadraticProbing.i
+
+# target to preprocess a source file
+src/QuadraticProbing.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Hashing/CMakeFiles/hashing.dir/build.make Hashing/CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.i
+.PHONY : src/QuadraticProbing.cpp.i
+
+src/QuadraticProbing.s: src/QuadraticProbing.cpp.s
+.PHONY : src/QuadraticProbing.s
+
+# target to generate assembly for a file
+src/QuadraticProbing.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Hashing/CMakeFiles/hashing.dir/build.make Hashing/CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.s
+.PHONY : src/QuadraticProbing.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,6 +238,15 @@ help:
 	@echo "... src/DirectChaining.o"
 	@echo "... src/DirectChaining.i"
 	@echo "... src/DirectChaining.s"
+	@echo "... src/DoubleHashing.o"
+	@echo "... src/DoubleHashing.i"
+	@echo "... src/DoubleHashing.s"
+	@echo "... src/LinearProbing.o"
+	@echo "... src/LinearProbing.i"
+	@echo "... src/LinearProbing.s"
+	@echo "... src/QuadraticProbing.o"
+	@echo "... src/QuadraticProbing.i"
+	@echo "... src/QuadraticProbing.s"
 .PHONY : help
 
 

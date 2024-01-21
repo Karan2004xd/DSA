@@ -1,2 +1,2 @@
-/usr/bin/ar qc libhashing.a CMakeFiles/hashing.dir/src/DirectChaining.cpp.o
+/usr/bin/ar qc libhashing.a CMakeFiles/hashing.dir/src/DirectChaining.cpp.o CMakeFiles/hashing.dir/src/LinearProbing.cpp.o CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.o CMakeFiles/hashing.dir/src/DoubleHashing.cpp.o
 /usr/bin/ranlib libhashing.a

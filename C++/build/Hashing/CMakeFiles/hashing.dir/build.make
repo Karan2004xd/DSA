@@ -83,17 +83,65 @@ Hashing/CMakeFiles/hashing.dir/src/DirectChaining.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hashing.dir/src/DirectChaining.cpp.s"
 	cd /home/karan/Documents/Code/DSA/C++/build/Hashing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Hashing/src/DirectChaining.cpp -o CMakeFiles/hashing.dir/src/DirectChaining.cpp.s
 
+Hashing/CMakeFiles/hashing.dir/src/LinearProbing.cpp.o: Hashing/CMakeFiles/hashing.dir/flags.make
+Hashing/CMakeFiles/hashing.dir/src/LinearProbing.cpp.o: /home/karan/Documents/Code/DSA/C++/Hashing/src/LinearProbing.cpp
+Hashing/CMakeFiles/hashing.dir/src/LinearProbing.cpp.o: Hashing/CMakeFiles/hashing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Hashing/CMakeFiles/hashing.dir/src/LinearProbing.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Hashing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Hashing/CMakeFiles/hashing.dir/src/LinearProbing.cpp.o -MF CMakeFiles/hashing.dir/src/LinearProbing.cpp.o.d -o CMakeFiles/hashing.dir/src/LinearProbing.cpp.o -c /home/karan/Documents/Code/DSA/C++/Hashing/src/LinearProbing.cpp
+
+Hashing/CMakeFiles/hashing.dir/src/LinearProbing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hashing.dir/src/LinearProbing.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Hashing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Hashing/src/LinearProbing.cpp > CMakeFiles/hashing.dir/src/LinearProbing.cpp.i
+
+Hashing/CMakeFiles/hashing.dir/src/LinearProbing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hashing.dir/src/LinearProbing.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Hashing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Hashing/src/LinearProbing.cpp -o CMakeFiles/hashing.dir/src/LinearProbing.cpp.s
+
+Hashing/CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.o: Hashing/CMakeFiles/hashing.dir/flags.make
+Hashing/CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.o: /home/karan/Documents/Code/DSA/C++/Hashing/src/QuadraticProbing.cpp
+Hashing/CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.o: Hashing/CMakeFiles/hashing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Hashing/CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Hashing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Hashing/CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.o -MF CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.o.d -o CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.o -c /home/karan/Documents/Code/DSA/C++/Hashing/src/QuadraticProbing.cpp
+
+Hashing/CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Hashing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Hashing/src/QuadraticProbing.cpp > CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.i
+
+Hashing/CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Hashing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Hashing/src/QuadraticProbing.cpp -o CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.s
+
+Hashing/CMakeFiles/hashing.dir/src/DoubleHashing.cpp.o: Hashing/CMakeFiles/hashing.dir/flags.make
+Hashing/CMakeFiles/hashing.dir/src/DoubleHashing.cpp.o: /home/karan/Documents/Code/DSA/C++/Hashing/src/DoubleHashing.cpp
+Hashing/CMakeFiles/hashing.dir/src/DoubleHashing.cpp.o: Hashing/CMakeFiles/hashing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Hashing/CMakeFiles/hashing.dir/src/DoubleHashing.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Hashing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Hashing/CMakeFiles/hashing.dir/src/DoubleHashing.cpp.o -MF CMakeFiles/hashing.dir/src/DoubleHashing.cpp.o.d -o CMakeFiles/hashing.dir/src/DoubleHashing.cpp.o -c /home/karan/Documents/Code/DSA/C++/Hashing/src/DoubleHashing.cpp
+
+Hashing/CMakeFiles/hashing.dir/src/DoubleHashing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hashing.dir/src/DoubleHashing.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Hashing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Hashing/src/DoubleHashing.cpp > CMakeFiles/hashing.dir/src/DoubleHashing.cpp.i
+
+Hashing/CMakeFiles/hashing.dir/src/DoubleHashing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hashing.dir/src/DoubleHashing.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Hashing && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Hashing/src/DoubleHashing.cpp -o CMakeFiles/hashing.dir/src/DoubleHashing.cpp.s
+
 # Object files for target hashing
 hashing_OBJECTS = \
-"CMakeFiles/hashing.dir/src/DirectChaining.cpp.o"
+"CMakeFiles/hashing.dir/src/DirectChaining.cpp.o" \
+"CMakeFiles/hashing.dir/src/LinearProbing.cpp.o" \
+"CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.o" \
+"CMakeFiles/hashing.dir/src/DoubleHashing.cpp.o"
 
 # External object files for target hashing
 hashing_EXTERNAL_OBJECTS =
 
 Hashing/libhashing.a: Hashing/CMakeFiles/hashing.dir/src/DirectChaining.cpp.o
+Hashing/libhashing.a: Hashing/CMakeFiles/hashing.dir/src/LinearProbing.cpp.o
+Hashing/libhashing.a: Hashing/CMakeFiles/hashing.dir/src/QuadraticProbing.cpp.o
+Hashing/libhashing.a: Hashing/CMakeFiles/hashing.dir/src/DoubleHashing.cpp.o
 Hashing/libhashing.a: Hashing/CMakeFiles/hashing.dir/build.make
 Hashing/libhashing.a: Hashing/CMakeFiles/hashing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libhashing.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libhashing.a"
 	cd /home/karan/Documents/Code/DSA/C++/build/Hashing && $(CMAKE_COMMAND) -P CMakeFiles/hashing.dir/cmake_clean_target.cmake
 	cd /home/karan/Documents/Code/DSA/C++/build/Hashing && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hashing.dir/link.txt --verbose=$(VERBOSE)
 
