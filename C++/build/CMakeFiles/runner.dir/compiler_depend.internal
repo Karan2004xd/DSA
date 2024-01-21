@@ -3,7 +3,8 @@
 
 CMakeFiles/runner.dir/Demo.cpp.o
  /home/karan/Documents/Code/DSA/C++/Demo.cpp
- /home/karan/Documents/Code/DSA/C++/Hashing/include/DoubleHashing.h
+ /home/karan/Documents/Code/DSA/C++/Algorithms/include/CommonOper.h
+ /home/karan/Documents/Code/DSA/C++/Algorithms/include/Sorting/BubbleSort.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

@@ -1,7 +1,8 @@
-CMakeFiles/runner.dir/Demo.cpp.o: \
- /home/karan/Documents/Code/DSA/C++/Demo.cpp /usr/include/stdc-predef.h \
- /home/karan/Documents/Code/DSA/C++/Algorithms/include/Sorting/BubbleSort.h \
- /home/karan/Documents/Code/DSA/C++/Algorithms/include/Sorting/../CommonOper.h \
+Algorithms/CMakeFiles/algo.dir/src/Sorting/BubbleSort.cpp.o: \
+ /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/BubbleSort.cpp \
+ /usr/include/stdc-predef.h \
+ /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/../../include/Sorting/BubbleSort.h \
+ /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/../../include/Sorting/../CommonOper.h \
  /usr/include/c++/13.2.1/vector \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \

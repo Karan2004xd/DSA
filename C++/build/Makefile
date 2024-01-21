@@ -194,6 +194,19 @@ hashing/fast:
 	$(MAKE) $(MAKESILENT) -f Hashing/CMakeFiles/hashing.dir/build.make Hashing/CMakeFiles/hashing.dir/build
 .PHONY : hashing/fast
 
+#=============================================================================
+# Target rules for targets named algo
+
+# Build rule for target.
+algo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 algo
+.PHONY : algo
+
+# fast build rule for target.
+algo/fast:
+	$(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/build
+.PHONY : algo/fast
+
 Demo.o: Demo.cpp.o
 .PHONY : Demo.o
 
@@ -226,6 +239,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... algo"
 	@echo "... hashing"
 	@echo "... list"
 	@echo "... queue"

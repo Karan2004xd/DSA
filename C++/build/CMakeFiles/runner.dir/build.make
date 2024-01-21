@@ -92,8 +92,7 @@ runner_EXTERNAL_OBJECTS =
 
 runner: CMakeFiles/runner.dir/Demo.cpp.o
 runner: CMakeFiles/runner.dir/build.make
-runner: Hashing/libhashing.a
-runner: LinkedLists/liblist.a
+runner: Algorithms/libalgo.a
 runner: CMakeFiles/runner.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable runner"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runner.dir/link.txt --verbose=$(VERBOSE)

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libalgo.a CMakeFiles/algo.dir/src/CommonOper.cpp.o CMakeFiles/algo.dir/src/Searching/LinearSearch.cpp.o CMakeFiles/algo.dir/src/Searching/BinarySearch.cpp.o CMakeFiles/algo.dir/src/Sorting/BubbleSort.cpp.o
+/usr/bin/ranlib libalgo.a

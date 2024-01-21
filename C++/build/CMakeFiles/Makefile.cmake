@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/home/karan/Documents/Code/DSA/C++/Algorithms/CMakeLists.txt"
   "/home/karan/Documents/Code/DSA/C++/CMakeLists.txt"
   "/home/karan/Documents/Code/DSA/C++/Hashing/CMakeLists.txt"
   "/home/karan/Documents/Code/DSA/C++/LinkedLists/CMakeLists.txt"
@@ -50,6 +51,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Queue/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Tree/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Hashing/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Algorithms/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -60,4 +62,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "Queue/CMakeFiles/queue.dir/DependInfo.cmake"
   "Tree/CMakeFiles/tree.dir/DependInfo.cmake"
   "Hashing/CMakeFiles/hashing.dir/DependInfo.cmake"
+  "Algorithms/CMakeFiles/algo.dir/DependInfo.cmake"
   )

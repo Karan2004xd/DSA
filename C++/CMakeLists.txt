@@ -6,6 +6,7 @@ add_subdirectory("./Stack")
 add_subdirectory("./Queue")
 add_subdirectory("./Tree")
 add_subdirectory("./Hashing")
+add_subdirectory("./Algorithms")
 
 add_executable(runner "./Demo.cpp")
 
@@ -22,4 +23,7 @@ add_executable(runner "./Demo.cpp")
 # target_link_libraries(runner PRIVATE tree)
 
 # Hashing
-target_link_libraries(runner PRIVATE hashing)
+# target_link_libraries(runner PRIVATE hashing)
+
+# Algorithms
+target_link_libraries(runner PRIVATE algo)
