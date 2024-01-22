@@ -1,13 +1,12 @@
-#ifndef ADJACENCY_MATRIX_H_
-#define ADJACENCY_MATRIX_H_
-
+#ifndef ADJACENCY_LIST_H_
+#define ADJACENCY_LIST_H_
 #include "GraphNode.h"
 #include <iostream>
 #include <sstream>
 
 // Test Cases
 
-    /* AdjacencyMatrix graph; */
+    /* AdjacencyList graph; */
     /* graph.add_edge("A", 0); */
     /* graph.add_edge("B", 1); */
     /* graph.add_edge("C", 2); */
@@ -23,20 +22,14 @@
 
     /* graph.display_graph(); */
 
-class AdjacencyMatrix {
-public:
-    AdjacencyMatrix();
-
+class AdjacencyList {
+public:   
     void add_edge(std::string name, int index);
     void undirected_edge(int i, int j);
+    void display_graph();
 
-    void display_graph() const;
-    std::vector<GraphNode *> get_node_list() { return this->node_list; };
-    int **get_graph() { return this->graph; }
-
-    ~AdjacencyMatrix();
+    std::vector<GraphNode *> get_node_list() { return this->node_list; }
 private:
-    std::vector<GraphNode *> node_list;
-    int **graph {nullptr};
+    std::vector<GraphNode *> node_list;   
 };
-#endif // ADJACNECY_MATRIX_H_
+#endif // ADJACENCY_LIST_H_

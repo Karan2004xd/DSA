@@ -117,7 +117,7 @@ void heapify_top_to_bottom(int index, const std::string &type, int *heap, int si
             } else {
                 swapped = right;
             }
-            
+
             if (heap[index] > heap[swapped]) {
                 int temp = heap[index];
                 heap[index] = heap[swapped];
@@ -125,23 +125,23 @@ void heapify_top_to_bottom(int index, const std::string &type, int *heap, int si
             }
         }
     } else if (type == "max") {
-       if (size_of_heap == right && heap[index] > heap[right]) {
-           int temp = heap[index];
-           heap[index] = heap[right];
-           heap[right] = temp;
-       } else {
-           if (heap[left] > heap[right]) {
-               swapped = left;
-           } else {
-               swapped = right;
-           }
+        if (size_of_heap == right && heap[index] > heap[right]) {
+            int temp = heap[index];
+            heap[index] = heap[right];
+            heap[right] = temp;
+        } else {
+            if (heap[left] > heap[right]) {
+                swapped = left;
+            } else {
+                swapped = right;
+            }
 
-           if (heap[index] < heap[swapped]) {
-               int temp = heap[index];
-               heap[index] = heap[swapped];
-               heap[swapped] = temp;
-           }
-       }
+            if (heap[index] < heap[swapped]) {
+                int temp = heap[index];
+                heap[index] = heap[swapped];
+                heap[swapped] = temp;
+            }
+        }
     }
     heapify_top_to_bottom(swapped, type, heap, size_of_heap);
 }

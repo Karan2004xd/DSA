@@ -8,6 +8,7 @@ public:
     int index;
     std::string name;
     std::vector<GraphNode *> neighbours;
+    bool is_visited = false;
 
     GraphNode(std::string &name, int index) : name(name), index(index) {}
 };

@@ -13,7 +13,7 @@ AdjacencyMatrix::AdjacencyMatrix() {
     this->graph = change_graph_size(0);
 }
 
-void AdjacencyMatrix::add_element(std::string name, int index) {
+void AdjacencyMatrix::add_edge(std::string name, int index) {
     node_list.push_back(new GraphNode(name, index));
     graph = change_graph_size(node_list.size());
 }
@@ -23,7 +23,7 @@ void AdjacencyMatrix::undirected_edge(int i, int j) {
     graph[j][i] = 1;
 }
 
-void AdjacencyMatrix::dispaly_graph() const {
+void AdjacencyMatrix::display_graph() const {
     std::ostringstream oss;
     std::string temp_str {""};
     oss << "\n" << "   ";

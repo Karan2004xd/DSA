@@ -130,6 +130,30 @@ graph/fast:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/build
 .PHONY : graph/fast
 
+src/BasicImplementation/AdjacencyList.o: src/BasicImplementation/AdjacencyList.cpp.o
+.PHONY : src/BasicImplementation/AdjacencyList.o
+
+# target to build an object file
+src/BasicImplementation/AdjacencyList.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/BasicImplementation/AdjacencyList.cpp.o
+.PHONY : src/BasicImplementation/AdjacencyList.cpp.o
+
+src/BasicImplementation/AdjacencyList.i: src/BasicImplementation/AdjacencyList.cpp.i
+.PHONY : src/BasicImplementation/AdjacencyList.i
+
+# target to preprocess a source file
+src/BasicImplementation/AdjacencyList.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/BasicImplementation/AdjacencyList.cpp.i
+.PHONY : src/BasicImplementation/AdjacencyList.cpp.i
+
+src/BasicImplementation/AdjacencyList.s: src/BasicImplementation/AdjacencyList.cpp.s
+.PHONY : src/BasicImplementation/AdjacencyList.s
+
+# target to generate assembly for a file
+src/BasicImplementation/AdjacencyList.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/BasicImplementation/AdjacencyList.cpp.s
+.PHONY : src/BasicImplementation/AdjacencyList.cpp.s
+
 src/BasicImplementation/AdjacencyMatrix.o: src/BasicImplementation/AdjacencyMatrix.cpp.o
 .PHONY : src/BasicImplementation/AdjacencyMatrix.o
 
@@ -154,6 +178,54 @@ src/BasicImplementation/AdjacencyMatrix.cpp.s:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/BasicImplementation/AdjacencyMatrix.cpp.s
 .PHONY : src/BasicImplementation/AdjacencyMatrix.cpp.s
 
+src/Traversal/BfsAndDfsUsingList.o: src/Traversal/BfsAndDfsUsingList.cpp.o
+.PHONY : src/Traversal/BfsAndDfsUsingList.o
+
+# target to build an object file
+src/Traversal/BfsAndDfsUsingList.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingList.cpp.o
+.PHONY : src/Traversal/BfsAndDfsUsingList.cpp.o
+
+src/Traversal/BfsAndDfsUsingList.i: src/Traversal/BfsAndDfsUsingList.cpp.i
+.PHONY : src/Traversal/BfsAndDfsUsingList.i
+
+# target to preprocess a source file
+src/Traversal/BfsAndDfsUsingList.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingList.cpp.i
+.PHONY : src/Traversal/BfsAndDfsUsingList.cpp.i
+
+src/Traversal/BfsAndDfsUsingList.s: src/Traversal/BfsAndDfsUsingList.cpp.s
+.PHONY : src/Traversal/BfsAndDfsUsingList.s
+
+# target to generate assembly for a file
+src/Traversal/BfsAndDfsUsingList.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingList.cpp.s
+.PHONY : src/Traversal/BfsAndDfsUsingList.cpp.s
+
+src/Traversal/BfsAndDfsUsingMatrix.o: src/Traversal/BfsAndDfsUsingMatrix.cpp.o
+.PHONY : src/Traversal/BfsAndDfsUsingMatrix.o
+
+# target to build an object file
+src/Traversal/BfsAndDfsUsingMatrix.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingMatrix.cpp.o
+.PHONY : src/Traversal/BfsAndDfsUsingMatrix.cpp.o
+
+src/Traversal/BfsAndDfsUsingMatrix.i: src/Traversal/BfsAndDfsUsingMatrix.cpp.i
+.PHONY : src/Traversal/BfsAndDfsUsingMatrix.i
+
+# target to preprocess a source file
+src/Traversal/BfsAndDfsUsingMatrix.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingMatrix.cpp.i
+.PHONY : src/Traversal/BfsAndDfsUsingMatrix.cpp.i
+
+src/Traversal/BfsAndDfsUsingMatrix.s: src/Traversal/BfsAndDfsUsingMatrix.cpp.s
+.PHONY : src/Traversal/BfsAndDfsUsingMatrix.s
+
+# target to generate assembly for a file
+src/Traversal/BfsAndDfsUsingMatrix.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingMatrix.cpp.s
+.PHONY : src/Traversal/BfsAndDfsUsingMatrix.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,9 +235,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... graph"
+	@echo "... src/BasicImplementation/AdjacencyList.o"
+	@echo "... src/BasicImplementation/AdjacencyList.i"
+	@echo "... src/BasicImplementation/AdjacencyList.s"
 	@echo "... src/BasicImplementation/AdjacencyMatrix.o"
 	@echo "... src/BasicImplementation/AdjacencyMatrix.i"
 	@echo "... src/BasicImplementation/AdjacencyMatrix.s"
+	@echo "... src/Traversal/BfsAndDfsUsingList.o"
+	@echo "... src/Traversal/BfsAndDfsUsingList.i"
+	@echo "... src/Traversal/BfsAndDfsUsingList.s"
+	@echo "... src/Traversal/BfsAndDfsUsingMatrix.o"
+	@echo "... src/Traversal/BfsAndDfsUsingMatrix.i"
+	@echo "... src/Traversal/BfsAndDfsUsingMatrix.s"
 .PHONY : help
 
 
