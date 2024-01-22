@@ -204,8 +204,21 @@ algo: cmake_check_build_system
 
 # fast build rule for target.
 algo/fast:
-	$(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/build
+	$(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/build
 .PHONY : algo/fast
+
+#=============================================================================
+# Target rules for targets named graph
+
+# Build rule for target.
+graph: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 graph
+.PHONY : graph
+
+# fast build rule for target.
+graph/fast:
+	$(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/build
+.PHONY : graph/fast
 
 Demo.o: Demo.cpp.o
 .PHONY : Demo.o
@@ -240,6 +253,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... algo"
+	@echo "... graph"
 	@echo "... hashing"
 	@echo "... list"
 	@echo "... queue"

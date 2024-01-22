@@ -226,6 +226,150 @@ src/Sorting/BubbleSort.cpp.s:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/BubbleSort.cpp.s
 .PHONY : src/Sorting/BubbleSort.cpp.s
 
+src/Sorting/BucketSort.o: src/Sorting/BucketSort.cpp.o
+.PHONY : src/Sorting/BucketSort.o
+
+# target to build an object file
+src/Sorting/BucketSort.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.o
+.PHONY : src/Sorting/BucketSort.cpp.o
+
+src/Sorting/BucketSort.i: src/Sorting/BucketSort.cpp.i
+.PHONY : src/Sorting/BucketSort.i
+
+# target to preprocess a source file
+src/Sorting/BucketSort.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.i
+.PHONY : src/Sorting/BucketSort.cpp.i
+
+src/Sorting/BucketSort.s: src/Sorting/BucketSort.cpp.s
+.PHONY : src/Sorting/BucketSort.s
+
+# target to generate assembly for a file
+src/Sorting/BucketSort.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.s
+.PHONY : src/Sorting/BucketSort.cpp.s
+
+src/Sorting/HeapSort.o: src/Sorting/HeapSort.cpp.o
+.PHONY : src/Sorting/HeapSort.o
+
+# target to build an object file
+src/Sorting/HeapSort.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.o
+.PHONY : src/Sorting/HeapSort.cpp.o
+
+src/Sorting/HeapSort.i: src/Sorting/HeapSort.cpp.i
+.PHONY : src/Sorting/HeapSort.i
+
+# target to preprocess a source file
+src/Sorting/HeapSort.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.i
+.PHONY : src/Sorting/HeapSort.cpp.i
+
+src/Sorting/HeapSort.s: src/Sorting/HeapSort.cpp.s
+.PHONY : src/Sorting/HeapSort.s
+
+# target to generate assembly for a file
+src/Sorting/HeapSort.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.s
+.PHONY : src/Sorting/HeapSort.cpp.s
+
+src/Sorting/InsertionSort.o: src/Sorting/InsertionSort.cpp.o
+.PHONY : src/Sorting/InsertionSort.o
+
+# target to build an object file
+src/Sorting/InsertionSort.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.o
+.PHONY : src/Sorting/InsertionSort.cpp.o
+
+src/Sorting/InsertionSort.i: src/Sorting/InsertionSort.cpp.i
+.PHONY : src/Sorting/InsertionSort.i
+
+# target to preprocess a source file
+src/Sorting/InsertionSort.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.i
+.PHONY : src/Sorting/InsertionSort.cpp.i
+
+src/Sorting/InsertionSort.s: src/Sorting/InsertionSort.cpp.s
+.PHONY : src/Sorting/InsertionSort.s
+
+# target to generate assembly for a file
+src/Sorting/InsertionSort.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.s
+.PHONY : src/Sorting/InsertionSort.cpp.s
+
+src/Sorting/MergeSort.o: src/Sorting/MergeSort.cpp.o
+.PHONY : src/Sorting/MergeSort.o
+
+# target to build an object file
+src/Sorting/MergeSort.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.o
+.PHONY : src/Sorting/MergeSort.cpp.o
+
+src/Sorting/MergeSort.i: src/Sorting/MergeSort.cpp.i
+.PHONY : src/Sorting/MergeSort.i
+
+# target to preprocess a source file
+src/Sorting/MergeSort.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.i
+.PHONY : src/Sorting/MergeSort.cpp.i
+
+src/Sorting/MergeSort.s: src/Sorting/MergeSort.cpp.s
+.PHONY : src/Sorting/MergeSort.s
+
+# target to generate assembly for a file
+src/Sorting/MergeSort.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.s
+.PHONY : src/Sorting/MergeSort.cpp.s
+
+src/Sorting/QuickSort.o: src/Sorting/QuickSort.cpp.o
+.PHONY : src/Sorting/QuickSort.o
+
+# target to build an object file
+src/Sorting/QuickSort.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.o
+.PHONY : src/Sorting/QuickSort.cpp.o
+
+src/Sorting/QuickSort.i: src/Sorting/QuickSort.cpp.i
+.PHONY : src/Sorting/QuickSort.i
+
+# target to preprocess a source file
+src/Sorting/QuickSort.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.i
+.PHONY : src/Sorting/QuickSort.cpp.i
+
+src/Sorting/QuickSort.s: src/Sorting/QuickSort.cpp.s
+.PHONY : src/Sorting/QuickSort.s
+
+# target to generate assembly for a file
+src/Sorting/QuickSort.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.s
+.PHONY : src/Sorting/QuickSort.cpp.s
+
+src/Sorting/SelectionSort.o: src/Sorting/SelectionSort.cpp.o
+.PHONY : src/Sorting/SelectionSort.o
+
+# target to build an object file
+src/Sorting/SelectionSort.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.o
+.PHONY : src/Sorting/SelectionSort.cpp.o
+
+src/Sorting/SelectionSort.i: src/Sorting/SelectionSort.cpp.i
+.PHONY : src/Sorting/SelectionSort.i
+
+# target to preprocess a source file
+src/Sorting/SelectionSort.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.i
+.PHONY : src/Sorting/SelectionSort.cpp.i
+
+src/Sorting/SelectionSort.s: src/Sorting/SelectionSort.cpp.s
+.PHONY : src/Sorting/SelectionSort.s
+
+# target to generate assembly for a file
+src/Sorting/SelectionSort.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithms/CMakeFiles/algo.dir/build.make Algorithms/CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.s
+.PHONY : src/Sorting/SelectionSort.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -247,6 +391,24 @@ help:
 	@echo "... src/Sorting/BubbleSort.o"
 	@echo "... src/Sorting/BubbleSort.i"
 	@echo "... src/Sorting/BubbleSort.s"
+	@echo "... src/Sorting/BucketSort.o"
+	@echo "... src/Sorting/BucketSort.i"
+	@echo "... src/Sorting/BucketSort.s"
+	@echo "... src/Sorting/HeapSort.o"
+	@echo "... src/Sorting/HeapSort.i"
+	@echo "... src/Sorting/HeapSort.s"
+	@echo "... src/Sorting/InsertionSort.o"
+	@echo "... src/Sorting/InsertionSort.i"
+	@echo "... src/Sorting/InsertionSort.s"
+	@echo "... src/Sorting/MergeSort.o"
+	@echo "... src/Sorting/MergeSort.i"
+	@echo "... src/Sorting/MergeSort.s"
+	@echo "... src/Sorting/QuickSort.o"
+	@echo "... src/Sorting/QuickSort.i"
+	@echo "... src/Sorting/QuickSort.s"
+	@echo "... src/Sorting/SelectionSort.o"
+	@echo "... src/Sorting/SelectionSort.i"
+	@echo "... src/Sorting/SelectionSort.s"
 .PHONY : help
 
 

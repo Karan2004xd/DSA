@@ -143,6 +143,7 @@ void heapify_top_to_bottom(int index, const std::string &type, int *heap, int si
            }
        }
     }
+    heapify_top_to_bottom(swapped, type, heap, size_of_heap);
 }
 
 int BinaryHeap::extract_top_element() {
@@ -152,7 +153,7 @@ int BinaryHeap::extract_top_element() {
 
     std::string type_of_oper = type_of_heap == HeapType::MAX ? "max" : "min";
 
-    heapify_top_to_bottom(1, type_of_oper, heap, get_size_of_heap());
+    heapify_top_to_bottom(1, type_of_oper, heap, get_size_of_heap() - 1);
 
     return extracted_value;
 }

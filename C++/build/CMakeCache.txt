@@ -243,13 +243,25 @@ Stack_IS_TOP_LEVEL:STATIC=OFF
 Stack_SOURCE_DIR:STATIC=/home/karan/Documents/Code/DSA/C++/Stack
 
 //Value Computed by CMake
-algo_BINARY_DIR:STATIC=/home/karan/Documents/Code/DSA/C++/build/Algorithms
+algo_BINARY_DIR:STATIC=/home/karan/Documents/Code/DSA/C++/build/Algorithm
 
 //Value Computed by CMake
 algo_IS_TOP_LEVEL:STATIC=OFF
 
+//Dependencies for the target
+algo_LIB_DEPENDS:STATIC=general;tree;
+
 //Value Computed by CMake
-algo_SOURCE_DIR:STATIC=/home/karan/Documents/Code/DSA/C++/Algorithms
+algo_SOURCE_DIR:STATIC=/home/karan/Documents/Code/DSA/C++/Algorithm
+
+//Value Computed by CMake
+graph_BINARY_DIR:STATIC=/home/karan/Documents/Code/DSA/C++/build/Graph
+
+//Value Computed by CMake
+graph_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+graph_SOURCE_DIR:STATIC=/home/karan/Documents/Code/DSA/C++/Graph
 
 //Value Computed by CMake
 hashing_BINARY_DIR:STATIC=/home/karan/Documents/Code/DSA/C++/build/Hashing
@@ -394,7 +406,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

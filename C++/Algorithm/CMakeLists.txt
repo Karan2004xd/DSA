@@ -6,6 +6,13 @@ add_library(${PROJECT_NAME}
     "./src/Searching/LinearSearch.cpp"
     "./src/Searching/BinarySearch.cpp"
     "./src/Sorting/BubbleSort.cpp"
+    "./src/Sorting/SelectionSort.cpp"
+    "./src/Sorting/InsertionSort.cpp"
+    "./src/Sorting/BucketSort.cpp"
+    "./src/Sorting/MergeSort.cpp"
+    "./src/Sorting/QuickSort.cpp"
+    "./src/Sorting/HeapSort.cpp"
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE "./include")
+target_link_libraries(${PROJECT_NAME} PRIVATE tree)

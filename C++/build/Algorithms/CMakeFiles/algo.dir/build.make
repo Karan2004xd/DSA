@@ -125,12 +125,102 @@ Algorithms/CMakeFiles/algo.dir/src/Sorting/BubbleSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/Sorting/BubbleSort.cpp.s"
 	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/BubbleSort.cpp -o CMakeFiles/algo.dir/src/Sorting/BubbleSort.cpp.s
 
+Algorithms/CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.o: Algorithms/CMakeFiles/algo.dir/flags.make
+Algorithms/CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.o: /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/SelectionSort.cpp
+Algorithms/CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.o: Algorithms/CMakeFiles/algo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Algorithms/CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Algorithms/CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.o -MF CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.o.d -o CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.o -c /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/SelectionSort.cpp
+
+Algorithms/CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/SelectionSort.cpp > CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.i
+
+Algorithms/CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/SelectionSort.cpp -o CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.s
+
+Algorithms/CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.o: Algorithms/CMakeFiles/algo.dir/flags.make
+Algorithms/CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.o: /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/InsertionSort.cpp
+Algorithms/CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.o: Algorithms/CMakeFiles/algo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Algorithms/CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Algorithms/CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.o -MF CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.o.d -o CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.o -c /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/InsertionSort.cpp
+
+Algorithms/CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/InsertionSort.cpp > CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.i
+
+Algorithms/CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/InsertionSort.cpp -o CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.s
+
+Algorithms/CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.o: Algorithms/CMakeFiles/algo.dir/flags.make
+Algorithms/CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.o: /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/BucketSort.cpp
+Algorithms/CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.o: Algorithms/CMakeFiles/algo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Algorithms/CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Algorithms/CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.o -MF CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.o.d -o CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.o -c /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/BucketSort.cpp
+
+Algorithms/CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/BucketSort.cpp > CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.i
+
+Algorithms/CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/BucketSort.cpp -o CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.s
+
+Algorithms/CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.o: Algorithms/CMakeFiles/algo.dir/flags.make
+Algorithms/CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.o: /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/MergeSort.cpp
+Algorithms/CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.o: Algorithms/CMakeFiles/algo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Algorithms/CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Algorithms/CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.o -MF CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.o.d -o CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.o -c /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/MergeSort.cpp
+
+Algorithms/CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/MergeSort.cpp > CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.i
+
+Algorithms/CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/MergeSort.cpp -o CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.s
+
+Algorithms/CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.o: Algorithms/CMakeFiles/algo.dir/flags.make
+Algorithms/CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.o: /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/QuickSort.cpp
+Algorithms/CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.o: Algorithms/CMakeFiles/algo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Algorithms/CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Algorithms/CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.o -MF CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.o.d -o CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.o -c /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/QuickSort.cpp
+
+Algorithms/CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/QuickSort.cpp > CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.i
+
+Algorithms/CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/QuickSort.cpp -o CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.s
+
+Algorithms/CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.o: Algorithms/CMakeFiles/algo.dir/flags.make
+Algorithms/CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.o: /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/HeapSort.cpp
+Algorithms/CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.o: Algorithms/CMakeFiles/algo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Algorithms/CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Algorithms/CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.o -MF CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.o.d -o CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.o -c /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/HeapSort.cpp
+
+Algorithms/CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/HeapSort.cpp > CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.i
+
+Algorithms/CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithms/src/Sorting/HeapSort.cpp -o CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.s
+
 # Object files for target algo
 algo_OBJECTS = \
 "CMakeFiles/algo.dir/src/CommonOper.cpp.o" \
 "CMakeFiles/algo.dir/src/Searching/LinearSearch.cpp.o" \
 "CMakeFiles/algo.dir/src/Searching/BinarySearch.cpp.o" \
-"CMakeFiles/algo.dir/src/Sorting/BubbleSort.cpp.o"
+"CMakeFiles/algo.dir/src/Sorting/BubbleSort.cpp.o" \
+"CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.o" \
+"CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.o" \
+"CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.o" \
+"CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.o" \
+"CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.o" \
+"CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.o"
 
 # External object files for target algo
 algo_EXTERNAL_OBJECTS =
@@ -139,9 +229,15 @@ Algorithms/libalgo.a: Algorithms/CMakeFiles/algo.dir/src/CommonOper.cpp.o
 Algorithms/libalgo.a: Algorithms/CMakeFiles/algo.dir/src/Searching/LinearSearch.cpp.o
 Algorithms/libalgo.a: Algorithms/CMakeFiles/algo.dir/src/Searching/BinarySearch.cpp.o
 Algorithms/libalgo.a: Algorithms/CMakeFiles/algo.dir/src/Sorting/BubbleSort.cpp.o
+Algorithms/libalgo.a: Algorithms/CMakeFiles/algo.dir/src/Sorting/SelectionSort.cpp.o
+Algorithms/libalgo.a: Algorithms/CMakeFiles/algo.dir/src/Sorting/InsertionSort.cpp.o
+Algorithms/libalgo.a: Algorithms/CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.o
+Algorithms/libalgo.a: Algorithms/CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.o
+Algorithms/libalgo.a: Algorithms/CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.o
+Algorithms/libalgo.a: Algorithms/CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.o
 Algorithms/libalgo.a: Algorithms/CMakeFiles/algo.dir/build.make
 Algorithms/libalgo.a: Algorithms/CMakeFiles/algo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libalgo.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libalgo.a"
 	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && $(CMAKE_COMMAND) -P CMakeFiles/algo.dir/cmake_clean_target.cmake
 	cd /home/karan/Documents/Code/DSA/C++/build/Algorithms && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algo.dir/link.txt --verbose=$(VERBOSE)
 
