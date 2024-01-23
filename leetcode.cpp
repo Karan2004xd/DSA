@@ -3,32 +3,36 @@
 using namespace std;
 
 class Solution {
-    const int modulo {1000000007};
-    int get_min(int start, int end, vector<int> &arr) {
-        int min_value {40000};
-        for (; start < end; start++) {
-            if (arr[start] < min_value) {
-                min_value = arr[start];
-            }
-        }
-        return min_value;
-    }
-
 public:
-    int sumSubarrayMins(vector<int>& arr) {
-        int sum {0};
-        for (int i = 1; i <= arr.size(); i++) {
-            for (int j = 0; j < arr.size(); j++) {
-                int min = get_min(j, j + i, arr);
-                sum += min;
+    bool check_prime(int value) {
+        bool result {true};
+        if (value > 2) {
+            int i = 2;
+            while (i <= value / 2) {
+                if (value % i == 0) {
+                    result = false;
+                    break;
+                }
+                i++;
             }
         }
-        return sum % modulo;
+        return result;
+    }
+    int countPrimes(int n) {
+        int result {0};
+
+        if (n >= 2) {
+            for (int i = 2; i < n; i++) {
+                if (check_prime(i)) {
+                    result++;
+                }
+            }
+        }
+        return result;
     }
 };
 int main() {
     Solution s;
-    vector<int> vec {11,81,94,43,3};
-    cout << s.sumSubarrayMins(vec) << endl;
+    std::cout << s.countPrimes(1) << std::endl;
     return 0;
 }
