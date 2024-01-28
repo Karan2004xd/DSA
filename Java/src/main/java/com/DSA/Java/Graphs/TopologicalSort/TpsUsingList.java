@@ -3,12 +3,6 @@ import com.DSA.Java.Graphs.Traversal.BFSAndDFS.AdjacencyList.*;
 import java.util.Stack;
 
 public class TpsUsingList extends Graph {
-    public void directedEdge(int i, int j) {
-        GraphNode first = getNodeList().get(i);
-        GraphNode second = getNodeList().get(j);
-        first.neighbours.add(second);
-    }
-
     private void tpsHelper(GraphNode node, Stack<GraphNode> stack) {
         for (GraphNode tempNode : node.neighbours) {
             if (!tempNode.isVisisted) {

@@ -5,10 +5,6 @@ import java.util.Stack;
 import com.DSA.Java.Graphs.Traversal.BFSAndDFS.AdjacencyMatrix.*;;
 
 public class TpsUsingMatrix extends Graph {
-    public void directedEdge(int i, int j) {
-        getAdjancencyMatrix()[i][j] = 1;
-    }
-
     private void tpsHelper(GraphNode node, Stack<GraphNode> stack) {
         ArrayList<GraphNode> neighbours = getNeighbours(node);
         for (GraphNode tempNode : neighbours) {

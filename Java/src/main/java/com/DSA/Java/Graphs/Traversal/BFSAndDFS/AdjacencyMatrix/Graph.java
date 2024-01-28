@@ -29,6 +29,10 @@ public class Graph {
         change_size_of_matrix(nodeList.size());
     }
 
+    public void directedEdge(int i, int j) {
+        adjancencyMatrix[i][j] = 1;
+    }
+
     public void undirectedEdge(int i, int j) {
         adjancencyMatrix[i][j] = 1;
         adjancencyMatrix[j][i] = 1;

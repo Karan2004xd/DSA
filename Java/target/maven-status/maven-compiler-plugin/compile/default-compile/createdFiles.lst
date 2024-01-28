@@ -53,6 +53,7 @@ com/DSA/Java/LinkedList/Single/SinglyLinkedList.class
 com/DSA/Java/Arrays/Interview/TestClass.class
 com/DSA/Java/Tree/BinarySearchTree/BinarySearchTree.class
 com/DSA/Java/Arrays/Project/RotateMatrix.class
+com/DSA/Java/Graphs/SSSPP/SSSPPUsingList.class
 com/DSA/Java/Graphs/Traversal/BFSAndDFS/AdjacencyMatrix/Graph.class
 com/DSA/Java/Algorithms/Sorting/BubbleSort.class
 com/DSA/Java/LinkedList/Interview/LinkedList/SinglyList.class
@@ -77,4 +78,5 @@ com/DSA/Java/Graphs/Traversal/BFSAndDFS/AdjacencyList/GraphNode.class
 com/DSA/Java/Hashing/DoubleHashing.class
 com/DSA/Java/Stack/Runner.class
 com/DSA/Java/Graphs/GraphRunner.class
+com/DSA/Java/Graphs/SSSPP/SSSPPUsingMatrix.class
 com/DSA/Java/Recursion/ExerciseQuestions.class

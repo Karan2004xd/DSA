@@ -22,6 +22,12 @@ public class Graph {
         second.neighbours.add(first);
     }
 
+    public void directedEdge(int i, int j) {
+        GraphNode first = nodeList.get(i);
+        GraphNode second = nodeList.get(j);
+        first.neighbours.add(second);
+    }
+
     private void bfsHelper(GraphNode node) {
         LinkedList<GraphNode> queue = new LinkedList<GraphNode>();
         queue.add(node);
