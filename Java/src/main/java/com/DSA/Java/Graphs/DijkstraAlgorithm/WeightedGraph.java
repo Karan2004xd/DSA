@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 public class WeightedGraph {
     ArrayList<WeightedNode> nodeList = new ArrayList<>();
     
-    public void add_vertices(String name, int index) {
+    public void addVertices(String name, int index) {
         this.nodeList.add(new WeightedNode(name, index));
     }
 

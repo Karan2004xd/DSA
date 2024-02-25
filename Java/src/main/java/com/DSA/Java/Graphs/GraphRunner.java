@@ -1,29 +1,26 @@
 package com.DSA.Java.Graphs;
 
-import com.DSA.Java.Graphs.DijkstraAlgorithm.*;
+import java.util.ArrayList;
+
+import com.DSA.Java.Graphs.DisjointSet.*;
 
 public class GraphRunner {
-    public static void main(String[] args) {
-        WeightedGraph g = new WeightedGraph();
-        g.add_vertices("A", 0);
-        g.add_vertices("B", 1);
-        g.add_vertices("C", 2);
-        g.add_vertices("D", 3);
-        g.add_vertices("E", 4);
-        g.add_vertices("F", 5);
-        g.add_vertices("G", 6);
+  public static void main(String[] args) {
+    DisJointSetImpl newSet = new DisJointSetImpl();
 
-        g.addDirectedWeightedEdge(0, 1, 2);
-        g.addDirectedWeightedEdge(0, 2, 5);
-        g.addDirectedWeightedEdge(1, 2, 6);
-        g.addDirectedWeightedEdge(1, 3, 1);
-        g.addDirectedWeightedEdge(1, 4, 3);
-        g.addDirectedWeightedEdge(2, 5, 8);
-        g.addDirectedWeightedEdge(3, 4, 4);
-        g.addDirectedWeightedEdge(0, 1, 2);
-        g.addDirectedWeightedEdge(4, 6, 9);
-        g.addDirectedWeightedEdge(5, 6, 7);
+    ArrayList<WeightedNode> nodeList = new ArrayList<>();
+    nodeList.add(new WeightedNode("A"));
+    nodeList.add(new WeightedNode("B"));
+    nodeList.add(new WeightedNode("C"));
+    nodeList.add(new WeightedNode("D"));
 
-        g.dijkstra();
-    }
+    newSet.makeSet(nodeList);
+    WeightedNode firstNode = nodeList.get(0);
+    WeightedNode secondNode = nodeList.get(1);
+    DisJointSetImpl output = newSet.findSet(secondNode);
+    output.printAllNodedOfSet();
+
+    output = newSet.union(firstNode, secondNode);
+    output.printAllNodedOfSet();
+  }
 }
