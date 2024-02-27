@@ -3,7 +3,7 @@ package com.DSA.Java.Graphs.DijkstraAlgorithm;
 import java.util.ArrayList;
 import java.util.PriorityQueue;
 
-public class WeightedGraph {
+public class DijkstraAlgoImpl {
     ArrayList<WeightedNode> nodeList = new ArrayList<>();
     
     public void addVertices(String name, int index) {
