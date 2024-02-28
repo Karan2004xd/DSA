@@ -1,10 +1,12 @@
 package com.DSA.Java.Graphs.DisjointSet;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
-public class WeightedNode {
+public class WeightedNode implements Comparable<WeightedNode> {
     public String name;
     public ArrayList<WeightedNode> neighbours = new ArrayList<>();
+    public HashMap<WeightedNode, Integer> weightMap = new HashMap<>();
     public boolean isVisited = false;
     
     public WeightedNode parent;
@@ -23,4 +25,13 @@ public class WeightedNode {
         this.distance = Integer.MAX_VALUE;
     }
 
+    @Override
+    public String toString() {
+        return name;
+    }
+
+    @Override
+    public int compareTo(WeightedNode arg0) {
+        return this.distance - arg0.distance;
+    }
 }

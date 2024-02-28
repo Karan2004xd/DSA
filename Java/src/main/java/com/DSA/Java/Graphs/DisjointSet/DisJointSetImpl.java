@@ -66,7 +66,7 @@ public class DisJointSetImpl {
   public void printAllNodedOfSet() {
     System.out.print("Printing all nodes of the set: ");
     for (WeightedNode node : nodeList) {
-      System.out.print(node.name + " ");
+      System.out.print(node + " ");
     }
     System.out.println();
   }
