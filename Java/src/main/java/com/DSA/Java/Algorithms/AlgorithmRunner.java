@@ -1,15 +1,14 @@
 package com.DSA.Java.Algorithms;
 
-import com.DSA.Java.Algorithms.Searching.BinarySearch;
+import com.DSA.Java.Algorithms.Greedy.FractionalKnapsackProblem.FractionalKnapsack;
 
 public class AlgorithmRunner {
   public static void main(String[] args) {
-    int[] arr = {1, 2, 3, 4, 5};
-    BinarySearch bs = new BinarySearch(arr);
-    int start = 0, end = arr.length - 1;
-    bs.search(start, end, 5);
-    bs.search(start, end, 2);
-    bs.search(start, end, 6);
-    bs.search(start, end, 1);
+    FractionalKnapsack fKnapsack = new FractionalKnapsack();
+    fKnapsack.addItem(1, 100, 20);
+    fKnapsack.addItem(2, 120, 30);
+    fKnapsack.addItem(3, 60, 10);
+    int capacity = 50;
+    fKnapsack.knapSack(capacity);
   }
 }
