@@ -4,6 +4,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
+// Test Cases
+// FractionalKnapsack fKnapsack = new FractionalKnapsack();
+// fKnapsack.addItem(1, 100, 20);
+// fKnapsack.addItem(2, 120, 30);
+// fKnapsack.addItem(3, 60, 10);
+// int capacity = 50;
+// fKnapsack.knapSack(capacity);
+
 public class FractionalKnapsack {
   private ArrayList<KnapsackItem> items;
 
