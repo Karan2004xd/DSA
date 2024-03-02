@@ -1,24 +1,32 @@
-#include "Graph/include/Traversal/BfsAndDfsUsingList.h"
+#include "./Tree/include/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.h"
 
 int main() {
-    BfsAndDfsUsingList graph;
-    graph.add_edge("A", 0);
-    graph.add_edge("B", 1);
-    graph.add_edge("C", 2);
-    graph.add_edge("D", 3);
-    graph.add_edge("E", 4);
+  BTreeUsingLL tree;
+  tree.insert_element("N1");
+  tree.insert_element("N2");
+  tree.insert_element("N3");
+  tree.insert_element("N4");
+  tree.insert_element("N5");
+  tree.insert_element("N6");
+  tree.insert_element("N7");
+  tree.insert_element("N8");
+  tree.insert_element("N9");
 
-    graph.undirected_edge(0, 1);
-    graph.undirected_edge(0, 2);
-    graph.undirected_edge(0, 3);
-    graph.undirected_edge(1, 4);
-    graph.undirected_edge(2, 3);
-    graph.undirected_edge(3, 4);
+  tree.pre_order_traversal(tree.get_root());
+  std::cout << "\n";
 
-    graph.display_graph();
-    
-    // Use only one of them at a time or use a seperate object for each
-    /* graph.dfs(); */
-    graph.bfs();
-    return 0;
+  tree.in_order_traversal(tree.get_root());
+  std::cout << "\n";
+
+  tree.post_order_traversal(tree.get_root());
+  std::cout << "\n";
+
+  tree.level_order_traversal();
+
+  tree.delete_element("N7");
+  tree.level_order_traversal();
+
+  tree.delete_tree();
+  tree.level_order_traversal();
+  return 0;
 }

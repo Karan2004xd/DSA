@@ -1,18 +1,11 @@
 package com.DSA.Java.Algorithms;
 
-import com.DSA.Java.Algorithms.DivideAndConquer.PathsToLastCellGivenCost;
+import com.DSA.Java.Algorithms.DynamicProgramming.FibonacciWithDp;
 
 public class AlgorithmRunner {
   public static void main(String[] args) {
-    PathsToLastCellGivenCost path = new PathsToLastCellGivenCost();
-    int[][] array = {
-      {4, 7, 1, 6},
-      {5, 7, 3, 9},
-      {3, 2, 1, 2},
-      {7, 1, 6, 3},
-    };
-
-    int result = path.findPaths(array, 25);
+    FibonacciWithDp fDp = new FibonacciWithDp();
+    int result = fDp.findNumOfFibWithTab(6);
     System.out.println("Result : " + result);
   }
 }

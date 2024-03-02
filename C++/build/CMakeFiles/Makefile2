@@ -203,7 +203,7 @@ Tree/clean: Tree/CMakeFiles/tree.dir/clean
 # Target rules for target CMakeFiles/runner.dir
 
 # All Build rule for target.
-CMakeFiles/runner.dir/all: Graph/CMakeFiles/graph.dir/all
+CMakeFiles/runner.dir/all: Tree/CMakeFiles/tree.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=32,33 "Built target runner"
@@ -211,7 +211,7 @@ CMakeFiles/runner.dir/all: Graph/CMakeFiles/graph.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/runner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/runner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 0
 .PHONY : CMakeFiles/runner.dir/rule

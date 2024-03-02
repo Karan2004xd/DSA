@@ -21,7 +21,7 @@ add_executable(runner "./Demo.cpp")
 # target_link_libraries(runner PRIVATE queue)
 
 # Tree
-# target_link_libraries(runner PRIVATE tree)
+target_link_libraries(runner PRIVATE tree)
 
 # Hashing
 # target_link_libraries(runner PRIVATE hashing)
@@ -30,4 +30,4 @@ add_executable(runner "./Demo.cpp")
 # target_link_libraries(runner PRIVATE algo)
 
 # Graph
-target_link_libraries(runner PRIVATE graph)
+# target_link_libraries(runner PRIVATE graph)
