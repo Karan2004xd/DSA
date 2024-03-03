@@ -23,7 +23,7 @@ public class BinarySearchTree {
             return currentValue;
         }
     }
-public void insertElement(int value) {
+    public void insertElement(int value) {
         root = insertElement(root, value);
     }
 

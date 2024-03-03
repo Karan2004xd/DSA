@@ -94,11 +94,10 @@ public class CircularSinglyLinkedList {
          if (index == 0) {
             tempNode = tempNode.next;
             head = tempNode;
-
             tail.next = head;
 
          } else if (index >= size - 1) {
-            for (int i = 0; i < index - 1; i++) {
+            for (int i = 0; i < size - 1; i++) {
                tempNode = tempNode.next;              
             }
             tempNode.next = head;

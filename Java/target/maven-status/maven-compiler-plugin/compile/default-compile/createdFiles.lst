@@ -3,6 +3,7 @@ com/DSA/Java/Graphs/KruskalAndPrimsAlgorithm/UndirectedEdge.class
 com/DSA/Java/LinkedList/Double/Node.class
 com/DSA/Java/Algorithms/DivideAndConquer/ConvertString.class
 com/DSA/Java/Tree/BinarySearchTree/BinaryNode.class
+com/DSA/Java/Algorithms/DynamicProgramming/NumberFactorWithDP.class
 com/DSA/Java/Arrays/Project/Demo.class
 com/DSA/Java/Graphs/BasicImplementation/AdjancencyMatrix/Graph.class
 com/DSA/Java/Algorithms/Sorting/HeapSort/BinaryHeap.class
@@ -36,6 +37,7 @@ com/DSA/Java/Stack/LinkedListStack/LinkedListStack.class
 com/DSA/Java/Arrays/Interview/TestClass.class
 com/DSA/Java/Tree/BinarySearchTree/BinarySearchTree.class
 com/DSA/Java/Arrays/Project/RotateMatrix.class
+com/DSA/Java/Algorithms/DynamicProgramming/ConvertStringWithDp.class
 com/DSA/Java/Graphs/SSSPP/SSSPPUsingList.class
 com/DSA/Java/Algorithms/DivideAndConquer/NumberFactor.class
 com/DSA/Java/Tree/Trie/Trie.class
@@ -75,6 +77,7 @@ com/DSA/Java/Arrays/OneDimensional/Runner.class
 com/DSA/Java/Stack/Interview/StackMinimum/Node.class
 com/DSA/Java/Algorithms/Greedy/ActivitySelectionProblem/Activity.class
 com/DSA/Java/Tree/AVLTree/AVLNode.class
+com/DSA/Java/Algorithms/DynamicProgramming/HouseRobberWithDp.class
 com/DSA/Java/Algorithms/Sorting/MergeSort.class
 com/DSA/Java/Arrays/TwoDimensional/Runner.class
 com/DSA/Java/Queue/LinkedListQueue/Node.class
