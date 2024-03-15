@@ -6,6 +6,8 @@ add_library(${PROJECT_NAME}
     "./src/BasicImplementation/AdjacencyList.cpp"
     "./src/Traversal/BfsAndDfsUsingMatrix.cpp"
     "./src/Traversal/BfsAndDfsUsingList.cpp"
+    "./src/TopologicalSort/TpsUsingList.cpp"
+    "./src/TopologicalSort/TpsUsingMatrix.cpp"
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE "./include")

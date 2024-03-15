@@ -1,32 +1,25 @@
-#include "./Tree/include/BinaryTree/BinaryTreeUsingLL/BTreeUsingLL.h"
+#include "./Graph/include/TopologicalSort/TpsUsingMatrix.h"
 
 int main() {
-  BTreeUsingLL tree;
-  tree.insert_element("N1");
-  tree.insert_element("N2");
-  tree.insert_element("N3");
-  tree.insert_element("N4");
-  tree.insert_element("N5");
-  tree.insert_element("N6");
-  tree.insert_element("N7");
-  tree.insert_element("N8");
-  tree.insert_element("N9");
+  TpsUsingMatrix graph;
+  graph.add_edge("A", 0);
+  graph.add_edge("B", 1);
+  graph.add_edge("C", 2);
+  graph.add_edge("D", 3);
+  graph.add_edge("E", 4);
+  graph.add_edge("F", 5);
+  graph.add_edge("G", 6);
+  graph.add_edge("H", 7);
 
-  tree.pre_order_traversal(tree.get_root());
-  std::cout << "\n";
+  graph.directed_edge(0, 2);
+  graph.directed_edge(2, 4);
+  graph.directed_edge(4, 7);
+  graph.directed_edge(4, 5);
+  graph.directed_edge(5, 6);
+  graph.directed_edge(1, 2);
+  graph.directed_edge(1, 3);
+  graph.directed_edge(3, 5);
 
-  tree.in_order_traversal(tree.get_root());
-  std::cout << "\n";
-
-  tree.post_order_traversal(tree.get_root());
-  std::cout << "\n";
-
-  tree.level_order_traversal();
-
-  tree.delete_element("N7");
-  tree.level_order_traversal();
-
-  tree.delete_tree();
-  tree.level_order_traversal();
+  graph.tps();
   return 0;
 }

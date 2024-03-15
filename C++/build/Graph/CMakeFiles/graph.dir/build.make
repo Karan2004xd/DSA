@@ -125,12 +125,42 @@ Graph/CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingList.cpp.s"
 	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Graph/src/Traversal/BfsAndDfsUsingList.cpp -o CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingList.cpp.s
 
+Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.o: Graph/CMakeFiles/graph.dir/flags.make
+Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.o: /home/karan/Documents/Code/DSA/C++/Graph/src/TopologicalSort/TpsUsingList.cpp
+Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.o: Graph/CMakeFiles/graph.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.o -MF CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.o.d -o CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.o -c /home/karan/Documents/Code/DSA/C++/Graph/src/TopologicalSort/TpsUsingList.cpp
+
+Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Graph/src/TopologicalSort/TpsUsingList.cpp > CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.i
+
+Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Graph/src/TopologicalSort/TpsUsingList.cpp -o CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.s
+
+Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.o: Graph/CMakeFiles/graph.dir/flags.make
+Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.o: /home/karan/Documents/Code/DSA/C++/Graph/src/TopologicalSort/TpsUsingMatrix.cpp
+Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.o: Graph/CMakeFiles/graph.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.o -MF CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.o.d -o CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.o -c /home/karan/Documents/Code/DSA/C++/Graph/src/TopologicalSort/TpsUsingMatrix.cpp
+
+Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Graph/src/TopologicalSort/TpsUsingMatrix.cpp > CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.i
+
+Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Graph/src/TopologicalSort/TpsUsingMatrix.cpp -o CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.s
+
 # Object files for target graph
 graph_OBJECTS = \
 "CMakeFiles/graph.dir/src/BasicImplementation/AdjacencyMatrix.cpp.o" \
 "CMakeFiles/graph.dir/src/BasicImplementation/AdjacencyList.cpp.o" \
 "CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingMatrix.cpp.o" \
-"CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingList.cpp.o"
+"CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingList.cpp.o" \
+"CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.o" \
+"CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.o"
 
 # External object files for target graph
 graph_EXTERNAL_OBJECTS =
@@ -139,9 +169,11 @@ Graph/libgraph.a: Graph/CMakeFiles/graph.dir/src/BasicImplementation/AdjacencyMa
 Graph/libgraph.a: Graph/CMakeFiles/graph.dir/src/BasicImplementation/AdjacencyList.cpp.o
 Graph/libgraph.a: Graph/CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingMatrix.cpp.o
 Graph/libgraph.a: Graph/CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingList.cpp.o
+Graph/libgraph.a: Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.o
+Graph/libgraph.a: Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.o
 Graph/libgraph.a: Graph/CMakeFiles/graph.dir/build.make
 Graph/libgraph.a: Graph/CMakeFiles/graph.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libgraph.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libgraph.a"
 	cd /home/karan/Documents/Code/DSA/C++/build/Graph && $(CMAKE_COMMAND) -P CMakeFiles/graph.dir/cmake_clean_target.cmake
 	cd /home/karan/Documents/Code/DSA/C++/build/Graph && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/graph.dir/link.txt --verbose=$(VERBOSE)
 

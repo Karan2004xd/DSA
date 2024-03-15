@@ -28,7 +28,8 @@
 
 class BfsAndDfsUsingMatrix : public AdjacencyMatrix {
 public:
-    void dfs();
-    void bfs();
+  static std::vector<GraphNode *> get_neighbours(GraphNode *node, int **graph, std::vector<GraphNode *> node_list);
+  void dfs();
+  void bfs();
 };
 #endif // BFS_AND_DFS_USING_MATRIX_H_

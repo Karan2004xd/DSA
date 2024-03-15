@@ -178,6 +178,54 @@ src/BasicImplementation/AdjacencyMatrix.cpp.s:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/BasicImplementation/AdjacencyMatrix.cpp.s
 .PHONY : src/BasicImplementation/AdjacencyMatrix.cpp.s
 
+src/TopologicalSort/TpsUsingList.o: src/TopologicalSort/TpsUsingList.cpp.o
+.PHONY : src/TopologicalSort/TpsUsingList.o
+
+# target to build an object file
+src/TopologicalSort/TpsUsingList.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.o
+.PHONY : src/TopologicalSort/TpsUsingList.cpp.o
+
+src/TopologicalSort/TpsUsingList.i: src/TopologicalSort/TpsUsingList.cpp.i
+.PHONY : src/TopologicalSort/TpsUsingList.i
+
+# target to preprocess a source file
+src/TopologicalSort/TpsUsingList.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.i
+.PHONY : src/TopologicalSort/TpsUsingList.cpp.i
+
+src/TopologicalSort/TpsUsingList.s: src/TopologicalSort/TpsUsingList.cpp.s
+.PHONY : src/TopologicalSort/TpsUsingList.s
+
+# target to generate assembly for a file
+src/TopologicalSort/TpsUsingList.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.s
+.PHONY : src/TopologicalSort/TpsUsingList.cpp.s
+
+src/TopologicalSort/TpsUsingMatrix.o: src/TopologicalSort/TpsUsingMatrix.cpp.o
+.PHONY : src/TopologicalSort/TpsUsingMatrix.o
+
+# target to build an object file
+src/TopologicalSort/TpsUsingMatrix.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.o
+.PHONY : src/TopologicalSort/TpsUsingMatrix.cpp.o
+
+src/TopologicalSort/TpsUsingMatrix.i: src/TopologicalSort/TpsUsingMatrix.cpp.i
+.PHONY : src/TopologicalSort/TpsUsingMatrix.i
+
+# target to preprocess a source file
+src/TopologicalSort/TpsUsingMatrix.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.i
+.PHONY : src/TopologicalSort/TpsUsingMatrix.cpp.i
+
+src/TopologicalSort/TpsUsingMatrix.s: src/TopologicalSort/TpsUsingMatrix.cpp.s
+.PHONY : src/TopologicalSort/TpsUsingMatrix.s
+
+# target to generate assembly for a file
+src/TopologicalSort/TpsUsingMatrix.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.s
+.PHONY : src/TopologicalSort/TpsUsingMatrix.cpp.s
+
 src/Traversal/BfsAndDfsUsingList.o: src/Traversal/BfsAndDfsUsingList.cpp.o
 .PHONY : src/Traversal/BfsAndDfsUsingList.o
 
@@ -241,6 +289,12 @@ help:
 	@echo "... src/BasicImplementation/AdjacencyMatrix.o"
 	@echo "... src/BasicImplementation/AdjacencyMatrix.i"
 	@echo "... src/BasicImplementation/AdjacencyMatrix.s"
+	@echo "... src/TopologicalSort/TpsUsingList.o"
+	@echo "... src/TopologicalSort/TpsUsingList.i"
+	@echo "... src/TopologicalSort/TpsUsingList.s"
+	@echo "... src/TopologicalSort/TpsUsingMatrix.o"
+	@echo "... src/TopologicalSort/TpsUsingMatrix.i"
+	@echo "... src/TopologicalSort/TpsUsingMatrix.s"
 	@echo "... src/Traversal/BfsAndDfsUsingList.o"
 	@echo "... src/Traversal/BfsAndDfsUsingList.i"
 	@echo "... src/Traversal/BfsAndDfsUsingList.s"
