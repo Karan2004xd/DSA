@@ -226,6 +226,30 @@ src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.s:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.s
 .PHONY : src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.s
 
+src/DisjointSet/DisjointSetImpl.o: src/DisjointSet/DisjointSetImpl.cpp.o
+.PHONY : src/DisjointSet/DisjointSetImpl.o
+
+# target to build an object file
+src/DisjointSet/DisjointSetImpl.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/DisjointSet/DisjointSetImpl.cpp.o
+.PHONY : src/DisjointSet/DisjointSetImpl.cpp.o
+
+src/DisjointSet/DisjointSetImpl.i: src/DisjointSet/DisjointSetImpl.cpp.i
+.PHONY : src/DisjointSet/DisjointSetImpl.i
+
+# target to preprocess a source file
+src/DisjointSet/DisjointSetImpl.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/DisjointSet/DisjointSetImpl.cpp.i
+.PHONY : src/DisjointSet/DisjointSetImpl.cpp.i
+
+src/DisjointSet/DisjointSetImpl.s: src/DisjointSet/DisjointSetImpl.cpp.s
+.PHONY : src/DisjointSet/DisjointSetImpl.s
+
+# target to generate assembly for a file
+src/DisjointSet/DisjointSetImpl.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/DisjointSet/DisjointSetImpl.cpp.s
+.PHONY : src/DisjointSet/DisjointSetImpl.cpp.s
+
 src/FloydWarshallAlgorithm/FloydWarshallImpl.o: src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.o
 .PHONY : src/FloydWarshallAlgorithm/FloydWarshallImpl.o
 
@@ -439,6 +463,9 @@ help:
 	@echo "... src/DijkstraAlgorithm/DijkastraAlgorithmImpl.o"
 	@echo "... src/DijkstraAlgorithm/DijkastraAlgorithmImpl.i"
 	@echo "... src/DijkstraAlgorithm/DijkastraAlgorithmImpl.s"
+	@echo "... src/DisjointSet/DisjointSetImpl.o"
+	@echo "... src/DisjointSet/DisjointSetImpl.i"
+	@echo "... src/DisjointSet/DisjointSetImpl.s"
 	@echo "... src/FloydWarshallAlgorithm/FloydWarshallImpl.o"
 	@echo "... src/FloydWarshallAlgorithm/FloydWarshallImpl.i"
 	@echo "... src/FloydWarshallAlgorithm/FloydWarshallImpl.s"

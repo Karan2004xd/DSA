@@ -23,5 +23,10 @@ public:
     this->index = index;
     this->distance = INT_MAX;
   }
+
+  WeightedNode(const std::string &name) {
+    this->name = name;
+    this->distance = INT_MAX;
+  }
 };
 #endif // WEIGHTED_NODE_H
