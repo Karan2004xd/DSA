@@ -2,7 +2,7 @@ Graph/CMakeFiles/graph.dir/src/BasicImplementation/AdjacencyMatrix.cpp.o: \
  /home/karan/Documents/Code/DSA/C++/Graph/src/BasicImplementation/AdjacencyMatrix.cpp \
  /usr/include/stdc-predef.h \
  /home/karan/Documents/Code/DSA/C++/Graph/src/BasicImplementation/../../include/BasicImplementation/AdjacencyMatrix.h \
- /home/karan/Documents/Code/DSA/C++/Graph/src/BasicImplementation/../../include/BasicImplementation/GraphNode.h \
+ /home/karan/Documents/Code/DSA/C++/Graph/src/BasicImplementation/../../include/BasicImplementation/../Nodes/GraphNode.h \
  /usr/include/c++/13.2.1/vector \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \

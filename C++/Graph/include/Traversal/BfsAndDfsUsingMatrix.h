@@ -27,8 +27,10 @@
     /* /1* graph.bfs(); // Output : A B C D E *1/ */
 
 class BfsAndDfsUsingMatrix : public AdjacencyMatrix {
+private:
+  void bfs_helper(GraphNode *node, int **graph, std::vector<GraphNode *> node_list);
+  void dfs_helper(GraphNode *node, int **graph, std::vector<GraphNode *> node_list);
 public:
-  static std::vector<GraphNode *> get_neighbours(GraphNode *node, int **graph, std::vector<GraphNode *> node_list);
   void dfs();
   void bfs();
 };

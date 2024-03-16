@@ -1,7 +1,7 @@
 #ifndef ADJACENCY_MATRIX_H_
 #define ADJACENCY_MATRIX_H_
 
-#include "GraphNode.h"
+#include "../Nodes/GraphNode.h"
 #include <iostream>
 #include <sstream>
 
@@ -27,13 +27,15 @@ class AdjacencyMatrix {
 public:
   AdjacencyMatrix();
 
-  void add_edge(std::string name, int index);
-  void undirected_edge(int i, int j);
-  void directed_edge(int i, int j);
+  std::vector<GraphNode *> get_neighbours(GraphNode *node);
 
-  void display_graph() const;
+  void directed_edge(int i, int j);
   std::vector<GraphNode *> get_node_list() { return this->node_list; };
   int **get_graph() { return this->graph; }
+
+  void add_edge(std::string name, int index);
+  void undirected_edge(int i, int j);
+  void display_graph() const;
 
   ~AdjacencyMatrix();
 private:

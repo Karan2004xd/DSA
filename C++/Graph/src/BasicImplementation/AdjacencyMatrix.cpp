@@ -27,6 +27,20 @@ void AdjacencyMatrix::directed_edge(int i, int j) {
   graph[i][j] = 1;
 }
 
+std::vector<GraphNode *> AdjacencyMatrix::get_neighbours(GraphNode *node) {
+  std::vector<GraphNode *> neighbours;
+  for (int i = 0; i < node_list.size(); i++) {
+    if (graph[node->index][i] == 1) {
+      try {
+        neighbours.push_back(node_list[i]);
+      } catch (std::exception &e) {
+        std::cout << e.what() << std::endl;
+      }
+    }
+  }
+  return neighbours;
+}
+
 void AdjacencyMatrix::display_graph() const {
   std::ostringstream oss;
   std::string temp_str {""};

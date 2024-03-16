@@ -153,6 +153,90 @@ Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.s"
 	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Graph/src/TopologicalSort/TpsUsingMatrix.cpp -o CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.s
 
+Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.o: Graph/CMakeFiles/graph.dir/flags.make
+Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.o: /home/karan/Documents/Code/DSA/C++/Graph/src/SSSPP/SSSPPUsingMatrix.cpp
+Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.o: Graph/CMakeFiles/graph.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.o -MF CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.o.d -o CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.o -c /home/karan/Documents/Code/DSA/C++/Graph/src/SSSPP/SSSPPUsingMatrix.cpp
+
+Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Graph/src/SSSPP/SSSPPUsingMatrix.cpp > CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.i
+
+Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Graph/src/SSSPP/SSSPPUsingMatrix.cpp -o CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.s
+
+Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.o: Graph/CMakeFiles/graph.dir/flags.make
+Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.o: /home/karan/Documents/Code/DSA/C++/Graph/src/SSSPP/SSSPPUsingList.cpp
+Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.o: Graph/CMakeFiles/graph.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.o -MF CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.o.d -o CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.o -c /home/karan/Documents/Code/DSA/C++/Graph/src/SSSPP/SSSPPUsingList.cpp
+
+Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Graph/src/SSSPP/SSSPPUsingList.cpp > CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.i
+
+Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Graph/src/SSSPP/SSSPPUsingList.cpp -o CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.s
+
+Graph/CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.o: Graph/CMakeFiles/graph.dir/flags.make
+Graph/CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.o: /home/karan/Documents/Code/DSA/C++/Graph/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp
+Graph/CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.o: Graph/CMakeFiles/graph.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Graph/CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Graph/CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.o -MF CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.o.d -o CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.o -c /home/karan/Documents/Code/DSA/C++/Graph/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp
+
+Graph/CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Graph/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp > CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.i
+
+Graph/CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Graph/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp -o CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.s
+
+Graph/CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.o: Graph/CMakeFiles/graph.dir/flags.make
+Graph/CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.o: /home/karan/Documents/Code/DSA/C++/Graph/src/Nodes/WeightedNodesCommonOpr.cpp
+Graph/CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.o: Graph/CMakeFiles/graph.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Graph/CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Graph/CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.o -MF CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.o.d -o CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.o -c /home/karan/Documents/Code/DSA/C++/Graph/src/Nodes/WeightedNodesCommonOpr.cpp
+
+Graph/CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Graph/src/Nodes/WeightedNodesCommonOpr.cpp > CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.i
+
+Graph/CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Graph/src/Nodes/WeightedNodesCommonOpr.cpp -o CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.s
+
+Graph/CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.o: Graph/CMakeFiles/graph.dir/flags.make
+Graph/CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.o: /home/karan/Documents/Code/DSA/C++/Graph/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp
+Graph/CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.o: Graph/CMakeFiles/graph.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Graph/CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Graph/CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.o -MF CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.o.d -o CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.o -c /home/karan/Documents/Code/DSA/C++/Graph/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp
+
+Graph/CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Graph/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp > CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.i
+
+Graph/CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Graph/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp -o CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.s
+
+Graph/CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.o: Graph/CMakeFiles/graph.dir/flags.make
+Graph/CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.o: /home/karan/Documents/Code/DSA/C++/Graph/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp
+Graph/CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.o: Graph/CMakeFiles/graph.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Graph/CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Graph/CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.o -MF CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.o.d -o CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.o -c /home/karan/Documents/Code/DSA/C++/Graph/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp
+
+Graph/CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Graph/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp > CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.i
+
+Graph/CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Graph && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Graph/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp -o CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.s
+
 # Object files for target graph
 graph_OBJECTS = \
 "CMakeFiles/graph.dir/src/BasicImplementation/AdjacencyMatrix.cpp.o" \
@@ -160,7 +244,13 @@ graph_OBJECTS = \
 "CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingMatrix.cpp.o" \
 "CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingList.cpp.o" \
 "CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.o" \
-"CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.o"
+"CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.o" \
+"CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.o" \
+"CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.o" \
+"CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.o" \
+"CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.o" \
+"CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.o" \
+"CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.o"
 
 # External object files for target graph
 graph_EXTERNAL_OBJECTS =
@@ -171,9 +261,15 @@ Graph/libgraph.a: Graph/CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingMatrix.
 Graph/libgraph.a: Graph/CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingList.cpp.o
 Graph/libgraph.a: Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingList.cpp.o
 Graph/libgraph.a: Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.o
+Graph/libgraph.a: Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.o
+Graph/libgraph.a: Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.o
+Graph/libgraph.a: Graph/CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.o
+Graph/libgraph.a: Graph/CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.o
+Graph/libgraph.a: Graph/CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.o
+Graph/libgraph.a: Graph/CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.o
 Graph/libgraph.a: Graph/CMakeFiles/graph.dir/build.make
 Graph/libgraph.a: Graph/CMakeFiles/graph.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libgraph.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library libgraph.a"
 	cd /home/karan/Documents/Code/DSA/C++/build/Graph && $(CMAKE_COMMAND) -P CMakeFiles/graph.dir/cmake_clean_target.cmake
 	cd /home/karan/Documents/Code/DSA/C++/build/Graph && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/graph.dir/link.txt --verbose=$(VERBOSE)
 

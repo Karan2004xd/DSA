@@ -178,6 +178,150 @@ src/BasicImplementation/AdjacencyMatrix.cpp.s:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/BasicImplementation/AdjacencyMatrix.cpp.s
 .PHONY : src/BasicImplementation/AdjacencyMatrix.cpp.s
 
+src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.o: src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.o
+.PHONY : src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.o
+
+# target to build an object file
+src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.o
+.PHONY : src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.o
+
+src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.i: src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.i
+.PHONY : src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.i
+
+# target to preprocess a source file
+src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.i
+.PHONY : src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.i
+
+src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.s: src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.s
+.PHONY : src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.s
+
+# target to generate assembly for a file
+src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.s
+.PHONY : src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.cpp.s
+
+src/DijkstraAlgorithm/DijkastraAlgorithmImpl.o: src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.o
+.PHONY : src/DijkstraAlgorithm/DijkastraAlgorithmImpl.o
+
+# target to build an object file
+src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.o
+.PHONY : src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.o
+
+src/DijkstraAlgorithm/DijkastraAlgorithmImpl.i: src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.i
+.PHONY : src/DijkstraAlgorithm/DijkastraAlgorithmImpl.i
+
+# target to preprocess a source file
+src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.i
+.PHONY : src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.i
+
+src/DijkstraAlgorithm/DijkastraAlgorithmImpl.s: src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.s
+.PHONY : src/DijkstraAlgorithm/DijkastraAlgorithmImpl.s
+
+# target to generate assembly for a file
+src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.s
+.PHONY : src/DijkstraAlgorithm/DijkastraAlgorithmImpl.cpp.s
+
+src/FloydWarshallAlgorithm/FloydWarshallImpl.o: src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.o
+.PHONY : src/FloydWarshallAlgorithm/FloydWarshallImpl.o
+
+# target to build an object file
+src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.o
+.PHONY : src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.o
+
+src/FloydWarshallAlgorithm/FloydWarshallImpl.i: src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.i
+.PHONY : src/FloydWarshallAlgorithm/FloydWarshallImpl.i
+
+# target to preprocess a source file
+src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.i
+.PHONY : src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.i
+
+src/FloydWarshallAlgorithm/FloydWarshallImpl.s: src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.s
+.PHONY : src/FloydWarshallAlgorithm/FloydWarshallImpl.s
+
+# target to generate assembly for a file
+src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.s
+.PHONY : src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.s
+
+src/Nodes/WeightedNodesCommonOpr.o: src/Nodes/WeightedNodesCommonOpr.cpp.o
+.PHONY : src/Nodes/WeightedNodesCommonOpr.o
+
+# target to build an object file
+src/Nodes/WeightedNodesCommonOpr.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.o
+.PHONY : src/Nodes/WeightedNodesCommonOpr.cpp.o
+
+src/Nodes/WeightedNodesCommonOpr.i: src/Nodes/WeightedNodesCommonOpr.cpp.i
+.PHONY : src/Nodes/WeightedNodesCommonOpr.i
+
+# target to preprocess a source file
+src/Nodes/WeightedNodesCommonOpr.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.i
+.PHONY : src/Nodes/WeightedNodesCommonOpr.cpp.i
+
+src/Nodes/WeightedNodesCommonOpr.s: src/Nodes/WeightedNodesCommonOpr.cpp.s
+.PHONY : src/Nodes/WeightedNodesCommonOpr.s
+
+# target to generate assembly for a file
+src/Nodes/WeightedNodesCommonOpr.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.s
+.PHONY : src/Nodes/WeightedNodesCommonOpr.cpp.s
+
+src/SSSPP/SSSPPUsingList.o: src/SSSPP/SSSPPUsingList.cpp.o
+.PHONY : src/SSSPP/SSSPPUsingList.o
+
+# target to build an object file
+src/SSSPP/SSSPPUsingList.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.o
+.PHONY : src/SSSPP/SSSPPUsingList.cpp.o
+
+src/SSSPP/SSSPPUsingList.i: src/SSSPP/SSSPPUsingList.cpp.i
+.PHONY : src/SSSPP/SSSPPUsingList.i
+
+# target to preprocess a source file
+src/SSSPP/SSSPPUsingList.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.i
+.PHONY : src/SSSPP/SSSPPUsingList.cpp.i
+
+src/SSSPP/SSSPPUsingList.s: src/SSSPP/SSSPPUsingList.cpp.s
+.PHONY : src/SSSPP/SSSPPUsingList.s
+
+# target to generate assembly for a file
+src/SSSPP/SSSPPUsingList.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.s
+.PHONY : src/SSSPP/SSSPPUsingList.cpp.s
+
+src/SSSPP/SSSPPUsingMatrix.o: src/SSSPP/SSSPPUsingMatrix.cpp.o
+.PHONY : src/SSSPP/SSSPPUsingMatrix.o
+
+# target to build an object file
+src/SSSPP/SSSPPUsingMatrix.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.o
+.PHONY : src/SSSPP/SSSPPUsingMatrix.cpp.o
+
+src/SSSPP/SSSPPUsingMatrix.i: src/SSSPP/SSSPPUsingMatrix.cpp.i
+.PHONY : src/SSSPP/SSSPPUsingMatrix.i
+
+# target to preprocess a source file
+src/SSSPP/SSSPPUsingMatrix.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.i
+.PHONY : src/SSSPP/SSSPPUsingMatrix.cpp.i
+
+src/SSSPP/SSSPPUsingMatrix.s: src/SSSPP/SSSPPUsingMatrix.cpp.s
+.PHONY : src/SSSPP/SSSPPUsingMatrix.s
+
+# target to generate assembly for a file
+src/SSSPP/SSSPPUsingMatrix.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingMatrix.cpp.s
+.PHONY : src/SSSPP/SSSPPUsingMatrix.cpp.s
+
 src/TopologicalSort/TpsUsingList.o: src/TopologicalSort/TpsUsingList.cpp.o
 .PHONY : src/TopologicalSort/TpsUsingList.o
 
@@ -289,6 +433,24 @@ help:
 	@echo "... src/BasicImplementation/AdjacencyMatrix.o"
 	@echo "... src/BasicImplementation/AdjacencyMatrix.i"
 	@echo "... src/BasicImplementation/AdjacencyMatrix.s"
+	@echo "... src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.o"
+	@echo "... src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.i"
+	@echo "... src/BellmanFordAlgorithm/BellmanFordAlgorithmImpl.s"
+	@echo "... src/DijkstraAlgorithm/DijkastraAlgorithmImpl.o"
+	@echo "... src/DijkstraAlgorithm/DijkastraAlgorithmImpl.i"
+	@echo "... src/DijkstraAlgorithm/DijkastraAlgorithmImpl.s"
+	@echo "... src/FloydWarshallAlgorithm/FloydWarshallImpl.o"
+	@echo "... src/FloydWarshallAlgorithm/FloydWarshallImpl.i"
+	@echo "... src/FloydWarshallAlgorithm/FloydWarshallImpl.s"
+	@echo "... src/Nodes/WeightedNodesCommonOpr.o"
+	@echo "... src/Nodes/WeightedNodesCommonOpr.i"
+	@echo "... src/Nodes/WeightedNodesCommonOpr.s"
+	@echo "... src/SSSPP/SSSPPUsingList.o"
+	@echo "... src/SSSPP/SSSPPUsingList.i"
+	@echo "... src/SSSPP/SSSPPUsingList.s"
+	@echo "... src/SSSPP/SSSPPUsingMatrix.o"
+	@echo "... src/SSSPP/SSSPPUsingMatrix.i"
+	@echo "... src/SSSPP/SSSPPUsingMatrix.s"
 	@echo "... src/TopologicalSort/TpsUsingList.o"
 	@echo "... src/TopologicalSort/TpsUsingList.i"
 	@echo "... src/TopologicalSort/TpsUsingList.s"

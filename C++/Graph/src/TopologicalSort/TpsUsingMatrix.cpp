@@ -5,7 +5,7 @@ TpsUsingMatrix::TpsUsingMatrix() {
 }
 
 void TpsUsingMatrix::tpsHelper(GraphNode *node, std::stack<GraphNode *> &stack) {
-  std::vector<GraphNode *> neighbours = get_neighbours(node, get_graph(), get_node_list());
+  std::vector<GraphNode *> neighbours = get_neighbours(node);
   for (const auto &neighbour : neighbours) {
     if (!neighbour->is_visited) {
       tpsHelper(neighbour, stack);

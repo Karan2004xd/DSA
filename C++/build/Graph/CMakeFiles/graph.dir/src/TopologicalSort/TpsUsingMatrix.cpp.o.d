@@ -2,9 +2,8 @@ Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.o: \
  /home/karan/Documents/Code/DSA/C++/Graph/src/TopologicalSort/TpsUsingMatrix.cpp \
  /usr/include/stdc-predef.h \
  /home/karan/Documents/Code/DSA/C++/Graph/src/TopologicalSort/../../include/TopologicalSort/TpsUsingMatrix.h \
- /home/karan/Documents/Code/DSA/C++/Graph/src/TopologicalSort/../../include/TopologicalSort/../Traversal/BfsAndDfsUsingMatrix.h \
- /home/karan/Documents/Code/DSA/C++/Graph/src/TopologicalSort/../../include/TopologicalSort/../Traversal/../BasicImplementation/AdjacencyMatrix.h \
- /home/karan/Documents/Code/DSA/C++/Graph/src/TopologicalSort/../../include/TopologicalSort/../Traversal/../BasicImplementation/GraphNode.h \
+ /home/karan/Documents/Code/DSA/C++/Graph/src/TopologicalSort/../../include/TopologicalSort/../BasicImplementation/AdjacencyMatrix.h \
+ /home/karan/Documents/Code/DSA/C++/Graph/src/TopologicalSort/../../include/TopologicalSort/../BasicImplementation/../Nodes/GraphNode.h \
  /usr/include/c++/13.2.1/vector \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -146,9 +145,7 @@ Graph/CMakeFiles/graph.dir/src/TopologicalSort/TpsUsingMatrix.cpp.o: \
  /usr/include/c++/13.2.1/bits/basic_ios.tcc \
  /usr/include/c++/13.2.1/bits/ostream.tcc /usr/include/c++/13.2.1/istream \
  /usr/include/c++/13.2.1/bits/istream.tcc /usr/include/c++/13.2.1/sstream \
- /usr/include/c++/13.2.1/bits/sstream.tcc /usr/include/c++/13.2.1/queue \
+ /usr/include/c++/13.2.1/bits/sstream.tcc /usr/include/c++/13.2.1/stack \
  /usr/include/c++/13.2.1/deque /usr/include/c++/13.2.1/bits/stl_deque.h \
  /usr/include/c++/13.2.1/bits/deque.tcc \
- /usr/include/c++/13.2.1/bits/stl_heap.h \
- /usr/include/c++/13.2.1/bits/stl_queue.h /usr/include/c++/13.2.1/stack \
  /usr/include/c++/13.2.1/bits/stl_stack.h

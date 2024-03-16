@@ -3,7 +3,7 @@ Graph/CMakeFiles/graph.dir/src/Traversal/BfsAndDfsUsingList.cpp.o: \
  /usr/include/stdc-predef.h \
  /home/karan/Documents/Code/DSA/C++/Graph/src/Traversal/../../include/Traversal/BfsAndDfsUsingList.h \
  /home/karan/Documents/Code/DSA/C++/Graph/src/Traversal/../../include/Traversal/../BasicImplementation/AdjacencyList.h \
- /home/karan/Documents/Code/DSA/C++/Graph/src/Traversal/../../include/Traversal/../BasicImplementation/GraphNode.h \
+ /home/karan/Documents/Code/DSA/C++/Graph/src/Traversal/../../include/Traversal/../BasicImplementation/../Nodes/GraphNode.h \
  /usr/include/c++/13.2.1/vector \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
