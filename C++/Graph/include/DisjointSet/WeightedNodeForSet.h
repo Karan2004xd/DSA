@@ -5,7 +5,8 @@
 
 class WeightedNodeForSet : public WeightedNode {
 public:
+  WeightedNodeForSet() {}
   WeightedNodeForSet(const std::string &name) : WeightedNode(name) {}
-  DisjointSetImpl set;
+  DisjointSetImpl *set {nullptr};
 };
 #endif // WEIGHTED_NODE_FOR_SET_H

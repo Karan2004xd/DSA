@@ -274,6 +274,30 @@ src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.s:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.s
 .PHONY : src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.s
 
+src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.o: src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.cpp.o
+.PHONY : src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.o
+
+# target to build an object file
+src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.cpp.o
+.PHONY : src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.cpp.o
+
+src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.i: src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.cpp.i
+.PHONY : src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.i
+
+# target to preprocess a source file
+src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.cpp.i
+.PHONY : src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.cpp.i
+
+src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.s: src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.cpp.s
+.PHONY : src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.s
+
+# target to generate assembly for a file
+src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.cpp.s
+.PHONY : src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.cpp.s
+
 src/Nodes/WeightedNodesCommonOpr.o: src/Nodes/WeightedNodesCommonOpr.cpp.o
 .PHONY : src/Nodes/WeightedNodesCommonOpr.o
 
@@ -469,6 +493,9 @@ help:
 	@echo "... src/FloydWarshallAlgorithm/FloydWarshallImpl.o"
 	@echo "... src/FloydWarshallAlgorithm/FloydWarshallImpl.i"
 	@echo "... src/FloydWarshallAlgorithm/FloydWarshallImpl.s"
+	@echo "... src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.o"
+	@echo "... src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.i"
+	@echo "... src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.s"
 	@echo "... src/Nodes/WeightedNodesCommonOpr.o"
 	@echo "... src/Nodes/WeightedNodesCommonOpr.i"
 	@echo "... src/Nodes/WeightedNodesCommonOpr.s"

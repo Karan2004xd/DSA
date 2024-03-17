@@ -2,6 +2,7 @@
 #define DIJKASTRA_ALGORITHM_IMPL_H
 
 #include "../../include/Nodes/WeightedNodesCommonOpr.h"
+#include <cwchar>
 #include <functional>
 #include <queue>
 
@@ -36,12 +37,15 @@
 /* Node: F, distance: 13, Path: A C F */
 /* Node: G, distance: 14, Path: A B E G */
 
+struct CompareDistance {
+  bool operator()(const WeightedNode *a, const WeightedNode *b) const {
+    return a->distance > b->distance;
+  }
+};
 
 class DijkastraAlgorithmImpl : public WeightedNodesCommonOpr {
 private:
-  // Can be done using priority queue as well
-  /* std::priority_queue<WeightedNode *, std::vector<WeightedNode *>, std::greater<WeightedNode *>> queue; */
-  std::queue<WeightedNode *> queue;
+  std::priority_queue<WeightedNode *, std::vector<WeightedNode *>, CompareDistance> queue;
   void dijkastraHelper(WeightedNode *root);
 public:
   void dijkastra();

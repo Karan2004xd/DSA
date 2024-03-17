@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/graph.dir/src/DisjointSet/DisjointSetImpl.cpp.o.d"
   "CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.o"
   "CMakeFiles/graph.dir/src/FloydWarshallAlgorithm/FloydWarshallImpl.cpp.o.d"
+  "CMakeFiles/graph.dir/src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.cpp.o"
+  "CMakeFiles/graph.dir/src/KruskalAndPrimsAlgorithm/KruskalAndPrimsImpl.cpp.o.d"
   "CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.o"
   "CMakeFiles/graph.dir/src/Nodes/WeightedNodesCommonOpr.cpp.o.d"
   "CMakeFiles/graph.dir/src/SSSPP/SSSPPUsingList.cpp.o"

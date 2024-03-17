@@ -1,26 +1,28 @@
 #include "../../include/DijkstraAlgorithm/DijkastraAlgorithmImpl.h"
+#include <unordered_map>
 
 void DijkastraAlgorithmImpl::dijkastraHelper(WeightedNode *root) {
   if (root == nullptr) return;
   root->distance = 0;
-  std::vector<WeightedNode *> node_list = get_node_list();
 
-  for (const auto &node : node_list) {
-    queue.push(node);
-  }
+  std::vector<WeightedNode *> node_list = get_node_list();
+  std::unordered_map<WeightedNode *, bool> visited;
+
+  queue.push(root);
 
   while (!queue.empty()) {
-    WeightedNode *current_node = queue.front();
+    WeightedNode *current_node = queue.top();
     queue.pop();
+    if (visited[current_node]) continue;
+    visited[current_node] = true;
+
     for (const auto &node : current_node->neighbours) {
-      if (!node->is_visited) {
-        int distance_to_compare = current_node->distance + current_node->weight_map[node];
-        if (node->distance > distance_to_compare) {
-          node->distance = distance_to_compare;
-          node->parent = current_node;
-          node->is_visited = true;
-          queue.push(node);
-        }
+      int distance_to_compare = current_node->distance + current_node->weight_map[node];
+      if (node->distance > distance_to_compare) {
+        node->distance = distance_to_compare;
+        node->parent = current_node;
+        node->is_visited = true;
+        queue.push(node);
       }
     }
   }

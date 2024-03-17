@@ -1,28 +1,27 @@
 package com.DSA.Java.Graphs;
 
-import com.DSA.Java.Graphs.TopologicalSort.TpsUsingList;
-import com.DSA.Java.Graphs.TopologicalSort.TpsUsingMatrix;
+import com.DSA.Java.Graphs.KruskalAndPrimsAlgorithm.*;
+import com.DSA.Java.Graphs.DisjointSet.WeightedNode;
+import java.util.ArrayList;
 
 public class GraphRunner {
   public static void main(String[] args) {
-    TpsUsingMatrix graph = new TpsUsingMatrix();
-    graph.add_edge("A", 0);
-    graph.add_edge("B", 1);
-    graph.add_edge("C", 2);
-    graph.add_edge("D", 3);
-    graph.add_edge("E", 4);
-    graph.add_edge("F", 5);
-    graph.add_edge("G", 6);
-    graph.add_edge("H", 7);
+    ArrayList<WeightedNode> nodeList = new ArrayList<>();
+    nodeList.add(new WeightedNode("A"));
+    nodeList.add(new WeightedNode("B"));
+    nodeList.add(new WeightedNode("C"));
+    nodeList.add(new WeightedNode("D"));
+    nodeList.add(new WeightedNode("E"));
 
-    graph.directedEdge(0, 2);
-    graph.directedEdge(2, 4);
-    graph.directedEdge(4, 7);
-    graph.directedEdge(4, 5);
-    graph.directedEdge(5, 6);
-    graph.directedEdge(1, 2);
-    graph.directedEdge(1, 3);
-    graph.directedEdge(3, 5);
-    graph.tps();
+    KruskalAndPrimsAlgoImpl graph = new KruskalAndPrimsAlgoImpl(nodeList);
+    graph.addWeightedUndirectedEdge(0, 1, 5);
+    graph.addWeightedUndirectedEdge(0, 2, 13);
+    graph.addWeightedUndirectedEdge(0, 4, 15);
+    graph.addWeightedUndirectedEdge(1, 2, 10);
+    graph.addWeightedUndirectedEdge(1, 3, 8);
+    graph.addWeightedUndirectedEdge(2, 3, 6);
+    graph.addWeightedUndirectedEdge(2, 4, 20);
+    System.out.println("Running Kruskal Algorithm on the graph : ");
+    graph.prims(nodeList.get(4));
   }
 }

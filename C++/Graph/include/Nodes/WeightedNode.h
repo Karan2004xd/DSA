@@ -2,6 +2,7 @@
 #define WEIGHTED_NODE_H
 
 #include <cstdlib>
+#include <ostream>
 #include <unordered_map>
 #include <string>
 #include <vector>
@@ -18,6 +19,8 @@ public:
 
   WeightedNode *parent {nullptr};
 
+  WeightedNode() {}
+
   WeightedNode(const std::string &name, int index) {
     this->name = name;
     this->index = index;
@@ -27,6 +30,16 @@ public:
   WeightedNode(const std::string &name) {
     this->name = name;
     this->distance = INT_MAX;
+  }
+
+  friend std::ostream &operator<<(std::ostream &os, const WeightedNode &obj) {
+    os << "Name : " << obj.name << ", Distance : " << obj.distance << ", Parent : ";
+    if (obj.parent == nullptr) {
+      os << "null";
+    } else {
+      os << obj.parent->name;
+    }
+    return os;
   }
 };
 #endif // WEIGHTED_NODE_H
