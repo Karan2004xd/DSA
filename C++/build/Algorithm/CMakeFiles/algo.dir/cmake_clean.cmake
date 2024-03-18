@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/algo.dir/src/CommonOper.cpp.o"
   "CMakeFiles/algo.dir/src/CommonOper.cpp.o.d"
+  "CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o"
+  "CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o.d"
+  "CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o"
+  "CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o.d"
   "CMakeFiles/algo.dir/src/Searching/BinarySearch.cpp.o"
   "CMakeFiles/algo.dir/src/Searching/BinarySearch.cpp.o.d"
   "CMakeFiles/algo.dir/src/Searching/LinearSearch.cpp.o"

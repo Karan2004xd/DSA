@@ -27,7 +27,7 @@ add_executable(runner "./Demo.cpp")
 # target_link_libraries(runner PRIVATE hashing)
 
 # Algorithm
-# target_link_libraries(runner PRIVATE algo)
+target_link_libraries(runner PRIVATE algo)
 
 # Graph
-target_link_libraries(runner PRIVATE graph)
+# target_link_libraries(runner PRIVATE graph)

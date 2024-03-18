@@ -209,6 +209,34 @@ Algorithm/CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.s"
 	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithm/src/Sorting/HeapSort.cpp -o CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.s
 
+Algorithm/CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o: Algorithm/CMakeFiles/algo.dir/flags.make
+Algorithm/CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o: /home/karan/Documents/Code/DSA/C++/Algorithm/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp
+Algorithm/CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o: Algorithm/CMakeFiles/algo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Algorithm/CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Algorithm/CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o -MF CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o.d -o CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o -c /home/karan/Documents/Code/DSA/C++/Algorithm/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp
+
+Algorithm/CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Algorithm/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp > CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.i
+
+Algorithm/CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithm/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp -o CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.s
+
+Algorithm/CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o: Algorithm/CMakeFiles/algo.dir/flags.make
+Algorithm/CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o: /home/karan/Documents/Code/DSA/C++/Algorithm/src/Greedy/CoinChangeProblem.cpp
+Algorithm/CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o: Algorithm/CMakeFiles/algo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Algorithm/CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Algorithm/CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o -MF CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o.d -o CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o -c /home/karan/Documents/Code/DSA/C++/Algorithm/src/Greedy/CoinChangeProblem.cpp
+
+Algorithm/CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Algorithm/src/Greedy/CoinChangeProblem.cpp > CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.i
+
+Algorithm/CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithm/src/Greedy/CoinChangeProblem.cpp -o CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.s
+
 # Object files for target algo
 algo_OBJECTS = \
 "CMakeFiles/algo.dir/src/CommonOper.cpp.o" \
@@ -220,7 +248,9 @@ algo_OBJECTS = \
 "CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.o" \
 "CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.o" \
 "CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.o" \
-"CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.o"
+"CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.o" \
+"CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o" \
+"CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o"
 
 # External object files for target algo
 algo_EXTERNAL_OBJECTS =
@@ -235,9 +265,11 @@ Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/Sorting/BucketSort.cpp.o
 Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/Sorting/MergeSort.cpp.o
 Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.o
 Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.o
+Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o
+Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o
 Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/build.make
 Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libalgo.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library libalgo.a"
 	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && $(CMAKE_COMMAND) -P CMakeFiles/algo.dir/cmake_clean_target.cmake
 	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algo.dir/link.txt --verbose=$(VERBOSE)
 

@@ -154,6 +154,54 @@ src/CommonOper.cpp.s:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/CommonOper.cpp.s
 .PHONY : src/CommonOper.cpp.s
 
+src/Greedy/ActivitySelectionProblem/ActivitySelection.o: src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o
+.PHONY : src/Greedy/ActivitySelectionProblem/ActivitySelection.o
+
+# target to build an object file
+src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o
+.PHONY : src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o
+
+src/Greedy/ActivitySelectionProblem/ActivitySelection.i: src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.i
+.PHONY : src/Greedy/ActivitySelectionProblem/ActivitySelection.i
+
+# target to preprocess a source file
+src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.i
+.PHONY : src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.i
+
+src/Greedy/ActivitySelectionProblem/ActivitySelection.s: src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.s
+.PHONY : src/Greedy/ActivitySelectionProblem/ActivitySelection.s
+
+# target to generate assembly for a file
+src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.s
+.PHONY : src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.s
+
+src/Greedy/CoinChangeProblem.o: src/Greedy/CoinChangeProblem.cpp.o
+.PHONY : src/Greedy/CoinChangeProblem.o
+
+# target to build an object file
+src/Greedy/CoinChangeProblem.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o
+.PHONY : src/Greedy/CoinChangeProblem.cpp.o
+
+src/Greedy/CoinChangeProblem.i: src/Greedy/CoinChangeProblem.cpp.i
+.PHONY : src/Greedy/CoinChangeProblem.i
+
+# target to preprocess a source file
+src/Greedy/CoinChangeProblem.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.i
+.PHONY : src/Greedy/CoinChangeProblem.cpp.i
+
+src/Greedy/CoinChangeProblem.s: src/Greedy/CoinChangeProblem.cpp.s
+.PHONY : src/Greedy/CoinChangeProblem.s
+
+# target to generate assembly for a file
+src/Greedy/CoinChangeProblem.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.s
+.PHONY : src/Greedy/CoinChangeProblem.cpp.s
+
 src/Searching/BinarySearch.o: src/Searching/BinarySearch.cpp.o
 .PHONY : src/Searching/BinarySearch.o
 
@@ -382,6 +430,12 @@ help:
 	@echo "... src/CommonOper.o"
 	@echo "... src/CommonOper.i"
 	@echo "... src/CommonOper.s"
+	@echo "... src/Greedy/ActivitySelectionProblem/ActivitySelection.o"
+	@echo "... src/Greedy/ActivitySelectionProblem/ActivitySelection.i"
+	@echo "... src/Greedy/ActivitySelectionProblem/ActivitySelection.s"
+	@echo "... src/Greedy/CoinChangeProblem.o"
+	@echo "... src/Greedy/CoinChangeProblem.i"
+	@echo "... src/Greedy/CoinChangeProblem.s"
 	@echo "... src/Searching/BinarySearch.o"
 	@echo "... src/Searching/BinarySearch.i"
 	@echo "... src/Searching/BinarySearch.s"
