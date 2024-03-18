@@ -15,6 +15,7 @@ add_library(${PROJECT_NAME}
   "./src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp"
   "./src/Greedy/CoinChangeProblem.cpp"
   "./src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp"
+  "./src/DivideAndConqueror/DACImplProblems.cpp"
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE "./include")

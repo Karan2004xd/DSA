@@ -9,8 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/karan/Documents/Code/DSA/C++/Algorithm/src/CommonOper.cpp" "Algorithm/CMakeFiles/algo.dir/src/CommonOper.cpp.o" "gcc" "Algorithm/CMakeFiles/algo.dir/src/CommonOper.cpp.o.d"
+  "/home/karan/Documents/Code/DSA/C++/Algorithm/src/DivideAndConqueror/DACImplProblems.cpp" "Algorithm/CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.o" "gcc" "Algorithm/CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.o.d"
   "/home/karan/Documents/Code/DSA/C++/Algorithm/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp" "Algorithm/CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o" "gcc" "Algorithm/CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o.d"
   "/home/karan/Documents/Code/DSA/C++/Algorithm/src/Greedy/CoinChangeProblem.cpp" "Algorithm/CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o" "gcc" "Algorithm/CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o.d"
+  "/home/karan/Documents/Code/DSA/C++/Algorithm/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp" "Algorithm/CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.o" "gcc" "Algorithm/CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.o.d"
   "/home/karan/Documents/Code/DSA/C++/Algorithm/src/Searching/BinarySearch.cpp" "Algorithm/CMakeFiles/algo.dir/src/Searching/BinarySearch.cpp.o" "gcc" "Algorithm/CMakeFiles/algo.dir/src/Searching/BinarySearch.cpp.o.d"
   "/home/karan/Documents/Code/DSA/C++/Algorithm/src/Searching/LinearSearch.cpp" "Algorithm/CMakeFiles/algo.dir/src/Searching/LinearSearch.cpp.o" "gcc" "Algorithm/CMakeFiles/algo.dir/src/Searching/LinearSearch.cpp.o.d"
   "/home/karan/Documents/Code/DSA/C++/Algorithm/src/Sorting/BubbleSort.cpp" "Algorithm/CMakeFiles/algo.dir/src/Sorting/BubbleSort.cpp.o" "gcc" "Algorithm/CMakeFiles/algo.dir/src/Sorting/BubbleSort.cpp.o.d"

@@ -207,12 +207,12 @@ CMakeFiles/runner.dir/all: Tree/CMakeFiles/tree.dir/all
 CMakeFiles/runner.dir/all: Algorithm/CMakeFiles/algo.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runner.dir/build.make CMakeFiles/runner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=44,45 "Built target runner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=46,47 "Built target runner"
 .PHONY : CMakeFiles/runner.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/runner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/runner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 0
 .PHONY : CMakeFiles/runner.dir/rule
@@ -233,7 +233,7 @@ CMakeFiles/runner.dir/clean:
 LinkedLists/CMakeFiles/list.dir/all:
 	$(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/depend
 	$(MAKE) $(MAKESILENT) -f LinkedLists/CMakeFiles/list.dir/build.make LinkedLists/CMakeFiles/list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=34,35,36,37,38,39 "Built target list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=36,37,38,39,40,41 "Built target list"
 .PHONY : LinkedLists/CMakeFiles/list.dir/all
 
 # Build rule for subdir invocation for target.
@@ -259,7 +259,7 @@ LinkedLists/CMakeFiles/list.dir/clean:
 Stack/CMakeFiles/stack.dir/all: LinkedLists/CMakeFiles/list.dir/all
 	$(MAKE) $(MAKESILENT) -f Stack/CMakeFiles/stack.dir/build.make Stack/CMakeFiles/stack.dir/depend
 	$(MAKE) $(MAKESILENT) -f Stack/CMakeFiles/stack.dir/build.make Stack/CMakeFiles/stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=46,47,48 "Built target stack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=48,49,50 "Built target stack"
 .PHONY : Stack/CMakeFiles/stack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -285,7 +285,7 @@ Stack/CMakeFiles/stack.dir/clean:
 Queue/CMakeFiles/queue.dir/all: LinkedLists/CMakeFiles/list.dir/all
 	$(MAKE) $(MAKESILENT) -f Queue/CMakeFiles/queue.dir/build.make Queue/CMakeFiles/queue.dir/depend
 	$(MAKE) $(MAKESILENT) -f Queue/CMakeFiles/queue.dir/build.make Queue/CMakeFiles/queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=40,41,42,43 "Built target queue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=42,43,44,45 "Built target queue"
 .PHONY : Queue/CMakeFiles/queue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -311,7 +311,7 @@ Queue/CMakeFiles/queue.dir/clean:
 Tree/CMakeFiles/tree.dir/all:
 	$(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/depend
 	$(MAKE) $(MAKESILENT) -f Tree/CMakeFiles/tree.dir/build.make Tree/CMakeFiles/tree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=49,50,51,52,53,54,55,56 "Built target tree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=51,52,53,54,55,56,57,58 "Built target tree"
 .PHONY : Tree/CMakeFiles/tree.dir/all
 
 # Build rule for subdir invocation for target.
@@ -337,7 +337,7 @@ Tree/CMakeFiles/tree.dir/clean:
 Hashing/CMakeFiles/hashing.dir/all: LinkedLists/CMakeFiles/list.dir/all
 	$(MAKE) $(MAKESILENT) -f Hashing/CMakeFiles/hashing.dir/build.make Hashing/CMakeFiles/hashing.dir/depend
 	$(MAKE) $(MAKESILENT) -f Hashing/CMakeFiles/hashing.dir/build.make Hashing/CMakeFiles/hashing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=29,30,31,32,33 "Built target hashing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=31,32,33,34,35 "Built target hashing"
 .PHONY : Hashing/CMakeFiles/hashing.dir/all
 
 # Build rule for subdir invocation for target.
@@ -363,12 +363,12 @@ Hashing/CMakeFiles/hashing.dir/clean:
 Algorithm/CMakeFiles/algo.dir/all: Tree/CMakeFiles/tree.dir/all
 	$(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/depend
 	$(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target algo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target algo"
 .PHONY : Algorithm/CMakeFiles/algo.dir/all
 
 # Build rule for subdir invocation for target.
 Algorithm/CMakeFiles/algo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Algorithm/CMakeFiles/algo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/karan/Documents/Code/DSA/C++/build/CMakeFiles 0
 .PHONY : Algorithm/CMakeFiles/algo.dir/rule
@@ -389,7 +389,7 @@ Algorithm/CMakeFiles/algo.dir/clean:
 Graph/CMakeFiles/graph.dir/all:
 	$(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/depend
 	$(MAKE) $(MAKESILENT) -f Graph/CMakeFiles/graph.dir/build.make Graph/CMakeFiles/graph.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target graph"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Built target graph"
 .PHONY : Graph/CMakeFiles/graph.dir/all
 
 # Build rule for subdir invocation for target.

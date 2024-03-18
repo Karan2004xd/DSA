@@ -1,6 +1,7 @@
-CMakeFiles/runner.dir/Demo.cpp.o: \
- /home/karan/Documents/Code/DSA/C++/Demo.cpp /usr/include/stdc-predef.h \
- /home/karan/Documents/Code/DSA/C++/Algorithm/include/DivideAndConqueror/DACImplProblems.h \
+Algorithm/CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.o: \
+ /home/karan/Documents/Code/DSA/C++/Algorithm/src/DivideAndConqueror/DACImplProblems.cpp \
+ /usr/include/stdc-predef.h \
+ /home/karan/Documents/Code/DSA/C++/Algorithm/src/DivideAndConqueror/../../include/DivideAndConqueror/DACImplProblems.h \
  /usr/include/c++/13.2.1/iostream \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \

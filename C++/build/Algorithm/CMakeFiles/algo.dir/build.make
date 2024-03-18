@@ -237,6 +237,34 @@ Algorithm/CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.s"
 	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithm/src/Greedy/CoinChangeProblem.cpp -o CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.s
 
+Algorithm/CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.o: Algorithm/CMakeFiles/algo.dir/flags.make
+Algorithm/CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.o: /home/karan/Documents/Code/DSA/C++/Algorithm/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp
+Algorithm/CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.o: Algorithm/CMakeFiles/algo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object Algorithm/CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Algorithm/CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.o -MF CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.o.d -o CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.o -c /home/karan/Documents/Code/DSA/C++/Algorithm/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp
+
+Algorithm/CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Algorithm/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp > CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.i
+
+Algorithm/CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithm/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp -o CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.s
+
+Algorithm/CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.o: Algorithm/CMakeFiles/algo.dir/flags.make
+Algorithm/CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.o: /home/karan/Documents/Code/DSA/C++/Algorithm/src/DivideAndConqueror/DACImplProblems.cpp
+Algorithm/CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.o: Algorithm/CMakeFiles/algo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object Algorithm/CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Algorithm/CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.o -MF CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.o.d -o CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.o -c /home/karan/Documents/Code/DSA/C++/Algorithm/src/DivideAndConqueror/DACImplProblems.cpp
+
+Algorithm/CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Algorithm/src/DivideAndConqueror/DACImplProblems.cpp > CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.i
+
+Algorithm/CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithm/src/DivideAndConqueror/DACImplProblems.cpp -o CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.s
+
 # Object files for target algo
 algo_OBJECTS = \
 "CMakeFiles/algo.dir/src/CommonOper.cpp.o" \
@@ -250,7 +278,9 @@ algo_OBJECTS = \
 "CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.o" \
 "CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.o" \
 "CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o" \
-"CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o"
+"CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o" \
+"CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.o" \
+"CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.o"
 
 # External object files for target algo
 algo_EXTERNAL_OBJECTS =
@@ -267,9 +297,11 @@ Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/Sorting/QuickSort.cpp.o
 Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/Sorting/HeapSort.cpp.o
 Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o
 Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o
+Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.o
+Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.o
 Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/build.make
 Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library libalgo.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX static library libalgo.a"
 	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && $(CMAKE_COMMAND) -P CMakeFiles/algo.dir/cmake_clean_target.cmake
 	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algo.dir/link.txt --verbose=$(VERBOSE)
 

@@ -154,6 +154,30 @@ src/CommonOper.cpp.s:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/CommonOper.cpp.s
 .PHONY : src/CommonOper.cpp.s
 
+src/DivideAndConqueror/DACImplProblems.o: src/DivideAndConqueror/DACImplProblems.cpp.o
+.PHONY : src/DivideAndConqueror/DACImplProblems.o
+
+# target to build an object file
+src/DivideAndConqueror/DACImplProblems.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.o
+.PHONY : src/DivideAndConqueror/DACImplProblems.cpp.o
+
+src/DivideAndConqueror/DACImplProblems.i: src/DivideAndConqueror/DACImplProblems.cpp.i
+.PHONY : src/DivideAndConqueror/DACImplProblems.i
+
+# target to preprocess a source file
+src/DivideAndConqueror/DACImplProblems.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.i
+.PHONY : src/DivideAndConqueror/DACImplProblems.cpp.i
+
+src/DivideAndConqueror/DACImplProblems.s: src/DivideAndConqueror/DACImplProblems.cpp.s
+.PHONY : src/DivideAndConqueror/DACImplProblems.s
+
+# target to generate assembly for a file
+src/DivideAndConqueror/DACImplProblems.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.s
+.PHONY : src/DivideAndConqueror/DACImplProblems.cpp.s
+
 src/Greedy/ActivitySelectionProblem/ActivitySelection.o: src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o
 .PHONY : src/Greedy/ActivitySelectionProblem/ActivitySelection.o
 
@@ -201,6 +225,30 @@ src/Greedy/CoinChangeProblem.s: src/Greedy/CoinChangeProblem.cpp.s
 src/Greedy/CoinChangeProblem.cpp.s:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.s
 .PHONY : src/Greedy/CoinChangeProblem.cpp.s
+
+src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.o: src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.o
+.PHONY : src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.o
+
+# target to build an object file
+src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.o
+.PHONY : src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.o
+
+src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.i: src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.i
+.PHONY : src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.i
+
+# target to preprocess a source file
+src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.i
+.PHONY : src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.i
+
+src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.s: src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.s
+.PHONY : src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.s
+
+# target to generate assembly for a file
+src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.s
+.PHONY : src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.s
 
 src/Searching/BinarySearch.o: src/Searching/BinarySearch.cpp.o
 .PHONY : src/Searching/BinarySearch.o
@@ -430,12 +478,18 @@ help:
 	@echo "... src/CommonOper.o"
 	@echo "... src/CommonOper.i"
 	@echo "... src/CommonOper.s"
+	@echo "... src/DivideAndConqueror/DACImplProblems.o"
+	@echo "... src/DivideAndConqueror/DACImplProblems.i"
+	@echo "... src/DivideAndConqueror/DACImplProblems.s"
 	@echo "... src/Greedy/ActivitySelectionProblem/ActivitySelection.o"
 	@echo "... src/Greedy/ActivitySelectionProblem/ActivitySelection.i"
 	@echo "... src/Greedy/ActivitySelectionProblem/ActivitySelection.s"
 	@echo "... src/Greedy/CoinChangeProblem.o"
 	@echo "... src/Greedy/CoinChangeProblem.i"
 	@echo "... src/Greedy/CoinChangeProblem.s"
+	@echo "... src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.o"
+	@echo "... src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.i"
+	@echo "... src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.s"
 	@echo "... src/Searching/BinarySearch.o"
 	@echo "... src/Searching/BinarySearch.i"
 	@echo "... src/Searching/BinarySearch.s"
