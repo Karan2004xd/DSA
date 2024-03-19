@@ -265,6 +265,62 @@ Algorithm/CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.s"
 	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithm/src/DivideAndConqueror/DACImplProblems.cpp -o CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.s
 
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.o: Algorithm/CMakeFiles/algo.dir/flags.make
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.o: /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/NumberFactorWithDP.cpp
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.o: Algorithm/CMakeFiles/algo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.o -MF CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.o.d -o CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.o -c /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/NumberFactorWithDP.cpp
+
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/NumberFactorWithDP.cpp > CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.i
+
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/NumberFactorWithDP.cpp -o CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.s
+
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.o: Algorithm/CMakeFiles/algo.dir/flags.make
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.o: /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/FibonacciWithDP.cpp
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.o: Algorithm/CMakeFiles/algo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.o -MF CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.o.d -o CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.o -c /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/FibonacciWithDP.cpp
+
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/FibonacciWithDP.cpp > CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.i
+
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/FibonacciWithDP.cpp -o CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.s
+
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.o: Algorithm/CMakeFiles/algo.dir/flags.make
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.o: /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.o: Algorithm/CMakeFiles/algo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.o -MF CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.o.d -o CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.o -c /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp
+
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp > CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.i
+
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp -o CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.s
+
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.o: Algorithm/CMakeFiles/algo.dir/flags.make
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.o: /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/ConvertStringWithDP.cpp
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.o: Algorithm/CMakeFiles/algo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.o"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.o -MF CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.o.d -o CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.o -c /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/ConvertStringWithDP.cpp
+
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.i"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/ConvertStringWithDP.cpp > CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.i
+
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.s"
+	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/ConvertStringWithDP.cpp -o CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.s
+
 # Object files for target algo
 algo_OBJECTS = \
 "CMakeFiles/algo.dir/src/CommonOper.cpp.o" \
@@ -280,7 +336,11 @@ algo_OBJECTS = \
 "CMakeFiles/algo.dir/src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o" \
 "CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o" \
 "CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.o" \
-"CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.o"
+"CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.o" \
+"CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.o" \
+"CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.o" \
+"CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.o" \
+"CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.o"
 
 # External object files for target algo
 algo_EXTERNAL_OBJECTS =
@@ -299,9 +359,13 @@ Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/Greedy/ActivitySelectionP
 Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/Greedy/CoinChangeProblem.cpp.o
 Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp.o
 Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.o
+Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.o
+Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.o
+Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.o
+Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.o
 Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/build.make
 Algorithm/libalgo.a: Algorithm/CMakeFiles/algo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX static library libalgo.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karan/Documents/Code/DSA/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX static library libalgo.a"
 	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && $(CMAKE_COMMAND) -P CMakeFiles/algo.dir/cmake_clean_target.cmake
 	cd /home/karan/Documents/Code/DSA/C++/build/Algorithm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algo.dir/link.txt --verbose=$(VERBOSE)
 

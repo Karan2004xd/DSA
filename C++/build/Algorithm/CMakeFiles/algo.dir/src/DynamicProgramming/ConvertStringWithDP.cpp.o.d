@@ -1,6 +1,7 @@
-CMakeFiles/runner.dir/Demo.cpp.o: \
- /home/karan/Documents/Code/DSA/C++/Demo.cpp /usr/include/stdc-predef.h \
- /home/karan/Documents/Code/DSA/C++/Algorithm/include/DynamicProgramming/ConvertStringWithDP.h \
+Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.o: \
+ /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/ConvertStringWithDP.cpp \
+ /usr/include/stdc-predef.h \
+ /home/karan/Documents/Code/DSA/C++/Algorithm/src/DynamicProgramming/../../include/DynamicProgramming/ConvertStringWithDP.h \
  /usr/include/c++/13.2.1/string \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \

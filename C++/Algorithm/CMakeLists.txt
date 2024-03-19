@@ -16,6 +16,10 @@ add_library(${PROJECT_NAME}
   "./src/Greedy/CoinChangeProblem.cpp"
   "./src/Greedy/FractionalKnapsackProblem/FractionalKnapsack.cpp"
   "./src/DivideAndConqueror/DACImplProblems.cpp"
+  "./src/DynamicProgramming/NumberFactorWithDP.cpp"
+  "./src/DynamicProgramming/FibonacciWithDP.cpp"
+  "./src/DynamicProgramming/HouseRobberProblemUsingDP.cpp"
+  "./src/DynamicProgramming/ConvertStringWithDP.cpp"
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE "./include")

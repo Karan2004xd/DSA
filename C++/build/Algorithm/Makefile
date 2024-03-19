@@ -178,6 +178,102 @@ src/DivideAndConqueror/DACImplProblems.cpp.s:
 	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/DivideAndConqueror/DACImplProblems.cpp.s
 .PHONY : src/DivideAndConqueror/DACImplProblems.cpp.s
 
+src/DynamicProgramming/ConvertStringWithDP.o: src/DynamicProgramming/ConvertStringWithDP.cpp.o
+.PHONY : src/DynamicProgramming/ConvertStringWithDP.o
+
+# target to build an object file
+src/DynamicProgramming/ConvertStringWithDP.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.o
+.PHONY : src/DynamicProgramming/ConvertStringWithDP.cpp.o
+
+src/DynamicProgramming/ConvertStringWithDP.i: src/DynamicProgramming/ConvertStringWithDP.cpp.i
+.PHONY : src/DynamicProgramming/ConvertStringWithDP.i
+
+# target to preprocess a source file
+src/DynamicProgramming/ConvertStringWithDP.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.i
+.PHONY : src/DynamicProgramming/ConvertStringWithDP.cpp.i
+
+src/DynamicProgramming/ConvertStringWithDP.s: src/DynamicProgramming/ConvertStringWithDP.cpp.s
+.PHONY : src/DynamicProgramming/ConvertStringWithDP.s
+
+# target to generate assembly for a file
+src/DynamicProgramming/ConvertStringWithDP.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/ConvertStringWithDP.cpp.s
+.PHONY : src/DynamicProgramming/ConvertStringWithDP.cpp.s
+
+src/DynamicProgramming/FibonacciWithDP.o: src/DynamicProgramming/FibonacciWithDP.cpp.o
+.PHONY : src/DynamicProgramming/FibonacciWithDP.o
+
+# target to build an object file
+src/DynamicProgramming/FibonacciWithDP.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.o
+.PHONY : src/DynamicProgramming/FibonacciWithDP.cpp.o
+
+src/DynamicProgramming/FibonacciWithDP.i: src/DynamicProgramming/FibonacciWithDP.cpp.i
+.PHONY : src/DynamicProgramming/FibonacciWithDP.i
+
+# target to preprocess a source file
+src/DynamicProgramming/FibonacciWithDP.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.i
+.PHONY : src/DynamicProgramming/FibonacciWithDP.cpp.i
+
+src/DynamicProgramming/FibonacciWithDP.s: src/DynamicProgramming/FibonacciWithDP.cpp.s
+.PHONY : src/DynamicProgramming/FibonacciWithDP.s
+
+# target to generate assembly for a file
+src/DynamicProgramming/FibonacciWithDP.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/FibonacciWithDP.cpp.s
+.PHONY : src/DynamicProgramming/FibonacciWithDP.cpp.s
+
+src/DynamicProgramming/HouseRobberProblemUsingDP.o: src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.o
+.PHONY : src/DynamicProgramming/HouseRobberProblemUsingDP.o
+
+# target to build an object file
+src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.o
+.PHONY : src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.o
+
+src/DynamicProgramming/HouseRobberProblemUsingDP.i: src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.i
+.PHONY : src/DynamicProgramming/HouseRobberProblemUsingDP.i
+
+# target to preprocess a source file
+src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.i
+.PHONY : src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.i
+
+src/DynamicProgramming/HouseRobberProblemUsingDP.s: src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.s
+.PHONY : src/DynamicProgramming/HouseRobberProblemUsingDP.s
+
+# target to generate assembly for a file
+src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.s
+.PHONY : src/DynamicProgramming/HouseRobberProblemUsingDP.cpp.s
+
+src/DynamicProgramming/NumberFactorWithDP.o: src/DynamicProgramming/NumberFactorWithDP.cpp.o
+.PHONY : src/DynamicProgramming/NumberFactorWithDP.o
+
+# target to build an object file
+src/DynamicProgramming/NumberFactorWithDP.cpp.o:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.o
+.PHONY : src/DynamicProgramming/NumberFactorWithDP.cpp.o
+
+src/DynamicProgramming/NumberFactorWithDP.i: src/DynamicProgramming/NumberFactorWithDP.cpp.i
+.PHONY : src/DynamicProgramming/NumberFactorWithDP.i
+
+# target to preprocess a source file
+src/DynamicProgramming/NumberFactorWithDP.cpp.i:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.i
+.PHONY : src/DynamicProgramming/NumberFactorWithDP.cpp.i
+
+src/DynamicProgramming/NumberFactorWithDP.s: src/DynamicProgramming/NumberFactorWithDP.cpp.s
+.PHONY : src/DynamicProgramming/NumberFactorWithDP.s
+
+# target to generate assembly for a file
+src/DynamicProgramming/NumberFactorWithDP.cpp.s:
+	cd /home/karan/Documents/Code/DSA/C++/build && $(MAKE) $(MAKESILENT) -f Algorithm/CMakeFiles/algo.dir/build.make Algorithm/CMakeFiles/algo.dir/src/DynamicProgramming/NumberFactorWithDP.cpp.s
+.PHONY : src/DynamicProgramming/NumberFactorWithDP.cpp.s
+
 src/Greedy/ActivitySelectionProblem/ActivitySelection.o: src/Greedy/ActivitySelectionProblem/ActivitySelection.cpp.o
 .PHONY : src/Greedy/ActivitySelectionProblem/ActivitySelection.o
 
@@ -481,6 +577,18 @@ help:
 	@echo "... src/DivideAndConqueror/DACImplProblems.o"
 	@echo "... src/DivideAndConqueror/DACImplProblems.i"
 	@echo "... src/DivideAndConqueror/DACImplProblems.s"
+	@echo "... src/DynamicProgramming/ConvertStringWithDP.o"
+	@echo "... src/DynamicProgramming/ConvertStringWithDP.i"
+	@echo "... src/DynamicProgramming/ConvertStringWithDP.s"
+	@echo "... src/DynamicProgramming/FibonacciWithDP.o"
+	@echo "... src/DynamicProgramming/FibonacciWithDP.i"
+	@echo "... src/DynamicProgramming/FibonacciWithDP.s"
+	@echo "... src/DynamicProgramming/HouseRobberProblemUsingDP.o"
+	@echo "... src/DynamicProgramming/HouseRobberProblemUsingDP.i"
+	@echo "... src/DynamicProgramming/HouseRobberProblemUsingDP.s"
+	@echo "... src/DynamicProgramming/NumberFactorWithDP.o"
+	@echo "... src/DynamicProgramming/NumberFactorWithDP.i"
+	@echo "... src/DynamicProgramming/NumberFactorWithDP.s"
 	@echo "... src/Greedy/ActivitySelectionProblem/ActivitySelection.o"
 	@echo "... src/Greedy/ActivitySelectionProblem/ActivitySelection.i"
 	@echo "... src/Greedy/ActivitySelectionProblem/ActivitySelection.s"
