@@ -1,2 +1,0 @@
-/usr/bin/ar qc libqueue.a CMakeFiles/queue.dir/src/ArrayQueue.cpp.o CMakeFiles/queue.dir/src/CircularArrayQueue.cpp.o CMakeFiles/queue.dir/src/LinkedListQueue.cpp.o
-/usr/bin/ranlib libqueue.a

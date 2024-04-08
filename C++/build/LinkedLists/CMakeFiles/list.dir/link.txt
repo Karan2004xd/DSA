@@ -1,2 +1,0 @@
-/usr/bin/ar qc liblist.a CMakeFiles/list.dir/src/SinglyLinkedList.cpp.o CMakeFiles/list.dir/src/SinglyCircularLL.cpp.o CMakeFiles/list.dir/src/DoublyLinkedList.cpp.o CMakeFiles/list.dir/src/DoublyCircularLL.cpp.o CMakeFiles/list.dir/src/GenericSinglyLL.cpp.o
-/usr/bin/ranlib liblist.a
